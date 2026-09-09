@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/iranyekanx/IRANYekanX-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/iranyekanx/IRANYekanX-Bold.woff2") format("woff2");
+}
+
+:root {
+  --bg: #071a2c;
+  --void: #04101c;
+  --card: #0b2338;
+  --raised: #12314a;
+  --line: #1d4667;
+  --line-soft: #123049;
+  --text: #f4f7f9;
+  --muted: #a9b6c1;
+  --dim: #778794;
+  --paper: #e9edf0;
+  --ink: #05090d;
+  --primary: #8cacc2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 5500px;
+  min-width: 5500px;
+  height: 3500px;
+  min-height: 3500px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+body {
+  color: var(--text);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+body.rtl {
+  direction: rtl;
+  font-family: "IRANYekanX", sans-serif;
+}
+
+.ia-canvas {
+  position: relative;
+  width: 5500px;
+  height: 3500px;
+  overflow: hidden;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--line-soft) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.ia-canvas::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 26, 44, 0.64);
+}
+
+.ia-canvas > svg {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.diagram-title {
+  fill: var(--text);
+  font-size: 52px;
+  font-weight: 750;
+}
+
+.rtl .diagram-title {
+  font-size: 50px;
+}
+
+.diagram-eyebrow,
+.diagram-meta,
+.diagram-legend,
+.panel-kicker {
+  fill: var(--dim);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 14px;
+}
+
+.rtl .diagram-eyebrow,
+.rtl .diagram-meta,
+.rtl .diagram-legend,
+.rtl .panel-kicker {
+  font-family: "IRANYekanX", sans-serif;
+}
+
+.diagram-meta {
+  fill: var(--muted);
+  font-size: 17px;
+}
+
+.panel-title {
+  fill: var(--text);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.rtl .panel-title {
+  font-size: 32px;
+}
+
+.ia-node {
+  position: relative;
+  display: grid;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(11, 35, 56, 0.98);
+  box-shadow: inset 0 1px 0 rgba(244, 247, 249, 0.06);
+  text-align: left;
+  clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%);
+}
+
+.rtl .ia-node {
+  text-align: right;
+  clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+}
+
+.ia-node.root {
+  color: var(--ink);
+  border-color: var(--paper);
+  background: var(--paper);
+  text-align: center;
+}
+
+.ia-node.top,
+.ia-node.product,
+.ia-node.task-hub {
+  background: rgba(18, 49, 74, 0.98);
+}
+
+.ia-node.record,
+.ia-node.form,
+.ia-node.state {
+  background: rgba(18, 49, 74, 0.92);
+}
+
+.ia-node.utility {
+  border-style: dashed;
+  background: rgba(4, 16, 28, 0.96);
+}
+
+.ia-node.primary-node {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px rgba(140, 172, 194, 0.2);
+}
+
+.ia-node .kind {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--dim);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 11px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.rtl .ia-node .kind {
+  font-family: "IRANYekanX", sans-serif;
+  text-transform: none;
+}
+
+.ia-node.root .kind {
+  color: #4a5b69;
+}
+
+.ia-node strong {
+  display: block;
+  color: inherit;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.rtl .ia-node strong {
+  line-height: 1.5;
+}
+
+.ia-node small {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.rtl .ia-node small {
+  font-family: "IRANYekanX", sans-serif;
+  line-height: 1.5;
+}
+
+.ia-node.root small {
+  color: #4a5b69;
+}
+
+.priority-tag {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  color: var(--text);
+  background: var(--void);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.rtl .priority-tag {
+  right: auto;
+  left: 12px;
+}
+
+.relation-label {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 5px 9px;
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  background: rgba(4, 16, 28, 0.97);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.rtl .relation-label {
+  font-family: "IRANYekanX", sans-serif;
+  line-height: 1.5;
+}
+
+.flow-lane {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 18px 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(4, 16, 28, 0.88);
+}
+
+.rtl .flow-lane {
+  grid-template-columns: 1fr 230px;
+}
+
+.flow-head {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.rtl .flow-head {
+  grid-template-columns: 1fr 42px;
+}
+
+.flow-number {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.flow-head strong {
+  display: block;
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.rtl .flow-head strong {
+  line-height: 1.5;
+}
+
+.flow-head small {
+  display: block;
+  margin-top: 4px;
+  color: var(--dim);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 10px;
+}
+
+.rtl .flow-head small {
+  font-family: "IRANYekanX", sans-serif;
+}
+
+.flow-steps {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  gap: 11px;
+}
+
+.rtl .flow-steps {
+  justify-content: flex-start;
+}
+
+.flow-step {
+  display: grid;
+  min-width: 170px;
+  min-height: 48px;
+  place-items: center;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  background: var(--card);
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.rtl .flow-step {
+  line-height: 1.5;
+}
+
+.flow-arrow {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.principle-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(11, 35, 56, 0.94);
+}
+
+.principle {
+  display: grid;
+  align-content: center;
+  min-width: 0;
+  padding: 14px 20px;
+  border-inline-end: 1px solid var(--line);
+}
+
+.principle:last-child {
+  border-inline-end: 0;
+}
+
+.principle strong {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.rtl .principle strong {
+  line-height: 1.5;
+}
+
+.principle span {
+  margin-top: 5px;
+  color: var(--dim);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.rtl .principle span {
+  line-height: 1.5;
+}

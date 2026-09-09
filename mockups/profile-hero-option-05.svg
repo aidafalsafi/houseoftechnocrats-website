@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><defs><style>
+.bg{fill:#071A2C}.deep{fill:#04101C;stroke:#1D4667;stroke-width:1.4}.card{fill:#0B2338;stroke:#1D4667;stroke-width:1.4}.paper{fill:#E9EDF0;stroke:#D6DEE4;stroke-width:1.4}.grid{stroke:#0A1F31;stroke-width:1}.line{stroke:#1D4667;stroke-width:1.2}.muteline{stroke:#123049;stroke-width:1}.h1{font-family:Arial,Helvetica,sans-serif;font-size:82px;font-weight:800;fill:#F4F7F9;letter-spacing:0}.h1s{font-family:Arial,Helvetica,sans-serif;font-size:66px;font-weight:800;fill:#F4F7F9}.h1d{font-family:Arial,Helvetica,sans-serif;font-size:92px;font-weight:800;fill:#05090D}.h2{font-family:Arial,Helvetica,sans-serif;font-size:34px;font-weight:800;fill:#F4F7F9}.h2d{font-family:Arial,Helvetica,sans-serif;font-size:34px;font-weight:800;fill:#05090D}.body{font-family:Arial,Helvetica,sans-serif;font-size:22px;fill:#A9B6C1}.bodyd{font-family:Arial,Helvetica,sans-serif;font-size:22px;fill:#4A5B69}.label{font-family:'Courier New',monospace;font-size:15px;fill:#778794;letter-spacing:5px}.labeld{font-family:'Courier New',monospace;font-size:15px;fill:#4A5B69;letter-spacing:5px}.tag{fill:#071A2C;stroke:#1D4667;stroke-width:1}.tagP{fill:#F4F7F9;stroke:#D6DEE4;stroke-width:1}.tagT{font-family:'Courier New',monospace;font-size:15px;fill:#D6DEE4;letter-spacing:1px}.tagD{font-family:'Courier New',monospace;font-size:15px;fill:#05090D;letter-spacing:1px}.fa{font-family:Tahoma,Arial,sans-serif;font-size:34px;font-weight:800;fill:#F4F7F9}.faBig{font-family:Tahoma,Arial,sans-serif;font-size:48px;font-weight:800;fill:#F4F7F9}.faMuted{font-family:Tahoma,Arial,sans-serif;font-size:24px;fill:#A9B6C1}.faDark{font-family:Tahoma,Arial,sans-serif;font-size:30px;font-weight:800;fill:#05090D}.water{font-family:Arial,Helvetica,sans-serif;font-size:150px;font-weight:900;fill:#F4F7F9;opacity:.045}.waterD{font-family:Arial,Helvetica,sans-serif;font-size:170px;font-weight:900;fill:#05090D;opacity:.055}.num{font-family:Arial,Helvetica,sans-serif;font-size:42px;font-weight:800;fill:#778794}.caption{font-family:'Courier New',monospace;font-size:16px;fill:#A9B6C1;letter-spacing:2px}
+</style><filter id="mono"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="linear" slope="1.05" intercept="-.02"/><feFuncG type="linear" slope="1.05" intercept="-.02"/><feFuncB type="linear" slope="1.05" intercept="-.02"/></feComponentTransfer></filter><linearGradient id="scrimX" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#04101C" stop-opacity=".96"/><stop offset=".52" stop-color="#04101C" stop-opacity=".42"/><stop offset="1" stop-color="#04101C" stop-opacity=".05"/></linearGradient><linearGradient id="scrimB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#04101C" stop-opacity="0"/><stop offset="1" stop-color="#04101C" stop-opacity=".88"/></linearGradient></defs><rect class="bg" width="100%" height="100%"/>
+<line class="grid" x1="0" y1="0" x2="0" y2="900"/>
+<line class="grid" x1="80" y1="0" x2="80" y2="900"/>
+<line class="grid" x1="160" y1="0" x2="160" y2="900"/>
+<line class="grid" x1="240" y1="0" x2="240" y2="900"/>
+<line class="grid" x1="320" y1="0" x2="320" y2="900"/>
+<line class="grid" x1="400" y1="0" x2="400" y2="900"/>
+<line class="grid" x1="480" y1="0" x2="480" y2="900"/>
+<line class="grid" x1="560" y1="0" x2="560" y2="900"/>
+<line class="grid" x1="640" y1="0" x2="640" y2="900"/>
+<line class="grid" x1="720" y1="0" x2="720" y2="900"/>
+<line class="grid" x1="800" y1="0" x2="800" y2="900"/>
+<line class="grid" x1="880" y1="0" x2="880" y2="900"/>
+<line class="grid" x1="960" y1="0" x2="960" y2="900"/>
+<line class="grid" x1="1040" y1="0" x2="1040" y2="900"/>
+<line class="grid" x1="1120" y1="0" x2="1120" y2="900"/>
+<line class="grid" x1="1200" y1="0" x2="1200" y2="900"/>
+<line class="grid" x1="1280" y1="0" x2="1280" y2="900"/>
+<line class="grid" x1="1360" y1="0" x2="1360" y2="900"/>
+<line class="grid" x1="1440" y1="0" x2="1440" y2="900"/>
+<line class="grid" x1="1520" y1="0" x2="1520" y2="900"/>
+<line class="grid" x1="0" y1="0" x2="1600" y2="0"/>
+<line class="grid" x1="0" y1="80" x2="1600" y2="80"/>
+<line class="grid" x1="0" y1="160" x2="1600" y2="160"/>
+<line class="grid" x1="0" y1="240" x2="1600" y2="240"/>
+<line class="grid" x1="0" y1="320" x2="1600" y2="320"/>
+<line class="grid" x1="0" y1="400" x2="1600" y2="400"/>
+<line class="grid" x1="0" y1="480" x2="1600" y2="480"/>
+<line class="grid" x1="0" y1="560" x2="1600" y2="560"/>
+<line class="grid" x1="0" y1="640" x2="1600" y2="640"/>
+<line class="grid" x1="0" y1="720" x2="1600" y2="720"/>
+<line class="grid" x1="0" y1="800" x2="1600" y2="800"/>
+<line class="grid" x1="0" y1="880" x2="1600" y2="880"/>
+<path class="card" d="M40,40 L1560,40 L1560,798 L1498,860 L40,860 Z"/>
+<text x="82" y="110" class="caption">OPTION 05 / RADAR SIGNAL IDENTITY</text>
+<circle cx="390" cy="460" r="95" fill="none" stroke="#1D4667" stroke-width="2" opacity=".78"/>
+<circle cx="390" cy="460" r="170" fill="none" stroke="#1D4667" stroke-width="2" opacity=".78"/>
+<circle cx="390" cy="460" r="250" fill="none" stroke="#1D4667" stroke-width="2" opacity=".78"/>
+<circle cx="390" cy="460" r="315" fill="none" stroke="#1D4667" stroke-width="2" opacity=".78"/>
+<line x1="390" y1="460" x2="720.0" y2="460.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="675.8" y2="625.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="555.0" y2="745.8" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="390.0" y2="790.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="225.0" y2="745.8" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="104.2" y2="625.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="60.0" y2="460.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="104.2" y2="295.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="225.0" y2="174.2" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="390.0" y2="130.0" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="555.0" y2="174.2" stroke="#123049" stroke-width="1"/>
+<line x1="390" y1="460" x2="675.8" y2="295.0" stroke="#123049" stroke-width="1"/>
+<circle cx="470" cy="332" r="9" fill="#F4F7F9" opacity=".75"/>
+<circle cx="248" cy="545" r="6" fill="#F4F7F9" opacity=".75"/>
+<circle cx="610" cy="416" r="5" fill="#F4F7F9" opacity=".75"/>
+<circle cx="180" cy="420" r="12" fill="#F4F7F9" opacity=".75"/>
+<circle cx="510" cy="650" r="8" fill="#F4F7F9" opacity=".75"/>
+<path d="M390,460 L482,752 A315,315 0 0 1 320,767 Z" fill="#D6DEE4" opacity=".20"/>
+<line class="line" x1="770" y1="110" x2="770" y2="790"/>
+<text x="830" y="178" class="label">PROFILE SIGNAL</text>
+<text x="830" y="282" class="h1">Alireza</text><text x="830" y="374" class="h1">Bozorgmehri</text>
+<text x="830" y="435" class="body"><tspan x="830" dy="0">A technocrat of service continuity, digital</tspan><tspan x="830" dy="30">banking and governance.</tspan></text>
+<text x="830" y="575" class="h2">04</text><text x="830" y="610" class="label">DBR Domains</text>
+<text x="1000" y="575" class="h2">07</text><text x="1000" y="610" class="label">Themes</text>
+<text x="1170" y="575" class="h2">2005</text><text x="1170" y="610" class="label">BCM Focus</text>
+<text x="1455" y="720" class="fa" direction="rtl" unicode-bidi="plaintext" text-anchor="end"><tspan x="1455" dy="0">تداوم، کیفیت اتصال میان تصمیم، اطلاعات و امکان اقدام است.</tspan></text>
+</svg>

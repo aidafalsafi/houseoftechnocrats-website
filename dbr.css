@@ -1,0 +1,188 @@
+/* DBR — Deep Blue Radar. All design tokens, flattened. Link this one file. */
+
+/* ===== tokens/fonts.css ===== */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300..800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+/* SUBSTITUTION: no brand font binaries were supplied. Archivo stands in for a
+   Helvetica-class neo-grotesque; IBM Plex Mono for technical/data labels.
+   Replace with real binaries + @font-face rules when available. */
+:root{
+--font-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+--font-ui:"Archivo","Helvetica Neue",Arial,sans-serif;
+--font-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+
+/* ===== tokens/colors.css ===== */
+:root{
+/* deep blue field — the brand's ground */
+--dbr-abyss:#04101c;--dbr-hull:#071a2c;--dbr-deep:#0b2338;--dbr-slate:#12314a;--dbr-shelf:#1a3f5c;
+/* grid lines — darker than the field, never lighter */
+--dbr-grid-1:#0a1f31;--dbr-grid-2:#123049;--dbr-grid-3:#1d4667;
+/* chrome / silver monolith ramp */
+--dbr-chrome-0:#f4f7f9;--dbr-chrome-1:#d6dee4;--dbr-chrome-2:#a9b6c1;--dbr-chrome-3:#778794;--dbr-chrome-4:#4a5b69;
+/* paper — light bento tiles */
+--dbr-paper:#e9edf0;--dbr-paper-2:#dbe1e6;--dbr-ink:#05090d;
+/* glass surfaces — cards are translucent over the ruled field */
+--surface-card-glass:rgba(11,35,56,0.58);--surface-raised-glass:rgba(18,49,74,0.55);--surface-void-glass:rgba(4,16,28,0.62);
+--surface-paper-glass:rgba(233,237,240,0.86);--surface-glass-hover:rgba(26,63,92,0.62);--surface-paper-glass-hover:rgba(219,225,230,0.9);
+/* semantic aliases — all monochrome: emphasis is carried by value, not hue */
+--bg-page:var(--dbr-hull);--bg-void:var(--dbr-abyss);--surface-card:var(--dbr-deep);--surface-raised:var(--dbr-slate);--surface-paper:var(--dbr-paper);
+--text-1:var(--dbr-chrome-0);--text-2:var(--dbr-chrome-2);--text-3:var(--dbr-chrome-3);--text-on-paper:var(--dbr-ink);--text-on-paper-2:#4a5b69;
+--line-hairline:var(--dbr-grid-1);--line-card:var(--dbr-grid-2);--line-strong:var(--dbr-grid-3);
+--accent:var(--dbr-chrome-0);--accent-press:var(--dbr-chrome-2);--focus-ring:var(--dbr-chrome-1);
+--status-ok:var(--dbr-chrome-3);--status-warn:var(--dbr-chrome-1);--status-alert:var(--dbr-chrome-0);--status-idle:var(--dbr-chrome-4);
+}
+
+/* ===== tokens/typography.css ===== */
+:root{
+--fs-mega:clamp(56px,9vw,148px);
+--fs-display:clamp(40px,5.5vw,88px);
+--fs-h1:44px;
+--fs-h2:32px;
+--fs-h3:24px;
+--fs-h4:19px;
+--fs-body:15px;
+--fs-body-sm:13px;
+--fs-label:11px;
+--fs-micro:10px;
+--fs-metric:56px;
+--fs-metric-sm:34px;
+--lh-tight:0.92;
+--lh-snug:1.06;
+--lh-head:1.16;
+--lh-body:1.5;
+--lh-loose:1.65;
+--ls-mega:-0.045em;
+--ls-display:-0.035em;
+--ls-head:-0.02em;
+--ls-body:-0.005em;
+--ls-label:0.14em;
+--ls-mono:0.02em;
+--fw-light:300;
+--fw-regular:400;
+--fw-medium:500;
+--fw-semibold:600;
+--fw-bold:700;
+--fw-black:800;
+--text-display:var(--fs-display);
+--text-heading:var(--fs-h2);
+--text-body:var(--fs-body);
+--text-eyebrow:var(--fs-label);
+--font-serif-display:var(--font-display);
+}
+
+/* ===== tokens/spacing.css ===== */
+:root{
+--s-0:0px;--s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:20px;--s-6:24px;--s-8:32px;--s-10:40px;--s-12:48px;--s-16:64px;--s-20:80px;--s-24:96px;--s-32:128px;
+--gutter:1px;
+--bento-gap:6px;--bento-gap-tight:1px;
+--pad-card:24px;--pad-card-sm:16px;--pad-card-lg:32px;
+--page-margin:40px;
+--page-max:1440px;
+--col:12;
+}
+
+/* ===== tokens/shape.css ===== */
+:root{
+--r-0:0px;
+--r-1:4px;
+--r-2:8px;
+--r-3:14px;
+--r-4:20px;
+--r-5:28px;
+--r-pill:999px;
+--r-card:12px;
+--r-card-lg:12px;
+--r-control:10px;
+/* chamfer geometry: cut length + the fillet radius applied to the cut */
+--chamfer:28px;
+--chamfer-lg:44px;
+--chamfer-sm:16px;
+--fillet:10px;
+/* ready-made clip paths (corner order: TL TR BR BL) */
+--clip-chamfer-tr:polygon(0 0,calc(100% - var(--chamfer)) 0,100% var(--chamfer),100% 100%,0 100%);
+--clip-chamfer-br:polygon(0 0,100% 0,100% calc(100% - var(--chamfer)),calc(100% - var(--chamfer)) 100%,0 100%);
+--clip-chamfer-bl:polygon(0 0,100% 0,100% 100%,var(--chamfer) 100%,0 calc(100% - var(--chamfer)));
+--clip-chamfer-tl:polygon(var(--chamfer) 0,100% 0,100% 100%,0 100%,0 var(--chamfer));
+--clip-chamfer-diag:polygon(var(--chamfer) 0,100% 0,100% calc(100% - var(--chamfer)),calc(100% - var(--chamfer)) 100%,0 100%,0 var(--chamfer));
+--border-w:1px;
+--border-w-strong:2px;
+}
+
+/* ===== tokens/effects.css ===== */
+:root{
+/* the system is flat: depth comes from value steps + hairlines, not drop shadows */
+--shadow-none:none;
+--shadow-lift:0 1px 0 0 rgba(255,255,255,0.04) inset;
+--shadow-inset-top:inset 0 1px 0 rgba(255,255,255,0.06);
+--shadow-monolith:0 30px 80px -30px rgba(4,16,28,0.9);
+--glow-signal:0 0 0 1px rgba(244,247,249,0.35),0 0 22px -6px rgba(244,247,249,0.55);
+/* silver monolith surfaces */
+--chrome-sphere:radial-gradient(120% 120% at 32% 22%,#ffffff 0%,#e3e9ee 18%,#a9b6c1 46%,#5d6c79 72%,#8fa0ad 88%,#33424e 100%);
+--chrome-ring:conic-gradient(from 210deg,#778794,#f4f7f9 12%,#8b99a5 30%,#dfe6eb 48%,#4a5b69 66%,#cfd8de 82%,#778794 100%);
+--chrome-band:linear-gradient(100deg,#4a5b69 0%,#dfe6eb 26%,#8b99a5 44%,#f4f7f9 62%,#778794 100%);
+--film-grain:repeating-linear-gradient(0deg,rgba(255,255,255,0.014) 0 1px,transparent 1px 2px);
+--scrim-bottom:linear-gradient(to top,rgba(4,16,28,0.92) 0%,rgba(4,16,28,0) 70%);
+--glass:rgba(11,35,56,0.62);
+--glass-blur:blur(14px) saturate(125%);
+--glass-sheen:rgba(255,255,255,0.07);
+--glass-edge:rgba(255,255,255,0.10);
+--glass-edge-paper:rgba(5,9,13,0.10);
+--photo-filter:grayscale(1) contrast(1.08) brightness(0.92);
+}
+
+/* ===== tokens/motion.css ===== */
+:root{
+--ease-swiss:cubic-bezier(0.2,0.8,0.2,1);
+--ease-out:cubic-bezier(0.16,1,0.3,1);
+--ease-in-out:cubic-bezier(0.6,0,0.4,1);
+--dur-1:120ms;
+--dur-2:200ms;
+--dur-3:340ms;
+--dur-4:600ms;
+--dur-sweep:4s;
+--hover-lighten:rgba(255,255,255,0.05);
+--press-scale:0.985;
+}
+
+/* ===== tokens/base.css ===== */
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg-page);color:var(--text-1);font-family:var(--font-ui);font-size:var(--fs-body);line-height:var(--lh-body);letter-spacing:var(--ls-body);-webkit-font-smoothing:antialiased}
+a{color:var(--text-1);text-decoration:none;border-bottom:1px solid var(--dbr-chrome-4);transition:color var(--dur-1) var(--ease-swiss),border-color var(--dur-1) var(--ease-swiss)}
+a:hover{color:var(--accent);border-color:var(--accent)}
+::selection{background:var(--dbr-chrome-0);color:var(--dbr-ink)}
+.dbr-label{font-family:var(--font-mono);font-size:var(--fs-label);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--text-3)}
+.dbr-mono{font-family:var(--font-mono);letter-spacing:var(--ls-mono);font-variant-numeric:tabular-nums}
+.dbr-grid-bg{background-image:linear-gradient(var(--line-hairline) 1px,transparent 1px),linear-gradient(90deg,var(--line-hairline) 1px,transparent 1px);background-size:80px 80px}
+
+/* ===== tokens/theme-royal.css ===== */
+/* Royal theme — Sapphire / Royal Blue / Quicksand / Swan Wing / Shellstone.
+   Opt-in: set data-theme="royal" on <html> or any subtree. Default system is untouched. */
+[data-theme="royal"]{
+/* royal blue field — abyss to sapphire shelf */
+--dbr-abyss:#0a122e;--dbr-hull:#112250;--dbr-deep:#16295c;--dbr-slate:#22366b;--dbr-shelf:#3c507d;
+/* grid lines — still darker than the field */
+--dbr-grid-1:#0d1839;--dbr-grid-2:#1b2b57;--dbr-grid-3:#2c3e70;
+/* gilt ramp replaces chrome: swan wing / quicksand / shellstone / dune / sediment */
+--dbr-chrome-0:#f5f0e9;--dbr-chrome-1:#e0c58f;--dbr-chrome-2:#d9cbc2;--dbr-chrome-3:#a3947f;--dbr-chrome-4:#5e5747;
+/* paper — swan wing tiles, royal ink */
+--dbr-paper:#f5f0e9;--dbr-paper-2:#d9cbc2;--dbr-ink:#112250;
+/* glass surfaces */
+--surface-card-glass:rgba(22,41,92,0.58);--surface-raised-glass:rgba(34,54,107,0.55);--surface-void-glass:rgba(10,18,46,0.62);
+--surface-paper-glass:rgba(245,240,233,0.88);--surface-glass-hover:rgba(44,62,112,0.62);--surface-paper-glass-hover:rgba(217,203,194,0.9);
+/* aliases re-declared so a themed subtree recomputes them */
+--bg-page:var(--dbr-hull);--bg-void:var(--dbr-abyss);--surface-card:var(--dbr-deep);--surface-raised:var(--dbr-slate);--surface-paper:var(--dbr-paper);
+--text-1:var(--dbr-chrome-0);--text-2:var(--dbr-chrome-2);--text-3:var(--dbr-chrome-3);--text-on-paper:var(--dbr-ink);--text-on-paper-2:#3c507d;
+--line-hairline:var(--dbr-grid-1);--line-card:var(--dbr-grid-2);--line-strong:var(--dbr-grid-3);
+--accent:var(--dbr-chrome-1);--accent-press:#c9a96b;--focus-ring:var(--dbr-chrome-1);
+--status-ok:var(--dbr-chrome-3);--status-warn:var(--dbr-chrome-1);--status-alert:var(--dbr-chrome-0);--status-idle:var(--dbr-chrome-4);
+/* effects — gilt objects, warm sheen, champagne photos */
+--shadow-lift:0 1px 0 0 rgba(255,246,230,0.05) inset;--shadow-inset-top:inset 0 1px 0 rgba(255,246,230,0.07);
+--shadow-monolith:0 30px 80px -30px rgba(6,11,32,0.9);
+--glow-signal:0 0 0 1px rgba(224,197,143,0.4),0 0 22px -6px rgba(224,197,143,0.6);
+--chrome-sphere:radial-gradient(120% 120% at 32% 22%,#fdf8ec 0%,#f2e2bd 18%,#e0c58f 46%,#9c7f47 72%,#d3b47c 88%,#5f4a20 100%);
+--chrome-ring:conic-gradient(from 210deg,#b3925c,#f7eeda 12%,#c9a96b 30%,#eedec0 48%,#8a6f3d 66%,#e6d3a8 82%,#b3925c 100%);
+--chrome-band:linear-gradient(100deg,#8a6f3d 0%,#eedec0 26%,#c9a96b 44%,#f7eeda 62%,#b3925c 100%);
+--scrim-bottom:linear-gradient(to top,rgba(10,18,46,0.92) 0%,rgba(10,18,46,0) 70%);
+--glass:rgba(17,34,80,0.62);--glass-sheen:rgba(255,246,230,0.08);--glass-edge:rgba(245,240,233,0.12);--glass-edge-paper:rgba(17,34,80,0.12);
+--photo-filter:grayscale(1) sepia(0.3) saturate(0.85) contrast(1.06) brightness(0.95);
+}
