@@ -4,8 +4,8 @@
   font-weight: 400;
   font-display: swap;
   src:
-    url("assets/fonts/iranyekanx/IRANYekanX-Regular.woff2") format("woff2"),
-    url("assets/fonts/iranyekanx/IRANYekanX-Regular.woff") format("woff");
+    url("Assets/Fonts/iranyekanx/IRANYekanX-Regular.woff2") format("woff2"),
+    url("Assets/Fonts/iranyekanx/IRANYekanX-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -14,8 +14,8 @@
   font-weight: 700;
   font-display: swap;
   src:
-    url("assets/fonts/iranyekanx/IRANYekanX-Bold.woff2") format("woff2"),
-    url("assets/fonts/iranyekanx/IRANYekanX-Bold.woff") format("woff");
+    url("Assets/Fonts/iranyekanx/IRANYekanX-Bold.woff2") format("woff2"),
+    url("Assets/Fonts/iranyekanx/IRANYekanX-Bold.woff") format("woff");
 }
 
 :root {
