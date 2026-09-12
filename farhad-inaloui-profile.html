@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farhad Inaloui — House of Technocrats</title>
+  <link rel="stylesheet" href="dbr.css">
+  <link rel="stylesheet" href="site.css?v=122-continuity-v3-md">
+  <style>
+    body.profile-isolated .desktop-nav,
+    body.profile-isolated .search-trigger,
+    body.profile-isolated .menu-trigger,
+    body.profile-isolated .mobile-panel,
+    body.profile-isolated .search-overlay,
+    body.profile-isolated .site-footer {
+      display: none !important;
+    }
+
+    body.profile-isolated a[aria-disabled="true"] {
+      cursor: default;
+    }
+  </style>
+  <script>
+    (function () {
+      var url = new URL(window.location.href);
+      if (url.searchParams.get("person") !== "farhad-inaloui") {
+        url.searchParams.set("person", "farhad-inaloui");
+        window.history.replaceState(null, "", url);
+      }
+    })();
+  </script>
+  <script src="site.js?v=125-continuity-v3-md" defer></script>
+  <script src="fillet.js?v=12" defer></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      document.body.classList.add("profile-isolated");
+
+      function lockProfilePage() {
+        document.body.classList.add("profile-isolated");
+        document.querySelectorAll("a[href]").forEach(function (link) {
+          link.setAttribute("data-locked-href", link.getAttribute("href"));
+          link.removeAttribute("href");
+          link.setAttribute("aria-disabled", "true");
+          link.setAttribute("tabindex", "-1");
+        });
+      }
+
+      document.addEventListener("click", function (event) {
+        var lockedLink = event.target.closest('a[aria-disabled="true"]');
+        if (!lockedLink) return;
+        event.preventDefault();
+        event.stopPropagation();
+      }, true);
+
+      lockProfilePage();
+      new MutationObserver(lockProfilePage).observe(document.body, { childList: true, subtree: true });
+    });
+  </script>
+</head>
+<body data-page="person"><div id="app"></div></body>
+</html>
