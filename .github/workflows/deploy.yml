@@ -25,7 +25,7 @@ jobs:
           access_key = ${{ secrets.ARVAN_ACCESS_KEY }}
           secret_key = ${{ secrets.ARVAN_SECRET_KEY }}
           host_base = s3.ir-central1.arvanstorage.ir
-	  host_bucket = s3.ir-central1.arvanstorage.ir
+          host_bucket = s3.ir-central1.arvanstorage.ir
           use_https = True
           CONFIG
 
