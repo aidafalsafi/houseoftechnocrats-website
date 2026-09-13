@@ -18,15 +18,18 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y s3cmd
 
+
       - name: Configure s3cmd
         run: |
           cat > ~/.s3cfg <<CONFIG
           [default]
           access_key = ${{ secrets.ARVAN_ACCESS_KEY }}
           secret_key = ${{ secrets.ARVAN_SECRET_KEY }}
-          host_base = s3.ir-central1.arvanstorage.ir
-          host_bucket = s3.ir-central1.arvanstorage.ir
+          host_base = s3.ir-thr-at1.arvanstorage.ir
+          host_bucket = %(bucket)s.s3.ir-thr-at1.arvanstorage.ir
           use_https = True
+          bucket_location = ir-thr-at1
+          signature_v2 = False
           CONFIG
 
       - name: Deploy website
