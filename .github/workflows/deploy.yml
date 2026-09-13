@@ -13,29 +13,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install s3cmd
+      - name: Configure AWS credentials
         run: |
-          sudo apt-get update
-          sudo apt-get install -y s3cmd
+          aws configure set aws_access_key_id "${{ secrets.ARVAN_ACCESS_KEY }}"
+          aws configure set aws_secret_access_key "${{ secrets.ARVAN_SECRET_KEY }}"
+          aws configure set default.region us-east-1
 
-
-      - name: Configure s3cmd
+      - name: Test bucket access
         run: |
-          cat > ~/.s3cfg <<CONFIG
-          [default]
-          access_key = ${{ secrets.ARVAN_ACCESS_KEY }}
-          secret_key = ${{ secrets.ARVAN_SECRET_KEY }}
-          host_base = s3.ir-thr-at1.arvanstorage.ir
-          host_bucket = %(bucket)s.s3.ir-thr-at1.arvanstorage.ir
-          use_https = True
-          bucket_location = ir-thr-at1
-          signature_v2 = False
-          CONFIG
+          aws s3 ls s3://houseoftechnocrats \
+            --endpoint-url https://s3.ir-thr-at1.arvanstorage.ir
 
       - name: Deploy website
         run: |
-          s3cmd sync ./ s3://houseoftechnocrats/ \
-            --delete-removed \
+          aws s3 sync ./ s3://houseoftechnocrats \
+            --endpoint-url https://s3.ir-thr-at1.arvanstorage.ir \
+            --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude ".DS_Store"
