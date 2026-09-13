@@ -20,18 +20,30 @@ jobs:
           aws configure set default.region ir-central1
           aws configure set default.s3.addressing_style path
 
-      - name: Test Arvan bucket
-        run: |
-          aws s3api list-objects-v2 \
-            --bucket houseoftechnocrats \
-            --max-items 1 \
-            --endpoint-url https://hot.ir-central1.arvanstorage.ir
-
       - name: Deploy website
         run: |
           aws s3 sync ./ s3://houseoftechnocrats/ \
             --endpoint-url https://hot.ir-central1.arvanstorage.ir \
             --delete \
+            --acl public-read \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude ".DS_Store"
+
+      - name: Fix public access for all existing objects
+        run: |
+          aws s3api list-objects-v2 \
+            --bucket houseoftechnocrats \
+            --endpoint-url https://hot.ir-central1.arvanstorage.ir \
+            --query 'Contents[].Key' \
+            --output text | tr '\t' '\n' | while IFS= read -r key; do
+              [ -z "$key" ] && continue
+
+              echo "Making public: $key"
+
+              aws s3api put-object-acl \
+                --bucket houseoftechnocrats \
+                --key "$key" \
+                --acl public-read \
+                --endpoint-url https://hot.ir-central1.arvanstorage.ir
+            done
