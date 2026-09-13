@@ -6044,7 +6044,6 @@
     "Search": "جست‌وجو",
     "Glossary": "واژه‌نامه",
     "Legal": "حقوقی",
-    "PUBLIC KNOWLEDGE HOUSE": "خانهٔ دانش عمومی",
     "© 2026 HOUSE OF TECHNOCRATS": "© ۱۴۰۵ خانه تکنوکرات‌ها",
     "House search": "جست‌وجوی خانه",
     "Search everything": "جست‌وجو در همه‌چیز",
@@ -6208,7 +6207,7 @@
   function footerMarkup() {
     return [
       '<footer class="site-footer glass-surface" data-chamfer="br" data-cut="34" data-radius="12" data-fillet="10">',
-      '<div class="footer-brand"><div class="footer-mark">HOUSE OF<br><strong>TECHNOCRATS</strong></div><p class="dbr-label">CONTINUITY / DEEP BLUE RADAR</p><span class="status-line">PUBLIC KNOWLEDGE HOUSE</span></div>',
+      '<div class="footer-brand"><div class="footer-mark">HOUSE OF<br><strong>TECHNOCRATS</strong></div><p class="dbr-label">CONTINUITY / DEEP BLUE RADAR</p></div>',
       '<div class="footer-column"><p class="dbr-label">Model</p><a href="continuity.html">Continuity</a><a href="radar.html">Deep Blue Radar</a><a href="radar-view.html">Interactive Explorer</a><a href="reports.html">Reports &amp; Updates</a></div>',
       '<div class="footer-column"><p class="dbr-label">House</p><a href="technocratic-thinking.html">Technocratic Thinking</a><a href="house.html">The House</a><a href="participate.html">Participate</a><a href="people.html">People</a></div>',
       '<div class="footer-column"><p class="dbr-label">Utility</p><a href="services.html">Technocratic Service Store</a><a href="about-us.html">Contact Us</a><a href="search.html">Search</a></div>',
