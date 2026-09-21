@@ -5468,7 +5468,7 @@
       "nav.people": "افراد",
       "nav.house": "خانه",
       "nav.participate": "مشارکت",
-      "nav.services": "فروشگاه خدمات",
+      "nav.services": "بازی تداوم",
       "nav.about": "تماس با ما",
       "nav.search": "جست‌وجو در همه‌چیز",
       "hero.label": "تداوم",
@@ -6188,7 +6188,7 @@
       '<a class="nav-link nav-link-wide' + activeClass("thinking") + '" href="technocratic-thinking.html" data-i18n="nav.thinking">Technocratic Thinking</a>',
       '<div class="nav-dropdown"><button class="nav-link dropdown-trigger' + activeAny(["house", "participate"]) + '" type="button" aria-expanded="false" aria-controls="house-menu"><span data-i18n="nav.house">The House</span>' + icon("chevron") + '</button><div class="dropdown-panel glass-surface" id="house-menu" hidden><a href="house.html">About the House</a><a href="participate.html">Participate</a></div></div>',
       '<a class="nav-link' + activeClass("people") + '" href="people.html" data-i18n="nav.people">People</a>',
-      '<a class="nav-link nav-link-wide' + activeClass("services") + '" href="services.html" data-i18n="nav.services">Technocratic Service Store</a>',
+      '<a class="nav-link nav-link-wide' + activeClass("services") + '" href="https://crm.houseoftechnocrats.ir/game-invitation" data-i18n="nav.services">Continuity Game</a>',
       '<a class="nav-link' + activeClass("about") + '" href="about-us.html" data-i18n="nav.about">Contact Us</a>',
       '</nav>',
       '<div class="header-actions"><button class="icon-button search-trigger" type="button" aria-label="Search">' + icon("search") + '</button><button class="language-toggle" type="button">FA / EN</button><button class="icon-button menu-trigger" type="button" aria-label="Open menu" aria-expanded="false"><span class="menu-icon">' + icon("menu") + '</span><span class="close-icon">' + icon("close") + '</span></button></div>',
@@ -6199,7 +6199,7 @@
       '<a href="insights.html" data-i18n="nav.insights">Insights</a>',
       '<a href="technocratic-thinking.html" data-i18n="nav.thinking">Technocratic Thinking</a>',
       '<div class="mobile-menu-group"><span class="mobile-menu-label" data-i18n="nav.house">The House</span><a class="mobile-sub-link" href="house.html">About the House</a><a class="mobile-sub-link" href="participate.html">Participate</a></div>',
-      '<a href="people.html" data-i18n="nav.people">People</a><a href="services.html" data-i18n="nav.services">Technocratic Service Store</a><a href="about-us.html" data-i18n="nav.about">Contact Us</a><button class="mobile-search search-trigger" type="button">' + icon("search") + '<span data-i18n="nav.search">Search everything</span></button>',
+      '<a href="people.html" data-i18n="nav.people">People</a><a href="https://crm.houseoftechnocrats.ir/game-invitation" data-i18n="nav.services">Continuity Game</a><a href="about-us.html" data-i18n="nav.about">Contact Us</a><button class="mobile-search search-trigger" type="button">' + icon("search") + '<span data-i18n="nav.search">Search everything</span></button>',
       '</div>'
     ].join("");
   }
