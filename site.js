@@ -7624,38 +7624,46 @@
   function participationFormConfig(type) {
     var configs = {
       activation: {
+        formId: 12,
+        formName: "identityprofessionalprofile",
         title: "Identity and professional profile",
         intro: "Required fields are marked *. Validation stays beside the field and no information is published before the stated review step.",
-        fields: [["Full name *", "text", "Name Surname"], ["Mobile *", "tel", "+98"], ["Email *", "email", "name@organization"], ["Current title", "text", "Chief Risk Officer"], ["Organization", "text", "Bank name"]],
+        fields: [["Full name *", "text", "Name Surname", "full_name"], ["Mobile *", "tel", "+98", "mobile"], ["Email *", "email", "name@organization", "email"], ["Current title", "text", "Chief Risk Officer", "current_title"], ["Organization", "text", "Bank name", "organization"]],
         submit: "Submit",
         success: "Registration saved. Step 3 is ready: confirm the public profile."
       },
       membership: {
+        formId: 13,
+        formName: "aboutyouyourrelationtocontinuity",
         title: "About you and your relationship to Continuity",
         intro: "Required fields are marked *. Validation stays beside the field and no information is published before the stated review step.",
         fields: [
-          ["Full name *", "text", ""],
-          ["Email *", "email", ""],
-          ["Current title *", "text", ""],
-          ["Organization *", "text", ""],
-          ["Industry *", "text", "Banking"],
-          ["What would you contribute?", "checkboxGroup", "", ["Podcast production", "Videocast production", "Article writing", "Events and sessions participation"]],
-          ["Your LinkedIn profile link", "url", "https://linkedin.com/in/..."]
+          ["Full name *", "text", "", "full_name"],
+          ["Email *", "email", "", "email"],
+          ["Current title *", "text", "", "current_title"],
+          ["Organization *", "text", "", "organization"],
+          ["Industry *", "text", "Banking", "industry"],
+          ["What would you contribute?", "checkboxGroup", "", ["Podcast production", "Videocast production", "Article writing", "Events and sessions participation"], "what_would_you_contribute1"],
+          ["Your LinkedIn profile link", "url", "https://linkedin.com/in/...", "your_linkedin_profile_lin"]
         ],
         submit: "Submit",
         success: "Request received / HT-2026-0418 / under review. We respond within 30 days."
       },
       referral: {
+        formId: 14,
+        formName: "candidateandreasonforreferral",
         title: "Candidate and reason for referral",
         intro: "Required fields are marked *. Validation stays beside the field and no information is published before the stated review step.",
-        fields: [["Candidate full name *", "text", ""], ["Current title *", "text", ""], ["Organization *", "text", ""], ["Email *", "email", ""], ["Suggested role *", "text", "Leader / Thinker / Expert"], ["Reason for referral *", "textarea", "What would they contribute to Continuity?"]],
+        fields: [["Candidate full name *", "text", "", "full_name"], ["Current title *", "text", "", "current_title"], ["Organization *", "text", "", "organization"], ["Email *", "email", "", "email"], ["Suggested role *", "text", "Leader / Thinker / Expert", "suggested_role"], ["Reason for referral *", "textarea", "What would they contribute to Continuity?", "reason_for_referral"]],
         submit: "Submit",
         success: "Referral submitted. Status: Under review. Your remaining allowance is now 2."
       },
       contribution: {
+        formId: 15,
+        formName: "contributioncommentorevidence",
         title: "Contribution, comment or evidence",
         intro: "Required fields are marked *. Validation stays beside the field and no information is published before the stated review step.",
-        fields: [["Full name *", "text", ""], ["Email *", "email", ""], ["Organization", "text", ""], ["Contribution type *", "text", "Comment / proposal / evidence / conversation subject"], ["Subject *", "text", ""], ["What would you like to contribute or say? *", "textarea", "Share the comment, proposal, experience or evidence"]],
+        fields: [["Full name *", "text", "", "full_name"], ["Email *", "email", "", "email"], ["Organization", "text", "", "organization"], ["Contribution type *", "text", "Comment / proposal / evidence / conversation subject", "contribution_type"], ["Subject *", "text", "", "subject"], ["What would you like to contribute or say? *", "textarea", "Share the comment, proposal, experience or evidence", "reason_for_referral"]],
         submit: "Submit",
         success: "Contribution received. Nothing is published automatically; the editorial review starts now."
       }
@@ -7666,17 +7674,20 @@
   function participationFormContentMarkup(type, options) {
     var config = participationFormConfig(type);
     var formClass = options && options.modal ? "site-form house-modal-form" : "site-form";
-    return '<h2>' + escapeHtml(config.title) + '</h2><p class="participation-form-intro">' + escapeHtml(config.intro) + '</p><form class="' + formClass + '" data-form-type="' + type + '" data-success="' + escapeHtml(config.success) + '" data-success-url="participation-confirmation.html?type=' + type + '" novalidate>' + config.fields.map(function (field) {
+    var returnUrl = 'https://houseoftechnocrats.ir/participation-confirmation.html?type=' + encodeURIComponent(type);
+    var action = 'https://crm.houseoftechnocrats.ir/form/submit?formId=' + config.formId;
+    return '<h2>' + escapeHtml(config.title) + '</h2><p class="participation-form-intro">' + escapeHtml(config.intro) + '</p><form class="' + formClass + '" data-form-type="' + type + '" data-mautic-form="' + escapeHtml(config.formName) + '" method="post" action="' + action + '">' + config.fields.map(function (field) {
       var wide = field[1] === "textarea" ? " field-wide" : "";
       var required = /\*$/.test(field[0].trim()) ? " required" : "";
       if (field[1] === "checkboxGroup") {
         return '<fieldset class="field-wide participation-checkbox-group"><legend>' + escapeHtml(field[0]) + '</legend><div>' + field[3].map(function (option) {
-          return '<label><input type="checkbox" value="' + escapeHtml(option) + '"><span>' + escapeHtml(option) + '</span></label>';
+          return '<label><input type="checkbox" name="mauticform[' + escapeHtml(field[4]) + '][]" value="' + escapeHtml(option) + '"><span>' + escapeHtml(option) + '</span></label>';
         }).join("") + '</div></fieldset>';
       }
-      var control = field[1] === "textarea" ? '<textarea rows="3" placeholder="' + escapeHtml(field[2]) + '"' + required + '></textarea>' : '<input type="' + field[1] + '" placeholder="' + escapeHtml(field[2]) + '"' + required + '>';
+      var fieldName = 'mauticform[' + escapeHtml(field[3]) + ']';
+      var control = field[1] === "textarea" ? '<textarea rows="3" name="' + fieldName + '" placeholder="' + escapeHtml(field[2]) + '"' + required + '></textarea>' : '<input type="' + field[1] + '" name="' + fieldName + '" placeholder="' + escapeHtml(field[2]) + '"' + required + '>';
       return '<label class="' + wide + '">' + escapeHtml(field[0]) + control + "</label>";
-    }).join("") + '<label class="field-wide"><span>Confirmation</span><span><input type="checkbox" required style="width:auto;min-height:0;margin-inline-end:8px">I confirm the information is accurate and may be reviewed by the House.</span></label><div class="form-actions"><button class="button button-primary" type="submit" data-chamfer="br" data-cut="12" data-radius="10" data-fillet="5">Submit</button><button class="button button-outline save-draft" type="button">Save</button></div><p class="form-message dbr-label" aria-live="polite"></p></form>';
+    }).join("") + '<label class="field-wide"><span>Confirmation</span><span><input type="checkbox" required style="width:auto;min-height:0;margin-inline-end:8px">I confirm the information is accurate and may be reviewed by the House.</span></label><input type="hidden" name="mauticform[formId]" value="' + config.formId + '"><input type="hidden" name="mauticform[formName]" value="' + escapeHtml(config.formName) + '"><input type="hidden" name="mauticform[return]" value="' + returnUrl + '"><div class="form-actions"><button class="button button-primary" name="mauticform[submit]" value="1" type="submit" data-chamfer="br" data-cut="12" data-radius="10" data-fillet="5">Submit</button><button class="button button-outline save-draft" type="button">Save</button></div><p class="form-message dbr-label" aria-live="polite"></p></form>';
   }
 
   function aboutContactMarkup(data) {
@@ -8796,6 +8807,9 @@
 
     document.querySelectorAll(".site-form").forEach(function (form) {
       form.addEventListener("submit", function (event) {
+        // Participation forms submit directly to Mautic. Do not replace a real
+        // cross-origin POST with the old local-only success simulation.
+        if (form.hasAttribute("data-mautic-form")) return;
         event.preventDefault();
         var message = form.querySelector(".form-message");
         if (!form.checkValidity()) {
