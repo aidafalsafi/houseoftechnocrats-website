@@ -8,7 +8,7 @@
     { type: "Pattern", title: "Modular Survivability Architecture", href: "pattern.html?category=continuity-architecture&pattern=modular-survivability-architecture", detail: "Continuity Architecture" },
     { type: "Pattern", title: "Omni-Channel Fallback and Digital Substitution", href: "pattern.html?category=customer-facing-service-continuity&pattern=omni-channel-fallback-and-digital-substitution", detail: "Customer-Facing Service Continuity" },
     { type: "Pattern", title: "Impact-Tolerance and Critical-Service Mapping", href: "pattern.html?category=proactive-continuity-evaluation&pattern=impact-tolerance-and-critical-service-mapping", detail: "Proactive Continuity Evaluation" },
-    { type: "Content", title: "Continuity Podcast - Farhad Inaloui", href: "podcast-ecosystem.html", detail: "Podcast / Farhad Inaloui" },
+    { type: "Content", title: "Continuity Podcast - Farhad Inalouei", href: "podcast-ecosystem.html", detail: "Podcast / Farhad Inalouei" },
     { type: "Content", title: "Continuity Videocast - Episode 08", href: "video-core-banking.html", detail: "Videocast / Alireza Bozorgmehri" },
     { type: "Content", title: "Continuity Videocast - Episode 02", href: "videocast-ali-akhavan.html", detail: "Videocast / Ali Akhavan" },
     { type: "Content", title: "Continuity Videocast - Episode 03", href: "videocast-mohammad-farjood.html", detail: "Videocast / Mohammad Farjood" },
@@ -32,8 +32,8 @@
     { type: "Content", title: "Human Single Points of Failure", href: "article-human-single-points-of-failure.html", detail: "Article / Ali Akhavan" },
     { type: "Content", title: "Banking Service Chain Continuity", href: "article-banking-service-chain-continuity.html", detail: "Article / Ali Akhavan" },
     { type: "Content", title: "ITSM: One Brain for Many Eyes", href: "article-itsm-one-brain-for-many-eyes.html", detail: "Article / Alireza Bozorgmehri" },
-    { type: "Content", title: "Service Catalog as the Operating Model", href: "article-service-catalog-operating-model.html", detail: "Article / Farhad Inaloui" },
-    { type: "Content", title: "Ecosystem Continuity Governance", href: "article-ecosystem-continuity-governance.html", detail: "Article / Farhad Inaloui" },
+    { type: "Content", title: "Service Catalog as the Operating Model", href: "article-service-catalog-operating-model.html", detail: "Article / Farhad Inalouei" },
+    { type: "Content", title: "Ecosystem Continuity Governance", href: "article-ecosystem-continuity-governance.html", detail: "Article / Farhad Inalouei" },
     { type: "Content", title: "Portfolio Resilience", href: "article-portfolio-resilience.html", detail: "Article / Mohammad Farjood" },
     { type: "Content", title: "Growth in Turbulence", href: "article-growth-in-turbulence.html", detail: "Article / Mohammad Farjood" },
     { type: "Content", title: "Human Continuity Infrastructure", href: "article-human-continuity-infrastructure.html", detail: "Article / Mostafa Sabeti" },
@@ -45,7 +45,7 @@
     { type: "Content", title: "Continuity Podcast - Alireza Bozorgmehri", href: "podcast-alireza-bozorgmehri.html", detail: "Podcast / Alireza Bozorgmehri" },
     { type: "Content", title: "Continuity Podcast - Ali Akhavan", href: "podcast-ali-akhavan.html", detail: "Podcast / Ali Akhavan" },
     { type: "Content", title: "Continuity Podcast - Ramyar Ghanbari", href: "podcast-ramyar-ghanbari.html", detail: "Podcast / Ramyar Ghanbari" },
-    { type: "Content", title: "Continuity Videocast - Episode 01", href: "videocast-continuity-dialogue.html", detail: "Videocast / Farhad Inaloui" },
+    { type: "Content", title: "Continuity Videocast - Episode 01", href: "videocast-continuity-dialogue.html", detail: "Videocast / Farhad Inalouei" },
     { type: "Content", title: "Continuity Videocast - Episode 15", href: "videocast-hesam-maghsoudloo.html", detail: "Videocast / Hesam Maghsoudloo" },
     { type: "Content", title: "Continuity Videocast - Episode 12", href: "videocast-continuity-episode-02.html", detail: "Videocast / Meysam Rajabi" },
     { type: "Content", title: "The Valley of Failure as a Continuity Lab", href: "article-pain-point-continuity-lab.html", detail: "Article / Sadegh Faramarzi" },
@@ -53,7 +53,7 @@
     { type: "Content", title: "Assess Capability Before Writing the Continuity Plan", href: "article-capability-before-plan.html", detail: "Article / Sadra Babaei" },
     { type: "Content", title: "When the Next Capital Never Arrives", href: "article-next-capital-never-arrives.html", detail: "Article / Ali Akhavan" },
     { type: "Content", title: "The Three-Layer BCM Operating Model", href: "article-three-layer-bcm-operating-model.html", detail: "Article / Alireza Bozorgmehri" },
-    { type: "Content", title: "Service Granularity and Digital Banking Resilience", href: "article-service-granularity-resilience.html", detail: "Article / Farhad Inaloui" },
+    { type: "Content", title: "Service Granularity and Digital Banking Resilience", href: "article-service-granularity-resilience.html", detail: "Article / Farhad Inalouei" },
     { type: "Content", title: "Banking Trust Recovery Beyond the App", href: "article-trust-recovery-banking.html", detail: "Article / Mohammad Farjood" },
     { type: "Content", title: "The Survival Trap", href: "article-survival-growth-gap.html", detail: "Article / Mostafa Sabeti" },
     { type: "Content", title: "Continuity by Market Regime", href: "article-continuity-market-regime.html", detail: "Article / Meysam Rajabi" },
@@ -94,7 +94,7 @@
       ["Impact-Tolerance and Critical-Service Mapping", "Define what must continue from the customer and regulator point of view.", "pattern.html?category=proactive-continuity-evaluation&pattern=impact-tolerance-and-critical-service-mapping", "Proactive Continuity Evaluation"]
     ],
     insights: [
-      ["Continuity Podcast - Farhad Inaloui", "Podcast / Farhad Inaloui", "podcast-ecosystem.html", "Ecosystem continuity"],
+      ["Continuity Podcast - Farhad Inalouei", "Podcast / Farhad Inalouei", "podcast-ecosystem.html", "Ecosystem continuity"],
       ["Continuity Videocast - Episode 08", "Videocast / Alireza Bozorgmehri", "video-core-banking.html", "Service architecture"],
       ["Continuity Videocast - Episode 02", "Videocast / Ali Akhavan", "videocast-ali-akhavan.html", "Business continuity"],
       ["Continuity Videocast - Episode 03", "Videocast / Mohammad Farjood", "videocast-mohammad-farjood.html", "Digital banking continuity"],
@@ -118,8 +118,8 @@
       ["Human Single Points of Failure", "Article / Ali Akhavan", "article-human-single-points-of-failure.html", "Human continuity"],
       ["Banking Service Chain Continuity", "Article / Ali Akhavan", "article-banking-service-chain-continuity.html", "Service chain continuity"],
       ["ITSM: One Brain for Many Eyes", "Article / Alireza Bozorgmehri", "article-itsm-one-brain-for-many-eyes.html", "IT service management"],
-      ["Service Catalog as the Operating Model", "Article / Farhad Inaloui", "article-service-catalog-operating-model.html", "Service catalog"],
-      ["Ecosystem Continuity Governance", "Article / Farhad Inaloui", "article-ecosystem-continuity-governance.html", "Ecosystem continuity"],
+      ["Service Catalog as the Operating Model", "Article / Farhad Inalouei", "article-service-catalog-operating-model.html", "Service catalog"],
+      ["Ecosystem Continuity Governance", "Article / Farhad Inalouei", "article-ecosystem-continuity-governance.html", "Ecosystem continuity"],
       ["Portfolio Resilience", "Article / Mohammad Farjood", "article-portfolio-resilience.html", "Portfolio resilience"],
       ["Growth in Turbulence", "Article / Mohammad Farjood", "article-growth-in-turbulence.html", "Adaptive growth"],
       ["Human Continuity Infrastructure", "Article / Mostafa Sabeti", "article-human-continuity-infrastructure.html", "Human continuity"],
@@ -131,14 +131,14 @@
       ["Continuity Podcast - Alireza Bozorgmehri", "Podcast / Alireza Bozorgmehri", "podcast-alireza-bozorgmehri.html", "Governance"],
       ["Continuity Podcast - Ali Akhavan", "Podcast / Ali Akhavan", "podcast-ali-akhavan.html", "Startup continuity"],
       ["Continuity Podcast - Ramyar Ghanbari", "Podcast / Ramyar Ghanbari", "podcast-ramyar-ghanbari.html", "Market continuity"],
-      ["Continuity Videocast - Episode 01", "Videocast / Farhad Inaloui", "videocast-continuity-dialogue.html", "Continuity dialogue"],
+      ["Continuity Videocast - Episode 01", "Videocast / Farhad Inalouei", "videocast-continuity-dialogue.html", "Continuity dialogue"],
       ["Continuity Videocast - Episode 12", "Videocast / Meysam Rajabi", "videocast-continuity-episode-02.html", "Continuity practice"],
       ["The Valley of Failure as a Continuity Lab", "Article / Sadegh Faramarzi", "article-pain-point-continuity-lab.html", "Startup continuity"],
       ["Real BCM Starts with People, Not Backup", "Article / Sadegh Faramarzi", "article-human-centered-bcm.html", "Human continuity"],
       ["Assess Capability Before Writing the Continuity Plan", "Article / Sadra Babaei", "article-capability-before-plan.html", "Continuity planning"],
       ["When the Next Capital Never Arrives", "Article / Ali Akhavan", "article-next-capital-never-arrives.html", "Startup continuity"],
       ["The Three-Layer BCM Operating Model", "Article / Alireza Bozorgmehri", "article-three-layer-bcm-operating-model.html", "BCM operating model"],
-      ["Service Granularity and Digital Banking Resilience", "Article / Farhad Inaloui", "article-service-granularity-resilience.html", "Digital banking resilience"],
+      ["Service Granularity and Digital Banking Resilience", "Article / Farhad Inalouei", "article-service-granularity-resilience.html", "Digital banking resilience"],
       ["Banking Trust Recovery Beyond the App", "Article / Mohammad Farjood", "article-trust-recovery-banking.html", "Trust recovery"],
       ["The Survival Trap", "Article / Mostafa Sabeti", "article-survival-growth-gap.html", "Survival and growth"],
       ["Continuity by Market Regime", "Article / Meysam Rajabi", "article-continuity-market-regime.html", "Continuity strategy"],
@@ -201,8 +201,8 @@
 
   var insightItems = [
     {
-      title: "Continuity Podcast - Farhad Inaloui",
-      titleLines: ["Continuity Podcast -", "Farhad Inaloui"],
+      title: "Continuity Podcast - Farhad Inalouei",
+      titleLines: ["Continuity Podcast -", "Farhad Inalouei"],
       faTitle: "پادکست کانتینیویتی - فرهاد اینالویی",
       faTitleLines: ["پادکست کانتینیویتی -", "فرهاد اینالویی"],
       description: "An audio conversation on service continuity, decision ownership and the practical meaning of banking resilience.",
@@ -214,7 +214,7 @@
       faTopic: "تداوم اکوسیستم",
       industry: "Banking",
       faIndustry: "بانکداری",
-      author: "Farhad Inaloui",
+      author: "Farhad Inalouei",
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
@@ -324,7 +324,7 @@
       date: "May 2026",
       faDate: "اردیبهشت ۱۴۰۵",
       image: "Assets/content-cover-videocast-v3.png",
-      authorImage: "Assets/profile-executive-05.png",
+      authorImage: "Assets/ramyar-ghanbari.png",
       alt: "Dark videocast camera cover image",
       faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
       accessed: "Accessed",
@@ -532,7 +532,7 @@
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
       image: "Assets/content-cover-videocast-v3.png",
-      authorImage: "Assets/profile-executive-06.png",
+      authorImage: "Assets/mostafa-amiri.png",
       alt: "Dark videocast camera cover image",
       faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
       accessed: "Accessed",
@@ -1021,7 +1021,7 @@
       faTopic: "تاب‌آوری بانک دیجیتال",
       industry: "Banking",
       faIndustry: "بانکداری",
-      author: "Farhad Inaloui",
+      author: "Farhad Inalouei",
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
@@ -1047,7 +1047,7 @@
       faTopic: "کاتالوگ خدمات",
       industry: "Banking technology",
       faIndustry: "فناوری بانکی",
-      author: "Farhad Inaloui",
+      author: "Farhad Inalouei",
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
@@ -1073,7 +1073,7 @@
       faTopic: "تداوم اکوسیستم مالی",
       industry: "Financial services",
       faIndustry: "خدمات مالی",
-      author: "Farhad Inaloui",
+      author: "Farhad Inalouei",
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
@@ -1470,7 +1470,7 @@
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
       image: "Assets/content-cover-podcast-v3.png",
-      authorImage: "Assets/profile-executive-05.png",
+      authorImage: "Assets/ramyar-ghanbari.png",
       alt: "Dark podcast microphone cover image",
       faAlt: "تصویر کاور پادکست با میکروفون تیره",
       audioSrc: "Assets/podcast-ramyar-ghanbari-135766.mp3",
@@ -1492,7 +1492,7 @@
       faTopic: "گفت‌وگوی تداوم",
       industry: "Banking",
       faIndustry: "بانکداری",
-      author: "Farhad Inaloui",
+      author: "Farhad Inalouei",
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
@@ -1561,7 +1561,7 @@
   var peopleProfiles = [
     {
       id: "farhad-inaloui",
-      name: "Farhad Inaloui",
+      name: "Farhad Inalouei",
       faName: "فرهاد اینالویی",
       role: "Technocratic Leader",
       faRole: "رهبر تکنوکرات",
@@ -1585,15 +1585,15 @@
       ],
       quote: "A bank's capacity to continue is not contained in hardware or software alone. It is designed through services, decision ownership and ecosystem coordination.",
       faQuote: "قابلیت ادامه‌دادن یک بانک فقط در تجهیزات و نرم‌افزار نیست؛ در طراحی سرویس، مالکیت تصمیم و هماهنگی اکوسیستم ساخته می‌شود.",
-      bio: "Farhad Inaloui is a banking technology leader whose career has moved from systems engineering and infrastructure into technology governance, digital banking and service architecture.",
+      bio: "Farhad Inalouei is a banking technology leader whose career has moved from systems engineering and infrastructure into technology governance, digital banking and service architecture.",
       faBio: "فرهاد اینالویی از مدیران باسابقه فناوری بانکی است که مسیر حرفه‌ای‌اش از مهندسی سیستم و زیرساخت آغاز شده و به راهبری فناوری، بانکداری دیجیتال و معماری سرویس رسیده است.",
       storyTitle: "When the unit of analysis becomes the service",
       faStoryTitle: "وقتی مسئله از سامانه به سرویس تغییر می‌کند",
       story: [
-        ["Inaloui began his professional career in the mid-1990s, working with IBM systems in the automotive industry. Large enterprise systems exposed a foundational operating reality early in his career: an organization depends on connected components, and the health of each component does not by itself guarantee the business outcome.", "مسیر حرفه‌ای فرهاد اینالویی در میانه دهه ۱۳۷۰ و در محیط سیستم‌های IBM در صنعت خودرو آغاز شد. کار با سامانه‌های سازمانی بزرگ، پیش از فراگیرشدن بانکداری دیجیتال، او را با واقعیتی پایه‌ای روبه‌رو کرد: عملکرد سازمان به مجموعه‌ای از اجزای به‌هم‌وابسته متکی است و سلامت هر جزء به‌تنهایی تضمین‌کننده نتیجه نهایی نیست."],
-        ["His work at Data Systems Iran and then Bank Parsian connected infrastructure engineering directly to customer access to money and banking services. Networks, hardware, telecommunications and security for online, real-time banking made the distinction between component availability and service availability tangible.", "حضور او در داده‌پردازی ایران و سپس بانک پارسیان، مهندسی زیرساخت را مستقیماً به دسترسی مشتری به پول و خدمت بانکی متصل کرد. شبکه، سخت‌افزار، مخابرات و امنیت برای بانکداری برخط و بلادرنگ، تفاوت میان کارکرد یک جزء و در دسترس‌بودن خدمت را ملموس کرد."],
+        ["Inalouei began his professional career in the mid-1990s, working with IBM systems in the automotive industry. Large enterprise systems exposed a foundational operating reality early in his career: an organization depends on connected components, and the health of each component does not by itself guarantee the business outcome.", "مسیر حرفه‌ای فرهاد اینالویی در میانه دهه ۱۳۷۰ و در محیط سیستم‌های IBM در صنعت خودرو آغاز شد. کار با سامانه‌های سازمانی بزرگ، پیش از فراگیرشدن بانکداری دیجیتال، او را با واقعیتی پایه‌ای روبه‌رو کرد: عملکرد سازمان به مجموعه‌ای از اجزای به‌هم‌وابسته متکی است و سلامت هر جزء به‌تنهایی تضمین‌کننده نتیجه نهایی نیست."],
+        ["His work at Iran Data System and then Parsian Bank connected infrastructure engineering directly to customer access to money and banking services. Networks, hardware, telecommunications and security for online, real-time banking made the distinction between component availability and service availability tangible.", "حضور او در داده سیستم‌های ایران و سپس بانک پارسیان، مهندسی زیرساخت را مستقیماً به دسترسی مشتری به پول و خدمت بانکی متصل کرد. شبکه، سخت‌افزار، مخابرات و امنیت برای بانکداری برخط و بلادرنگ، تفاوت میان کارکرد یک جزء و در دسترس‌بودن خدمت را ملموس کرد."],
         ["His move into banking technology solution providers added the supplier side of the relationship. Service quality depends not only on internal engineering, but also on support cycles, contracts, product knowledge, specialist availability and vendor stability.", "فعالیت در شرکت‌های فناوری بانکی و محیط ارائه راهکار، سوی دیگر رابطه بانک و تأمین‌کننده را به تجربه او اضافه کرد. کیفیت سرویس فقط به توان فنی بانک وابسته نیست؛ چرخه پشتیبانی، قرارداد، دانش محصول، دسترسی به متخصص و پایداری فروشنده نیز بخشی از معماری عملیاتی‌اند."],
-        ["At EN Bank, the move from infrastructure responsibilities toward modern banking broadened the scope of his work. Digital transformation is not completed by adding a channel or moving a form online. A service must connect data, process, control, customer experience and operational accountability from the outset.", "در بانک اقتصاد نوین، جابه‌جایی از مسئولیت‌های زیرساختی به حوزه بانکداری مدرن، واحد تحلیل را گسترده‌تر کرد. دیجیتال‌شدن با افزودن یک کانال یا غیرحضوری‌کردن یک فرم کامل نمی‌شود. طراحی خدمت باید از ابتدا داده، فرایند، کنترل، تجربه مشتری و پاسخ‌گویی عملیاتی را به هم متصل کند."],
+        ["At EN Bank (Eqtesad Novin), the move from infrastructure responsibilities toward modern banking broadened the scope of his work. Digital transformation is not completed by adding a channel or moving a form online. A service must connect data, process, control, customer experience and operational accountability from the outset.", "در بانک اقتصاد نوین، جابه‌جایی از مسئولیت‌های زیرساختی به حوزه بانکداری مدرن، واحد تحلیل را گسترده‌تر کرد. دیجیتال‌شدن با افزودن یک کانال یا غیرحضوری‌کردن یک فرم کامل نمی‌شود. طراحی خدمت باید از ابتدا داده، فرایند، کنترل، تجربه مشتری و پاسخ‌گویی عملیاتی را به هم متصل کند."],
         ["As the technology executive at Bank Iran Zamin from 2016 until September 2023, he worked with digital banking development, movement toward service-oriented architecture and the boundaries between a bank, technology companies and fintech actors.", "مسئولیت فناوری اطلاعات بانک ایران‌زمین از سال ۱۳۹۵ تا شهریور ۱۴۰۲، این دیدگاه را در مقیاس راهبری بانکی آزمود؛ از توسعه بانکداری دیجیتال تا حرکت به سوی معماری سرویس‌گرا و کار در مرز میان بانک، شرکت‌های فناوری و بازیگران فین‌تک."],
         ["His current board work in technology companies continues the same progression from a governance perspective. A Service Catalog is not a product list; it is a management map of ownership, criticality, dependency, service level and recovery requirements.", "فعالیت‌های هیئت‌مدیره‌ای کنونی او در شرکت‌های فناوری، ادامه همین مسیر از زاویه حاکمیت است. کاتالوگ سرویس فهرست نام محصولات نیست؛ نقشه‌ای مدیریتی از مالکیت، اهمیت، وابستگی، سطح خدمت و الزامات بازیابی است."]
       ],
@@ -1629,10 +1629,10 @@
       ],
       experience: [
         ["IBM systems and enterprise technology", "سیستم‌های IBM و فناوری سازمانی", "Systems and infrastructure work", "فعالیت در سیستم و زیرساخت", "mid-1990s", "میانه دهه ۱۳۷۰", "Early exposure to connected enterprise systems and dependency-driven operations.", "آشنایی اولیه با سامانه‌های سازمانی به‌هم‌پیوسته و عملیات وابسته به اجزا."],
-        ["Data Systems Iran", "داده‌پردازی ایران", "Enterprise technology environment", "محیط فناوری سازمانی", "early career", "سال‌های آغازین", "Extended the systems perspective across infrastructure, communications and large-scale requirements.", "گسترش نگاه سیستمی در زیرساخت، ارتباطات و الزامات محیط‌های بزرگ‌مقیاس."],
-        ["Bank Parsian", "بانک پارسیان", "Banking infrastructure and security", "زیرساخت و امنیت بانکی", "formative years", "سال‌های شکل‌گیری بانک", "Connected infrastructure engineering to real-time banking and customer access.", "اتصال مهندسی زیرساخت به بانکداری بلادرنگ و دسترسی مشتری."],
+        ["Iran Data System", "داده سیستم‌های ایران", "Enterprise technology environment", "محیط فناوری سازمانی", "early career", "سال‌های آغازین", "Extended the systems perspective across infrastructure, communications and large-scale requirements.", "گسترش نگاه سیستمی در زیرساخت، ارتباطات و الزامات محیط‌های بزرگ‌مقیاس."],
+        ["Parsian Bank", "بانک پارسیان", "Banking infrastructure and security", "زیرساخت و امنیت بانکی", "formative years", "سال‌های شکل‌گیری بانک", "Connected infrastructure engineering to real-time banking and customer access.", "اتصال مهندسی زیرساخت به بانکداری بلادرنگ و دسترسی مشتری."],
         ["Banking technology solution providers", "شرکت‌های فناوری بانکی", "Supplier-side technology leadership", "راهبری فناوری در سوی تأمین‌کننده", "different periods", "دوره‌های مختلف", "Exposed support cycles, contracts, specialist availability and vendor stability as continuity factors.", "نمایان‌کردن چرخه پشتیبانی، قرارداد، دسترسی به متخصص و پایداری فروشنده به‌عنوان عوامل تداوم."],
-        ["EN Bank", "بانک اقتصاد نوین", "Modern banking and technology responsibilities", "مسئولیت‌های فناوری و بانکداری مدرن", "before 2016", "پیش از ۱۳۹۵", "Broadened technology from platform operation to products, processes and customer experience.", "گسترش فناوری از عملیات پلتفرم به محصول، فرایند و تجربه مشتری."],
+        ["EN Bank (Eqtesad Novin)", "بانک اقتصاد نوین", "Modern banking and technology responsibilities", "مسئولیت‌های فناوری و بانکداری مدرن", "before 2016", "پیش از ۱۳۹۵", "Broadened technology from platform operation to products, processes and customer experience.", "گسترش فناوری از عملیات پلتفرم به محصول، فرایند و تجربه مشتری."],
         ["Bank Iran Zamin", "بانک ایران‌زمین", "Technology executive", "مدیر فناوری", "2016-2023", "۱۳۹۵ تا ۱۴۰۲", "Led technology questions at governance scale across digital banking and service-oriented architecture.", "راهبری پرسش‌های فناوری در مقیاس حاکمیت، بانکداری دیجیتال و معماری سرویس‌گرا."]
       ],
       themes: [
@@ -2208,9 +2208,9 @@
       faStoryTitle: "وقتی تمرکز، خود تصمیم تداوم است",
       story: [
         ["Rajabi's career did not begin as a straight line. Capital markets, aircraft maintenance, planning work in the automotive industry and business development in oil and gas each exposed a different part of the relationship between evidence, economics and management judgment.", "مسیر حرفه‌ای میثم رجبی با یک خط مستقیم آغاز نشد. تجربه بازار سرمایه، صنعت تعمیر و نگهداری هواپیما، برنامه‌ریزی در صنعت خودرو و سپس توسعه و پروپوزال در نفت و گاز، هرکدام بخشی از رابطه میان داده، منطق اقتصادی و تصمیم مدیریتی را به او نشان دادند."],
-        ["He entered information technology in 2012 through Fakhim, part of the Hossin ecosystem. Banking and payment technology connected the company's commercial choices to infrastructure where trust, security and execution discipline mattered.", "ورود جدی او به فناوری اطلاعات در سال ۱۳۹۱ و از مسیر شرکت فخیم در اکوسیستم حصین رخ داد. محیط فناوری بانکی و پرداخت، کسب‌وکار را به زیرساختی متصل می‌کرد که اعتماد، امنیت و قابلیت اجرا در آن تعیین‌کننده‌اند."],
+        ["He entered information technology in 2012 through Fakhim, part of the Hasin ecosystem. Banking and payment technology connected the company's commercial choices to infrastructure where trust, security and execution discipline mattered.", "ورود جدی او به فناوری اطلاعات در سال ۱۳۹۱ و از مسیر شرکت فخیم در اکوسیستم حصین رخ داد. محیط فناوری بانکی و پرداخت، کسب‌وکار را به زیرساختی متصل می‌کرد که اعتماد، امنیت و قابلیت اجرا در آن تعیین‌کننده‌اند."],
         ["At Gooshishop, feature expansion had moved the product away from its core value and market. Redesign did not require more functionality. It required subtraction, simplification and a return to the customer problem the product could solve well.", "در گوشی‌شاپ، توسعه بیش از حد قابلیت‌ها محصول را از هسته ارزش و بازار دور کرده بود. بازطراحی محصول مستلزم افزودن امکانات بیشتر نبود؛ نیازمند حذف، ساده‌سازی و بازگشت به مسئله‌ای بود که مشتری واقعاً برای حل آن مراجعه می‌کرد."],
-        ["Rajabi later participated in building and developing several businesses across the Hossin ecosystem. A portfolio is not merely a collection of companies. It is a set of capital choices, and each activity has to show the value it creates and the resources it needs to continue.", "رجبی در ادامه در ایجاد و توسعه چند کسب‌وکار در اکوسیستم حصین مشارکت کرد. پرتفوی فقط فهرستی از شرکت‌ها نیست؛ مجموعه‌ای از انتخاب‌های سرمایه‌ای است و هر فعالیت باید نشان دهد چه ارزشی می‌سازد و با چه منبعی ادامه می‌دهد."],
+        ["Rajabi later participated in building and developing several businesses across the Hasin ecosystem. A portfolio is not merely a collection of companies. It is a set of capital choices, and each activity has to show the value it creates and the resources it needs to continue.", "رجبی در ادامه در ایجاد و توسعه چند کسب‌وکار در اکوسیستم حصین مشارکت کرد. پرتفوی فقط فهرستی از شرکت‌ها نیست؛ مجموعه‌ای از انتخاب‌های سرمایه‌ای است و هر فعالیت باید نشان دهد چه ارزشی می‌سازد و با چه منبعی ادامه می‌دهد."],
         ["Since 2019, Rajabi has led Radin. The company emerged from the redesign of established technology businesses and has worked across information security, banking and payment solutions, telecommunications and IoT, blockchain and artificial intelligence.", "از سال ۱۳۹۸، رجبی مدیرعامل رادین است؛ شرکتی که از بازطراحی بخشی از کسب‌وکارهای فناوری موجود شکل گرفت و در حوزه‌هایی مانند امنیت فناوری اطلاعات، راهکارهای بانکی و پرداخت، تلکام و اینترنت اشیا، بلاکچین و هوش مصنوعی فعالیت کرده است."],
         ["Within this logic, closure or consolidation is not automatically failure. A project may have absorbed money and time, but prior investment is not a sufficient reason to continue it when the market, economics or organizational capability no longer fit.", "در این منطق، توقف یا ادغام الزاماً نشانه شکست نیست. پروژه‌ای ممکن است سرمایه و زمان زیادی مصرف کرده باشد، اما گذشته برای ادامه آن دلیل کافی نمی‌سازد، وقتی بازار، اقتصاد یا قابلیت سازمانی دیگر با آن سازگار نیست."],
         ["Economic instability raises the weight of that choice. In contraction, liquidity, working capital, collection and the ability to reach the next financial threshold become dominant.", "اقتصاد ناپایدار وزن این انتخاب را بیشتر می‌کند. در دوره انقباض، نقدشوندگی، سرمایه در گردش، وصول فروش و امکان رسیدن به نقطه مالی بعدی مقدم می‌شوند."],
@@ -2248,9 +2248,9 @@
       ],
       experience: [
         ["Capital markets and engineering industries", "بازار سرمایه و صنایع مهندسی", "Early professional exposure", "تجربه حرفه‌ای اولیه", "early career", "اوایل مسیر", "Connected evidence, economics and management judgment across different operating contexts.", "رابطه داده، منطق اقتصادی و تصمیم مدیریتی را در چند زمینه عملیاتی متفاوت دید."],
-        ["Fakhim / Hossin ecosystem", "فخیم / اکوسیستم حصین", "Banking and payment technology", "فناوری بانکی و پرداخت", "from 2012", "از ۱۳۹۱", "Linked commercial choices to trust, security and execution discipline.", "انتخاب‌های تجاری را به اعتماد، امنیت و انضباط اجرا متصل کرد."],
+        ["Fakhim / Hasin ecosystem", "فخیم / اکوسیستم حصین", "Banking and payment technology", "فناوری بانکی و پرداخت", "from 2012", "از ۱۳۹۱", "Linked commercial choices to trust, security and execution discipline.", "انتخاب‌های تجاری را به اعتماد، امنیت و انضباط اجرا متصل کرد."],
         ["Gooshishop", "گوشی‌شاپ", "Product redesign and simplification", "بازطراحی و ساده‌سازی محصول", "product focus phase", "دوره تمرکز محصول", "Showed how subtraction and simplification can preserve time and capital.", "نشان داد حذف و ساده‌سازی چگونه می‌تواند زمان و سرمایه را حفظ کند."],
-        ["Navid and digital ventures", "نوید و کسب‌وکارهای دیجیتال", "Venture building and separation", "ساخت و جداسازی کسب‌وکار", "Hossin ecosystem", "اکوسیستم حصین", "Turned portfolio work into a discipline of capital choices and capability fit.", "کار پرتفوی را به انضباط انتخاب سرمایه و سازگاری با قابلیت تبدیل کرد."],
+        ["Navid and digital ventures", "نوید و کسب‌وکارهای دیجیتال", "Venture building and separation", "ساخت و جداسازی کسب‌وکار", "Hasin ecosystem", "اکوسیستم حصین", "Turned portfolio work into a discipline of capital choices and capability fit.", "کار پرتفوی را به انضباط انتخاب سرمایه و سازگاری با قابلیت تبدیل کرد."],
         ["Radin", "رادین", "Chief Executive Officer", "مدیرعامل", "from 2019", "از ۱۳۹۸", "Leads work across security, banking and payment solutions, telecom, IoT, blockchain and AI.", "فعالیت در امنیت، راهکارهای بانکی و پرداخت، تلکام، اینترنت اشیا، بلاکچین و هوش مصنوعی را راهبری می‌کند."],
         ["Radin holding transition", "حرکت رادین به ساختار هلدینگی", "Portfolio restructuring", "بازسازی پرتفوی", "current phase", "دوره جاری", "Made independence, accountability and economic direction more explicit for specialist activities.", "استقلال، پاسخ‌گویی و جهت اقتصادی را برای فعالیت‌های تخصصی روشن‌تر کرد."]
       ],
@@ -2272,6 +2272,121 @@
         ["Financial Continuity / Economic Resilience", "تداوم مالی و تاب‌آوری اقتصادی", "Grounded in runway, working capital, sales flow and market selection.", "برآمده از مدیریت Runway، سرمایه در گردش، جریان فروش و انتخاب بازار."],
         ["Service Architecture and Containment Engineering", "معماری سرویس و مهندسی مهار اختلال", "Grounded in scope reduction, business separation and containment of loss or complexity.", "برآمده از کوچک‌سازی دامنه، جداسازی فعالیت‌ها و محدودکردن سرایت زیان یا پیچیدگی."]
       ]
+    },
+    {
+      id: "ali-akhavan",
+      name: "Ali Akhavan",
+      faName: "علی اخوان",
+      role: "Technocratic Thinker",
+      faRole: "اندیشمند تکنوکرات",
+      title: "CEO and Board Member · Technotejarat",
+      faTitle: "مدیرعامل و عضو هیئت‌مدیره · تکنوتجارت",
+      subject: "Venture investment, fintech and financial-service continuity",
+      faSubject: "سرمایه‌گذاری خطرپذیر، فین‌تک و تداوم خدمات مالی",
+      image: "Assets/ali-akhavan.jpg"
+    },
+    {
+      id: "mahmoudreza-farhadi",
+      name: "Mahmoudreza Farhadi",
+      faName: "محمودرضا فرهادی",
+      role: "Technocratic Thinker",
+      faRole: "اندیشمند تکنوکرات",
+      title: "Fintech and financial-services executive · Digital-banking adviser",
+      faTitle: "مدیر کسب‌وکارهای مالی و فین‌تک · مشاور بانکداری دیجیتال",
+      subject: "Customer trust, payments and financial-service continuity",
+      faSubject: "اعتماد مشتری، پرداخت و تداوم خدمات مالی",
+      image: "Assets/reza-farhadi.jpg"
+    },
+    {
+      id: "ayat-hosseini",
+      name: "Ayat Hosseini",
+      faName: "آیت حسینی",
+      role: "Technocratic Leader",
+      faRole: "رهبر تکنوکرات",
+      title: "Founder & CEO · AldyPay (current details to confirm)",
+      faTitle: "بنیان‌گذار و مدیرعامل آلدی‌پی (اطلاعات جاری نیازمند تأیید)",
+      subject: "Fintech, customer trust and service continuity",
+      faSubject: "فین‌تک، اعتماد مشتری و تداوم خدمت",
+      image: "Assets/ayat-hosseini.png",
+      imageClass: "person-photo-ayat-hosseini"
+    },
+    {
+      id: "alireza-ghanadan",
+      name: "Alireza Ghanadan",
+      faName: "علیرضا قنادان",
+      role: "Technocratic Leader",
+      faRole: "رهبر تکنوکرات",
+      title: "CEO · Lendo (reported appointment; current status to confirm)",
+      faTitle: "مدیرعامل لندو (انتصاب گزارش‌شده؛ وضعیت فعلی نیازمند تأیید)",
+      subject: "Digital lending, credit dependency and fintech continuity",
+      faSubject: "تسهیلات‌یاری دیجیتال، وابستگی اعتباری و تداوم فین‌تک",
+      image: "Assets/alireza-ghanadan.jpg",
+      imageClass: "person-photo-alireza-ghanadan"
+    },
+    {
+      id: "mostafa-amiri",
+      name: "Mostafa Amiri",
+      faName: "مصطفی امیری",
+      role: "Technocratic Leader",
+      faRole: "رهبر تکنوکرات",
+      title: "Co-founder · ZarinPal",
+      faTitle: "هم‌بنیان‌گذار · زرین‌پال",
+      subject: "Fintech, payments and business continuity",
+      faSubject: "فناوری مالی، پرداخت و تداوم کسب‌وکار",
+      image: "Assets/mostafa-amiri.png",
+      imageClass: "person-photo-mostafa-amiri"
+    },
+    {
+      id: "nima-amirshakari",
+      name: "Nima Amirshakari",
+      faName: "نیما امیرشکاری",
+      role: "Technocratic Thinker",
+      faRole: "اندیشمند تکنوکرات",
+      title: "Digital economy analyst · Banking-sector adviser (reported; verify)",
+      faTitle: "تحلیلگر اقتصاد دیجیتال · مشاور حوزه بانکی (روایت ثبت‌شده؛ نیازمند تأیید)",
+      subject: "Interbank payments, service recovery and banking continuity",
+      faSubject: "پرداخت بین‌بانکی، بازیابی خدمت و تداوم بانکداری",
+      image: "Assets/nima-amirshekari.jpg",
+      imageClass: "person-photo-nima-amirshekari"
+    },
+    {
+      id: "ramyar-ghanbari",
+      name: "Ramyar Ghanbari",
+      faName: "رامیار قنبری",
+      role: "Technocratic Thinker",
+      faRole: "اندیشمند تکنوکرات",
+      title: "President · Iran's Electronic Payments Association (at interview time)",
+      faTitle: "رئیس انجمن پرداخت‌های الکترونیک ایران (در زمان مصاحبه)",
+      subject: "Payments, fintech regulation, trust and service continuity",
+      faSubject: "پرداخت، تنظیم‌گری فین‌تک، اعتماد و تداوم خدمت",
+      image: "Assets/ramyar-ghanbari.png",
+      imageClass: "person-photo-ramyar-ghanbari"
+    },
+    {
+      id: "amirhossein-shobeiri",
+      name: "Amirhossein Shobeiri",
+      faName: "امیرحسین شبیری",
+      role: "Technocratic Leader",
+      faRole: "رهبر تکنوکرات",
+      title: "Vice President of IT · Melal Credit Institution; former CEO · Shaparak (verify)",
+      faTitle: "معاون فناوری اطلاعات مؤسسه اعتباری ملل؛ مدیرعامل پیشین شاپرک (نیازمند تأیید)",
+      subject: "Fintech, payment networks and financial-service continuity",
+      faSubject: "فین‌تک، شبکه پرداخت و تداوم خدمات مالی",
+      image: "Assets/amirhossein-shabiri.jpg",
+      imageClass: "person-photo-amirhossein-shobeiri"
+    },
+    {
+      id: "bahareh-sharifioun",
+      name: "Bahareh Sharifioun",
+      faName: "بهاره شریفیون",
+      role: "Technocratic Leader",
+      faRole: "رهبر تکنوکرات",
+      title: "Chief Executive Officer · Sepas Holding (recorded; current status to confirm)",
+      faTitle: "مدیرعامل هلدینگ سپاس (سمت ثبت‌شده؛ وضعیت جاری نیازمند تأیید)",
+      subject: "Holding-company leadership, digital businesses and continuity",
+      faSubject: "راهبری هلدینگ، کسب‌وکارهای دیجیتال و تداوم",
+      image: "Assets/bahareh-sharifioun.jpg",
+      imageClass: "person-photo-bahareh-sharifioun"
     }
   ];
 
@@ -2378,9 +2493,1238 @@
     ]
   };
 
+  var aliAkhavanProfile = {
+    id: "ali-akhavan",
+    name: "Ali Akhavan",
+    faName: "علی اخوان",
+    role: "Technocratic Thinker",
+    faRole: "اندیشمند تکنوکرات",
+    title: "CEO and Board Member · Technotejarat",
+    faTitle: "مدیرعامل و عضو هیئت‌مدیره · تکنوتجارت",
+    subject: "Venture investment, fintech and financial-service continuity",
+    faSubject: "سرمایه‌گذاری خطرپذیر، فین‌تک و تداوم خدمات مالی",
+    image: "Assets/ali-akhavan.jpg",
+    profileLayout: "monograph",
+    profileNumber: "09",
+    faProfileNumber: "۰۹",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Ali Akhavan | CEO of Technotejarat | House of Technocrats",
+    faSeoTitle: "علی اخوان | مدیرعامل تکنوتجارت | خانه تکنوکرات‌ها",
+    metaDescription: "Ali Akhavan’s career across venture investment, fintech and banking service continuity.",
+    faMetaDescription: "روایت حرفه‌ای علی اخوان در سرمایه‌گذاری خطرپذیر و فناوری مالی؛ از ریسک منابع و وابستگی‌های اکوسیستم تا اعتماد و تداوم خدمت بانکی.",
+    positioning: "Financial-service continuity depends on capital, people, partners and trust across the value chain.",
+    faPositioning: "تداوم خدمت مالی به سرمایه، افراد، شرکا و اعتماد در سراسر زنجیره ارزش وابسته است.",
+    heroTags: [
+      ["Venture capital", "سرمایه‌گذاری خطرپذیر"],
+      ["Fintech and digital banking", "فین‌تک و بانکداری دیجیتال"],
+      ["Portfolio management", "مدیریت سبد کسب‌وکار"],
+      ["Financial risk", "ریسک مالی"],
+      ["Innovation ecosystems", "زیست‌بوم نوآوری"]
+    ],
+    quote: "Financial-service continuity relies on capital, people, partners and trust across the value chain.",
+    faQuote: "تداوم خدمت مالی به سرمایه، افراد، شرکا و اعتماد در سراسر زنجیره ارزش وابسته است.",
+    statementIsSynthesis: true,
+    linkedinUrl: "https://ir.linkedin.com/in/ali-akhavan-19020b41",
+    bio: "Ali Akhavan is an executive working across venture capital, technology businesses and financial services.",
+    faBio: "علی اخوان مدیری در حوزه سرمایه‌گذاری خطرپذیر، توسعه کسب‌وکار فناورانه و فناوری مالی است.",
+    storyTitle: "When a company’s boundary is not the boundary of its service",
+    faStoryTitle: "وقتی مرز یک کسب‌وکار، مرز خدمت نیست",
+    story: [
+      ["Akhavan’s career has moved from business development and venture investing to leadership in technology businesses. His work across early-stage companies and investment portfolios raises a question beyond growth: how can a company continue serving customers when funding, a founder or a critical partner is suddenly unavailable?", "مسیر حرفه‌ای علی اخوان از توسعه کسب‌وکار و سرمایه‌گذاری در شرکت‌های نوآور به راهبری کسب‌وکارهای فناورانه رسیده است. تجربه او در تیم‌های نوپا و مدیریت پرتفوی، پرسشی فراتر از رشد را پیش می‌کشد: کسب‌وکار چگونه زمانی که سرمایه، بنیان‌گذار یا شریک کلیدی در دسترس نیست، به ارائه خدمت ادامه می‌دهد؟"],
+      ["After 2017, a more difficult investment climate and successive financial shocks reshaped conditions for Iranian startups. Some businesses had built operating commitments around expected capital injections that did not materialize. Even functioning infrastructure could not guarantee continued service without liquidity, realistic financial planning and time to adapt the business model.", "پس از سال ۱۳۹۶، دشوارترشدن فضای سرمایه‌گذاری و شوک‌های مالی پی‌درپی شرایط استارتاپ‌های ایرانی را تغییر داد. برخی کسب‌وکارها تعهدات عملیاتی خود را بر پایه منابعی چیده بودند که به دستشان نرسید. زیرساخت سالم نیز بدون نقدینگی، برنامه مالی واقع‌بینانه و فرصت بازتنظیم مدل کسب‌وکار، ادامه خدمت را تضمین نمی‌کرد."],
+      ["The PayPing example concerns a founder transition. In the recorded account, the departing founder planned a successor and supported a transition period, helping the company avoid operational interruption. This account is attributed to the participant and is not an independently audited case study.", "نمونه پی‌پینگ به انتقال مسئولیت بنیان‌گذار مربوط است. بر اساس روایت ثبت‌شده، بنیان‌گذارِ در حال خروج برای جانشینی برنامه‌ریزی کرد و در یک دوره گذار پشتیبان شرکت بود؛ اقدامی که به جلوگیری از وقفه عملیاتی کمک کرد. این روایت به مصاحبه‌شونده منتسب است و مطالعه موردیِ مستقلاً ممیزی‌شده نیست."],
+      ["His time at Technotejarat added a portfolio and ecosystem perspective. The logistics marketplace Jadeh, whose growth trajectory was affected by changing external conditions, subsequently reconsidered aspects of its business model. These cases show why continuity may require replacing assumptions and redesigning a venture while protecting the service it can still deliver.", "فعالیت در تکنوتجارت، نگاه پرتفویی و زیست‌بومی را به این تجربه افزود. بازارگاه لجستیکی جاده نیز با تغییر شرایط بیرونی، بخشی از مدل کسب‌وکار خود را بازنگری کرد. چنین نمونه‌هایی نشان می‌دهند که تداوم گاهی به کنارگذاشتن فرض‌های قبلی و بازطراحی کسب‌وکار نیاز دارد، درحالی‌که باید خدمتِ همچنان قابل‌ارائه حفظ شود."],
+      ["Company and industry announcements reported Akhavan’s appointment as CEO of Technotejarat in 2025. Company communications also document his participation in fintech policy discussions and advocacy of collaborative regulation; the exact current titles should be verified before publication.", "منابع عمومی شرکت و صنعت، انتصاب اخوان به مدیرعاملی تکنوتجارت را در سال ۱۴۰۴ گزارش کرده‌اند. اطلاع‌رسانی شرکت همچنین از حضور او در گفت‌وگوهای سیاست‌گذاری فین‌تک و حمایت از تنظیم‌گری مشارکتی خبر می‌دهد؛ عنوان‌های جاری باید پیش از انتشار کنترل شوند."],
+      ["Banks, payment firms, lenders, startups and technology suppliers increasingly form overlapping service chains. A bank may provide credit to a fintech while the fintech delivers a customer-facing capability for the bank. An interruption can therefore propagate in either direction, regardless of the legal boundary between organizations.", "بانک‌ها، شرکت‌های پرداخت، وام‌دهندگان، استارتاپ‌ها و تأمین‌کنندگان فناوری، زنجیره‌های خدمتِ هم‌پوشانی می‌سازند. بانک ممکن است به یک فین‌تک اعتبار بدهد و همان فین‌تک قابلیتی روبه‌مشتری برای بانک فراهم کند؛ در نتیجه اختلال می‌تواند در هر دو جهت گسترش یابد، مستقل از مرز حقوقی سازمان‌ها."],
+      ["In banking, a customer’s inability to access funds can damage confidence even if systems are eventually restored. Akhavan’s discussion of the Nobitex cyber incident emphasizes crisis communication and wider market confidence. His assessment of that company’s preparedness remains his interpretation, not an independently established finding here.", "در بانکداری، ناتوانی مشتری در دسترسی به دارایی می‌تواند اعتماد را آسیب بزند، حتی اگر سامانه‌ها بعداً بازیابی شوند. اخوان در گفت‌وگو درباره حادثه سایبری نوبیتکس، بر ارتباطات بحران و اعتماد در سطح بازار تأکید می‌کند. ارزیابی او از میزان آمادگی آن شرکت، برداشت شخصی اوست و در این پروفایل یافته‌ای مستقل محسوب نمی‌شود."],
+      ["An individual bank can strengthen its own systems and still depend on shared payment networks, regulators, telecommunications and counterparties. Continuity governance must distinguish what an organization controls, what requires contractual coordination and what needs an industry-wide response.", "یک بانک می‌تواند سامانه‌های خودش را تقویت کند و همچنان به شبکه‌های پرداخت مشترک، نهادهای تنظیم‌گر، ارتباطات و طرف‌های مقابل وابسته باشد. حاکمیت تداوم باید روشن کند سازمان چه چیزی را کنترل می‌کند، چه چیزی به هماهنگی قراردادی نیاز دارد و کدام ریسک فقط با اقدام مشترک صنعت کاهش می‌یابد."]
+    ],
+    intersections: [
+      {
+        title: "Funding is an invisible continuity infrastructure",
+        faTitle: "منابع مالی، زیرساخت نامرئی تداوم",
+        body: "A venture that depends on its next investment round can fail while its software remains healthy. Stress-test capital availability, essential costs, financial runway and alternatives before finance is constrained.",
+        faBody: "کسب‌وکاری که برای تعهدات اصلی به دور بعدی سرمایه‌گذاری وابسته است، حتی با نرم‌افزار سالم ممکن است از ادامه خدمت بازبماند. دسترسی به سرمایه، هزینه‌های ضروری، دوام نقدینگی و گزینه‌های جایگزین باید پیش از محدودشدن منابع آزموده شوند.",
+        domains: [["Financial Continuity / Economic Resilience", "تداوم مالی و تاب‌آوری اقتصادی"]]
+      },
+      {
+        title: "Succession removes key-person failure points",
+        faTitle: "جانشین‌پروری، وابستگی به فرد کلیدی را کاهش می‌دهد",
+        body: "Succession includes knowledge transfer, signing authority, access, partner relationships and operational judgment, not only naming a replacement.",
+        faBody: "جانشین‌پروری فقط تعیین جایگزین نیست؛ انتقال دانش، اختیار امضا، دسترسی‌ها، روابط با شرکا و قضاوت عملیاتی را نیز در بر می‌گیرد.",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Small Autonomous Resilience Teams", "تیم‌های تاب‌آور کوچک و خودمختار"]]
+      },
+      {
+        title: "The banking value chain is the real continuity boundary",
+        faTitle: "زنجیره ارزش بانکی، مرز واقعی تداوم است",
+        body: "Credit, open banking, payments and customer-facing fintech products form one service chain. Map shared dependencies, joint ownership and tested alternatives across company boundaries.",
+        faBody: "اعتبار، بانکداری باز، پرداخت و محصولات فین‌تکیِ روبه‌مشتری یک زنجیره خدمت می‌سازند. وابستگی‌های مشترک، مالکیت مشترک و مسیرهای جایگزینِ آزموده‌شده باید میان شرکت‌ها مشخص باشند.",
+        domains: [["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"], ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"]]
+      },
+      {
+        title: "Trust requires a coordinated crisis response",
+        faTitle: "اعتماد به پاسخ هماهنگ در بحران نیاز دارد",
+        body: "When customers cannot tell whether their money or transactions are safe, technical restoration alone cannot resolve uncertainty. Rehearsed communication and timely decisions are part of continuity.",
+        faBody: "وقتی مشتری از امنیت پول یا تراکنش خود مطمئن نیست، بازیابی فنی به‌تنهایی ابهام را برطرف نمی‌کند. ارتباطات تمرین‌شده و تصمیم‌گیری به‌موقع بخشی از تداوم‌اند.",
+        domains: [["Severe-but-Plausible Scenario Testing", "آزمون سناریوهای شدید اما محتمل"], ["Regulatory Co-design and Sector Playbooks", "طراحی مشترک با تنظیم‌گر و راهنماهای بخشی"]]
+      }
+    ],
+    experience: [
+      ["Venture investment and portfolio management", "سرمایه‌گذاری خطرپذیر و مدیریت پرتفوی", "Business development and startup investment", "توسعه کسب‌وکار و سرمایه‌گذاری در استارتاپ‌ها", "Earlier career", "سال‌های پیشین", "Worked across early-stage companies and investment portfolios, assessing growth and the dependencies that can interrupt it.", "در شرکت‌های نوپا و پرتفوی‌های سرمایه‌گذاری فعالیت کرد و رشد را در کنار وابستگی‌هایی سنجید که می‌توانند آن را متوقف کنند."],
+      ["PayPing", "پی‌پینگ", "Founder succession and transition planning", "جانشینی بنیان‌گذار و برنامه‌ریزی دوره گذار", "Recorded case", "نمونهٔ روایت‌شده", "A planned successor and transition support helped avoid an operational interruption, according to the interview account.", "بر اساس روایت مصاحبه، تعیین جانشین و پشتیبانی در دوره گذار به جلوگیری از وقفه عملیاتی کمک کرد."],
+      ["Jadeh logistics marketplace", "بازارگاه لجستیکی جاده", "Business-model reassessment", "بازنگری مدل کسب‌وکار", "Portfolio example", "نمونهٔ پرتفوی", "Changing external conditions led the venture to reconsider parts of its growth path and business model.", "تغییر شرایط بیرونی، این کسب‌وکار را به بازنگری بخشی از مسیر رشد و مدل کسب‌وکار سوق داد."],
+      ["Technotejarat", "تکنوتجارت", "CEO and Board Member", "مدیرعامل و عضو هیئت‌مدیره", "2025; verify at release", "۱۴۰۴؛ نیازمند کنترل هنگام انتشار", "Leads a company associated with developing new businesses in Tejarat Bank’s ecosystem.", "راهبری شرکتی مرتبط با توسعه کسب‌وکارهای نوین در زیست‌بوم بانک تجارت."],
+      ["Fintech policy discussions", "گفت‌وگوهای سیاست‌گذاری فین‌تک", "Industry participation", "مشارکت صنفی", "Public company communications", "اطلاع‌رسانی عمومی شرکت", "Company communications record participation in fintech policy discussion and support for collaborative regulation.", "اطلاع‌رسانی شرکت از حضور در گفت‌وگوهای فین‌تک و حمایت از تنظیم‌گری مشارکتی خبر می‌دهد."]
+    ],
+    themes: [
+      ["Venture Capital", "سرمایه‌گذاری خطرپذیر"],
+      ["Portfolio Management", "مدیریت پرتفوی"],
+      ["Fintech and Digital Banking", "فین‌تک و بانکداری دیجیتال"],
+      ["Innovation Ecosystems", "زیست‌بوم نوآوری"],
+      ["Financial Risk", "ریسک مالی"],
+      ["Banking Service Dependencies", "وابستگی‌های خدمات بانکی"],
+      ["Leadership Succession", "جانشین‌پروری مدیریتی"],
+      ["Business Model Adaptation", "سازگاری مدل کسب‌وکار"],
+      ["Collaborative Regulation", "تنظیم‌گری مشارکتی"]
+    ],
+    relatedDomains: [
+      ["Financial Continuity / Economic Resilience", "تداوم مالی و تاب‌آوری اقتصادی", "Planning for liquidity shocks and unavailable funding.", "برنامه‌ریزی برای شوک نقدینگی و محقق‌نشدن تأمین مالی."],
+      ["Continuity Governance", "حاکمیت تداوم", "Assigning service ownership and decision authority through changes in key personnel.", "تعیین مالک خدمت و اختیار تصمیم هنگام تغییر یا غیبت افراد کلیدی."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Managing cross-company and cross-sector service dependencies.", "مدیریت وابستگی‌های خدمت میان شرکت‌ها و بخش‌های مختلف."],
+      ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت", "Maintaining the outcomes customers actually depend on.", "حفظ نتیجه‌ای که مشتری واقعاً به آن وابسته است."],
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم", "Testing simultaneous disruption across finance, channels and partners.", "آزمودن اختلال هم‌زمان در منابع مالی، کانال‌ها و شرکا."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "Verify current titles, House membership role, publication consent and sensitive business-case details before release. The opening statement is an editorial synthesis, not a verbatim interview quotation. No public DBR Pattern is personally assigned to Akhavan; named Patterns show editorial alignment only, and domain labels are analytical.",
+      faNote: "پیش از انتشار، سمت‌های جاری، نقش در خانه، رضایت انتشار و جزئیات حساس نمونه‌های تجاری را کنترل کنید. جمله آغازین جمع‌بندی تحریریه است، نه نقل‌قول مستقیم. هیچ Pattern عمومی و تأییدشده‌ای شخصاً به اخوان نسبت داده نشده؛ نام Patternها صرفاً پیوند تحریریه‌ای را نشان می‌دهد و عنوان حوزه‌ها تحلیلی است."
+    },
+    sources: [
+      { label: "Interview: Integrated Interviews with 16 Banking and Finance Specialists · Ali Akhavan section", faLabel: "مصاحبه: متن یکپارچه مصاحبه ۱۶ متخصص بانکی و مالی · بخش علی اخوان" },
+      { label: "DBR research: Trend Postal Final - 01-Nobber.pdf", faLabel: "پژوهش DBR: Trend Postal Final - 01-Nobber.pdf" },
+      { label: "Technotejarat corporate page", faLabel: "صفحهٔ رسمی تکنوتجارت", href: "https://www.linkedin.com/company/technotejarat/" },
+      { label: "FABA News · CEO appointment announcement", faLabel: "فابانیوز · گزارش انتصاب به مدیرعاملی", href: "https://www.linkedin.com/posts/fabanews_%D9%81%D8%A7%D8%A8%D8%A7%D9%86%DB%8C%D9%88%D8%B2-activity-7337804954293669888-odQz" },
+      { label: "Technotejarat · fintech regulation post", faLabel: "تکنوتجارت · موضع‌گیری درباره تنظیم‌گری فین‌تک", href: "https://www.linkedin.com/posts/technotejarat_%D8%B9%D9%84%DB%8C-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D8%AA%DA%A9%D9%86%D9%88%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA-%D9%88-%D8%B1%D8%A6%DB%8C%D8%B3-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-activity-7396469836039663617-7M8A" },
+      { label: "Ali Akhavan · LinkedIn profile", faLabel: "علی اخوان · نمایهٔ لینکدین", href: "https://ir.linkedin.com/in/ali-akhavan-19020b41" }
+    ]
+  };
+
+  var mahmoudrezaFarhadiProfile = {
+    id: "mahmoudreza-farhadi",
+    name: "Mahmoudreza Farhadi",
+    faName: "محمودرضا فرهادی",
+    role: "Technocratic Thinker",
+    faRole: "اندیشمند تکنوکرات",
+    title: "Fintech and financial-business executive · Digital-banking adviser",
+    faTitle: "مدیر کسب‌وکارهای مالی و فین‌تک · مشاور بانکداری دیجیتال",
+    subject: "Customer trust, payments and financial-service continuity",
+    faSubject: "اعتماد مشتری، پرداخت و تداوم خدمات مالی",
+    image: "Assets/reza-farhadi.jpg",
+    profileLayout: "monograph",
+    profileNumber: "10",
+    faProfileNumber: "۱۰",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "MahmoodReza Farhadi | Fintech and Financial Business Design | House of Technocrats",
+    faSeoTitle: "محمودرضا فرهادی | فین‌تک و طراحی کسب‌وکار مالی | خانه تکنوکرات‌ها",
+    metaDescription: "A professional narrative of MahmoodReza Farhadi, from Kidzy and Zypod to Digipay and ToBank, connecting customer trust, service continuity, and crisis decisions.",
+    faMetaDescription: "روایت حرفه‌ای محمودرضا فرهادی از کیدزی و زیپاد تا دیجی‌پی و توبانک؛ با تمرکز بر اعتماد، تداوم خدمت و تصمیم‌گیری در بحران.",
+    positioning: "Financial-service continuity is measured by customer access, fulfilled commitments and trust across the service chain.",
+    faPositioning: "تداوم خدمت مالی با دسترسی مشتری، پایبندی به تعهدات و اعتماد در سراسر زنجیره خدمت سنجیده می‌شود.",
+    heroTags: [
+      ["Digital banking", "بانکداری دیجیتال"],
+      ["Fintech and payments", "فین‌تک و پرداخت"],
+      ["Customer experience", "تجربه مشتری"],
+      ["Youth financial services", "خدمات مالی نوجوانان"],
+      ["Bank–fintech partnerships", "همکاری بانک و فین‌تک"]
+    ],
+    quote: "Financial continuity matters when customers can access funds and rely on commitments.",
+    faQuote: "تداوم خدمت مالی زمانی واقعی است که مشتری به پول و تعهدات ارائه‌دهنده دسترسی داشته باشد.",
+    statementIsSynthesis: true,
+    websiteUrl: "https://mrfarhadi.com/about-mahmood-reza-farhadi/",
+    websiteLabel: "Professional website",
+    faWebsiteLabel: "وب‌سایت حرفه‌ای",
+    bio: "Mahmoudreza Farhadi works across business design, financial products and customer experience, with experience spanning youth financial services, payments and digital banking.",
+    faBio: "محمودرضا فرهادی در حوزه طراحی کسب‌وکار، محصول مالی و تجربه مشتری فعالیت کرده و تجربه‌اش خدمات مالی نوجوانان، پرداخت و بانکداری دیجیتال را دربرمی‌گیرد.",
+    storyTitle: "When continuity becomes a question of customer trust",
+    faStoryTitle: "وقتی تداوم به مسئله اعتماد مشتری تبدیل می‌شود",
+    experienceTitle: "From customer product design to service continuity",
+    faExperienceTitle: "از طراحی محصول برای مشتری تا تداوم خدمت",
+    story: [
+      ["Farhadi moved from engineering and entrepreneurship into the design of digital financial services. His work around Barsam and FANAP connected technology to practical customer constraints, and later extended to financial products, payments and services operating at greater scale.", "فرهادی از تجربه‌های مهندسی و کارآفرینی به طراحی خدمات مالی دیجیتال رسید. فعالیت او در برسام و مجموعه فناپ، فناوری را به محدودیت‌های واقعی مشتری پیوند داد و سپس به محصولات مالی، پرداخت و خدمات در مقیاس بزرگ‌تر گسترش یافت."],
+      ["A distinctive chapter involved services for people under eighteen. The work was not simply to issue a card or create a wallet: identity, verification, parental relationships and age-appropriate experience had to fit banking rules. His professional biography describes his contribution to the business and product architecture of the Kidzy and Zypod ecosystem associated with Bank Pasargad.", "یکی از فصل‌های متمایز مسیر او به خدمات مالی افراد زیر هجده سال مربوط است. مسئله فقط صدور کارت یا ساخت کیف پول نبود؛ هویت، احراز هویت، رابطه با سرپرست و تجربه متناسب با سن باید با ضوابط بانکی سازگار می‌شد. زندگی‌نامه حرفه‌ای او از مشارکتش در معماری کسب‌وکار و محصول اکوسیستم کیدزی و زیپادِ مرتبط با بانک پاسارگاد می‌گوید."],
+      ["At Digipay, payments connected to a broader commercial ecosystem. A customer transaction depends on more than an application: banks, merchants, settlement, messaging and operating decisions contribute to the outcome. A weak link can affect confidence in the wider service.", "در دیجی‌پی، پرداخت به اکوسیستم تجاری گسترده‌تری متصل شد. انجام تراکنش مشتری فقط به اپلیکیشن وابسته نیست؛ بانک، پذیرنده، تسویه، پیام‌رسانی و تصمیم‌های عملیاتی در نتیجه نقش دارند. ضعف هر حلقه می‌تواند اعتماد به کل خدمت را تحت تأثیر قرار دهد."],
+      ["His work on digital-banking design, including the ToBank initiative linked to Tourism Bank, brought customer experience and decision flows into the context of banking operations. In his account of disruption during the twelve-day conflict in 2025, an unavailable payment or missing one-time password could be interpreted by a customer as a threat to the safety of their money, not merely a technical fault.", "فعالیت او در طراحی بانکداری دیجیتال، از جمله طرح توبانکِ مرتبط با بانک گردشگری، تجربه مشتری و مسیر تصمیم را در بستر عملیات بانکی قرار داد. در روایت او از اختلال‌های دوره جنگ دوازده‌روزه در سال ۱۴۰۴، مشتری ممکن است پرداخت ناممکن یا نرسیدن رمز یک‌بارمصرف را نه صرفاً نقص فنی، بلکه نشانه‌ای از خطر برای دارایی خود تلقی کند."],
+      ["During an incident, decisions differ from routine product-growth choices. When customer assets are involved, honoring commitments and preserving essential access may take priority over short-term revenue or new features. Teams need to know what to pause, what must remain available, who can decide and how to communicate clearly.", "تصمیم در بحران با انتخاب‌های روزمره برای رشد محصول تفاوت دارد. وقتی دارایی مشتری در میان است، پایبندی به تعهدات و حفظ دسترسی ضروری ممکن است بر درآمد کوتاه‌مدت یا قابلیت تازه اولویت پیدا کند. تیم‌ها باید بدانند چه چیزی را متوقف کنند، چه خدمتی باید برقرار بماند، چه کسی اختیار تصمیم دارد و پیام را چگونه روشن منتقل کنند."],
+      ["His account of the 2019 internet disruption reinforces that connectivity and communication channels cannot be assumed to work as usual. Resilience requires more than redundant infrastructure: access paths, payment flows, customer communication and accountability must work together as an end-to-end service.", "روایت او از اختلال اینترنت در سال ۱۳۹۸ یادآوری می‌کند که نمی‌توان کارکرد عادی ارتباطات و کانال‌ها را بدیهی فرض کرد. تاب‌آوری به زیرساخت افزونه محدود نیست؛ مسیرهای دسترسی، جریان پرداخت، ارتباط با مشتری و پاسخ‌گویی باید به‌عنوان خدمتی سرتاسری با هم کار کنند."],
+      ["Farhadi’s continuity perspective connects business and behavioral design to the customer outcome. A company surviving disruption is not enough if people cannot complete essential financial tasks or trust that existing commitments still stand.", "نگاه فرهادی به تداوم، طراحی کسب‌وکار و رفتار را به نتیجه مشتری وصل می‌کند. صرف بقای شرکت در اختلال کافی نیست؛ اگر مردم نتوانند کار مالی ضروری خود را انجام دهند یا به پابرجاماندن تعهدات پیشین اعتماد کنند، خدمت تداوم نیافته است."]
+    ],
+    intersections: [
+      {
+        title: "Customer trust is an outcome of continuity",
+        faTitle: "اعتماد مشتری، پیامد تداوم خدمت",
+        body: "An unclear or failed transaction can create anxiety about the underlying asset. Continuity must manage the customer outcome and the promise made, as well as technical recovery.",
+        faBody: "تراکنش ناموفق یا مبهم می‌تواند نگرانی درباره اصل دارایی ایجاد کند. تداوم باید نتیجه خدمت و وعده به مشتری را در کنار بازیابی فنی مدیریت کند.",
+        careerBasis: "Payment-business leadership and exposure to banking-service disruption.",
+        faCareerBasis: "مدیریت کسب‌وکار پرداخت و مواجهه با اختلال خدمات بانکی.",
+        managementFields: "Performance · Risk · Accountability",
+        faManagementFields: "عملکرد · ریسک · پاسخ‌گویی",
+        relatedPatterns: "Impact-tolerance and critical-service mapping (editorial mapping; not an individually verified attribution).",
+        faRelatedPatterns: "سنجش آستانه اثر و نگاشت خدمت حیاتی (پیوند تحریریه؛ بدون انتساب فردیِ راستی‌آزمایی‌شده).",
+        domains: [["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"], ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"]]
+      },
+      {
+        title: "Decision authority close to the service during crisis",
+        faTitle: "اختیار تصمیم نزدیک به خدمت در بحران",
+        body: "Incident response spans product, technology, operations and communications. Clear decision rights help teams protect customer assets, act in time and give consistent reassurance.",
+        faBody: "پاسخ به اختلال از محصول، فناوری، عملیات و ارتباطات می‌گذرد. اختیار روشن به تیم‌ها کمک می‌کند از دارایی مشتری حفاظت کنند، به‌موقع اقدام کنند و پیام اطمینان‌بخش هماهنگی بدهند.",
+        careerBasis: "Fintech product and operating leadership; decisions around essential financial services.",
+        faCareerBasis: "راهبری محصول و عملیات فین‌تک؛ تصمیم‌گیری درباره خدمات مالی ضروری.",
+        managementFields: "Risk · Change · Accountability",
+        faManagementFields: "ریسک · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Small autonomous resilience teams (analytical relationship, not a verified implementation).",
+        faRelatedPatterns: "تیم‌های تاب‌آور کوچک و خودمختار (ارتباط تحلیلی، نه اجرای راستی‌آزمایی‌شده).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Continuity Smart Management", "مدیریت هوشمند تداوم"]]
+      },
+      {
+        title: "Build services around identity and regulatory constraints",
+        faTitle: "طراحی خدمت بر پایه هویت و محدودیت‌های مقرراتی",
+        body: "When a standard identity path does not fit a customer group, sustainable access depends on designing identity, permissions, banking obligations and experience together, not bypassing rules.",
+        faBody: "وقتی مسیر استاندارد هویت برای گروهی از مشتریان کار نمی‌کند، دسترسی پایدار به طراحی هم‌زمان هویت، مجوزها، تعهدات بانکی و تجربه نیاز دارد، نه دورزدن ضوابط.",
+        careerBasis: "Kidzy/Zypod development and work on barriers to financial services for younger users.",
+        faCareerBasis: "توسعه کیدزی/زیپاد و کار روی موانع دسترسی کاربران جوان‌تر به خدمات مالی.",
+        managementFields: "Discovery · Risk · Change",
+        faManagementFields: "کشف مسئله · ریسک · تغییر",
+        relatedPatterns: "Regulatory co-design and sector playbooks (analytical relationship).",
+        faRelatedPatterns: "طراحی مشترک مقررات و راهنماهای بخشی (پیوند تحلیلی).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"]]
+      },
+      {
+        title: "Manage payment dependencies end to end",
+        faTitle: "مدیریت وابستگی‌های پرداخت از ابتدا تا انتها",
+        body: "Banks, applications, payment networks, messaging and commercial partners jointly shape the customer experience. Continuity needs end-to-end ownership, fallbacks and communication commitments across company boundaries.",
+        faBody: "بانک‌ها، اپلیکیشن‌ها، شبکه پرداخت، پیام‌رسانی و شرکای تجاری در کنار هم تجربه مشتری را می‌سازند. تداوم به مالکیت کامل خدمت، مسیر جایگزین و تعهد ارتباطی میان شرکت‌ها نیاز دارد.",
+        careerBasis: "Digipay payment services, financial-product ecosystems and neobanking experience design.",
+        faCareerBasis: "خدمات پرداخت دیجی‌پی، زیست‌بوم محصولات مالی و طراحی تجربه نئوبانک.",
+        managementFields: "Performance · Risk · Accountability",
+        faManagementFields: "عملکرد · ریسک · پاسخ‌گویی",
+        relatedPatterns: "Service-owner accountability model; Open-banking and fintech resilience standards (analytical relationships).",
+        faRelatedPatterns: "مدل پاسخ‌گویی مالک خدمت؛ استانداردهای تاب‌آوری بانکداری باز و فین‌تک (پیوندهای تحلیلی).",
+        domains: [["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"], ["Service Architecture and Containment Engineering", "معماری سرویس و مهندسی مهار اختلال"]]
+      }
+    ],
+    experience: [
+      ["Barsam and FANAP", "برسام و فناپ", "Digital-service development and business design", "توسعه خدمات دیجیتال و طراحی کسب‌وکار", "Career background", "سوابق حرفه‌ای", "Moved from engineering and entrepreneurship toward designing services around real customer needs.", "از مهندسی و کارآفرینی به طراحی خدمات بر پایه نیاز واقعی مشتری حرکت کرد."],
+      ["Kidzy and Zypod", "کیدزی و زیپاد", "Youth financial products and business architecture", "محصول مالی نوجوانان و معماری کسب‌وکار", "Product development", "توسعه محصول", "Worked on identity, guardian relationships and age-appropriate financial-service design within banking constraints.", "روی هویت، رابطه با سرپرست و طراحی خدمت مالی متناسب با سن در چارچوب ضوابط بانکی کار کرد."],
+      ["Digipay", "دیجی‌پی", "Payments business and ecosystem partnerships", "کسب‌وکار پرداخت و همکاری‌های زیست‌بومی", "Payments leadership", "راهبری پرداخت", "Worked across growth, revenue, banking and merchant partnerships, and online-to-offline payment services, according to his professional biography.", "بر اساس زندگی‌نامه حرفه‌ای او، در رشد، درآمد، همکاری با بانک‌ها و پذیرندگان و خدمات پرداخت آنلاین و حضوری فعالیت کرد."],
+      ["ToBank / Tourism Bank", "توبانک / بانک گردشگری", "Digital-banking design and customer experience", "طراحی بانکداری دیجیتال و تجربه مشتری", "Digital-banking initiative", "طرح بانکداری دیجیتال", "Connected customer journeys and decision flows with banking and operational constraints.", "مسیر تجربه مشتری و تصمیم را به محدودیت‌های بانکی و عملیاتی متصل کرد."],
+      ["Fintech and banking continuity", "تداوم فین‌تک و بانکداری", "Crisis decisions and service-chain resilience", "تصمیم‌های بحران و تاب‌آوری زنجیره خدمت", "Interview account", "روایت مصاحبه", "Discussed customer trust, internet disruption, financial-service dependencies and crisis communication.", "از اعتماد مشتری، اختلال اینترنت، وابستگی‌های خدمات مالی و ارتباطات بحران گفت."]
+    ],
+    themes: [
+      ["Digital Banking", "بانکداری دیجیتال"],
+      ["Fintech", "فین‌تک"],
+      ["Financial Product Design", "طراحی محصول مالی"],
+      ["Payment Ecosystems", "زیست‌بوم‌های پرداخت"],
+      ["Customer Experience", "تجربه مشتری"],
+      ["Youth Financial Services", "خدمات مالی نوجوانان"],
+      ["Revenue Model Design", "طراحی مدل درآمدی"],
+      ["Bank–Fintech Partnerships", "همکاری بانک و فین‌تک"],
+      ["Organizational Decision Design", "طراحی تصمیم سازمانی"]
+    ],
+    relatedDomains: [
+      ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری", "Keeping essential transactions available and preserving confidence in service commitments.", "حفظ دسترسی به تراکنش‌های ضروری و اعتماد به تعهدات خدمت."],
+      ["Continuity Governance", "حاکمیت تداوم", "Clarifying incident decision rights, communication accountability and service priorities.", "روشن‌کردن اختیار تصمیم در اختلال، پاسخ‌گویی ارتباطات و اولویت خدمت."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Understanding shared dependencies across banks, payment providers and ecosystem partners.", "شناخت وابستگی‌های مشترک بانک‌ها، ارائه‌دهندگان پرداخت و شرکای زیست‌بوم."],
+      ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت", "Measuring the customer outcome rather than component health alone.", "سنجش نتیجه مشتری، نه فقط سلامت اجزای فنی."],
+      ["Service Architecture and Containment Engineering", "معماری سرویس و مهندسی مهار اختلال", "Limiting the propagation of a failed element across connected financial services.", "محدودکردن گسترش اثر خرابی یک جزء در خدمات مالی به‌هم‌پیوسته."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "Verify current professional titles, House role, publication consent and interview-derived incident details before release. The opening statement is an editorial synthesis, not a direct quotation. The listed DBR patterns and domains are editorial analytical relationships, not individually verified attributions.",
+      faNote: "پیش از انتشار، عنوان‌های حرفه‌ای جاری، نقش در خانه، رضایت انتشار و جزئیات اختلال‌های برگرفته از مصاحبه را کنترل کنید. جمله آغازین جمع‌بندی تحریریه است، نه نقل‌قول مستقیم. پترن‌ها و حوزه‌های DBR پیوندهای تحلیلی تحریریه‌اند و انتساب فردیِ راستی‌آزمایی‌شده محسوب نمی‌شوند."
+    },
+    sources: [
+      { label: "Interview: Consolidated interviews with 16 banking and finance specialists · MahmoodReza Farhadi section", faLabel: "مصاحبه: متن یکپارچه گفت‌وگو با ۱۶ متخصص بانکی و مالی · بخش محمودرضا فرهادی" },
+      { label: "First-party professional biography · MahmoodReza Farhadi", faLabel: "زندگی‌نامه حرفه‌ای اول‌شخص · محمودرضا فرهادی", href: "https://mrfarhadi.com/about-mahmood-reza-farhadi/" },
+      { label: "Independent colleague account · Kidzy involvement", faLabel: "روایت مستقل همکار · مشارکت در کیدزی", href: "https://www.linkedin.com/posts/soroush-akbarzadeh_%D9%82%D8%AF%D8%B1%D8%AF%D8%A7%D9%86%DB%8C-%D9%82%D8%AF%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%DA%A9%DB%8C%D8%AF%D8%B2%DB%8C-activity-7221071150158667777-yfTU/" },
+      { label: "Public interview announcement", faLabel: "معرفی عمومی مصاحبه", href: "https://www.linkedin.com/posts/mahmoodrezafarhadi_%D9%85%D8%AD%D9%85%D9%88%D8%AF%D8%B1%D8%B6%D8%A7%D9%81%D8%B1%D9%87%D8%A7%D8%AF%DB%8C-%D8%A8%D8%A7%D9%86%DA%A9%D8%AF%D8%A7%D8%B1%DB%8C-%D9%81%DB%8C%D9%86%D8%AA%D9%83-activity-7467599206250336256-2kJW" },
+      { label: "DBR working patterns · Trend Postal Final - 01-Nobber.pdf", faLabel: "پترن‌های کاری DBR · Trend Postal Final - 01-Nobber.pdf" }
+    ]
+  };
+
+  var mostafaAmiriProfile = {
+    id: "mostafa-amiri",
+    name: "Mostafa Amiri",
+    faName: "مصطفی امیری",
+    role: "Technocratic Leader",
+    faRole: "رهبر تکنوکرات",
+    title: "Co-founder · ZarinPal",
+    faTitle: "هم‌بنیان‌گذار · زرین‌پال",
+    subject: "Fintech, payments and business continuity",
+    faSubject: "فناوری مالی، پرداخت و تداوم کسب‌وکار",
+    image: "Assets/mostafa-amiri.png",
+    imageClass: "person-photo-mostafa-amiri",
+    profileLayout: "monograph",
+    profileNumber: "11",
+    faProfileNumber: "۱۱",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Mostafa Amiri | ZarinPal Co-Founder | House of Technocrats",
+    faSeoTitle: "مصطفی امیری | هم‌بنیان‌گذار زرین‌پال | خانه تکنوکرات‌ها",
+    metaDescription: "Mostafa Amiri's professional journey and the continuity challenges of ZarinPal: payments, regulation, scenario readiness and sustainable growth.",
+    faMetaDescription: "روایت حرفه‌ای مصطفی امیری و تجربه ساخت و تداوم زرین‌پال؛ از خدمات پرداخت و توسعه اکوسیستم تا سناریونویسی بحران، تنظیم‌گری و مدیریت منابع.",
+    positioning: "Payment continuity depends on trust, viable cash capacity, regulatory readiness and prepared operating choices.",
+    faPositioning: "تداوم پرداخت به اعتماد، ظرفیت مالیِ قابل اتکا، آمادگی در برابر تنظیم‌گری و تصمیم‌های عملیاتیِ ازپیش‌آماده وابسته است.",
+    heroTags: [
+      ["Fintech and online payments", "فناوری مالی و پرداخت اینترنتی"],
+      ["E-commerce", "تجارت الکترونیکی"],
+      ["Business development", "توسعه کسب‌وکار"],
+      ["Regulatory engagement", "تعامل با تنظیم‌گر"],
+      ["Resource allocation", "مدیریت منابع"]
+    ],
+    quote: "Continuity starts before a crisis, with resources and scenarios built in advance.",
+    faQuote: "تداوم از روز بحران آغاز نمی‌شود؛ از منابع و سناریوهایی شروع می‌شود که پیش‌تر ساخته‌ایم.",
+    statementIsSynthesis: true,
+    bio: "Mostafa Amiri is a fintech entrepreneur and co-founder of ZarinPal. His path began with addressing an online-payment need and expanded into services connected to e-commerce. His experience in product development, regulatory constraints and resource allocation shows that continuity depends on preserving transaction flows while keeping the capacity to develop the business under volatile conditions.",
+    faBio: "مصطفی امیری کارآفرین حوزه فناوری مالی و هم‌بنیان‌گذار زرین‌پال است. مسیر او از پاسخ به نیاز پرداخت اینترنتی به توسعه خدمات و فعالیت‌های مرتبط با تجارت الکترونیکی رسیده است. تجربه او در توسعه محصول، مواجهه با محدودیت‌های تنظیم‌گری و تخصیص منابع نشان می‌دهد که تداوم به حفظ جریان تراکنش و ظرفیت ادامه توسعه، حتی در شرایط پرنوسان، وابسته است.",
+    storyTitle: "From solving a payment problem to building the capacity to continue",
+    faStoryTitle: "از حل یک مسئله پرداخت تا ساخت ظرفیت ادامه‌دادن",
+    experienceTitle: "From online payments to continuity decisions",
+    faExperienceTitle: "از پرداخت اینترنتی تا تصمیم‌های تداوم",
+    story: [
+      ["Amiri's entrepreneurial path began with a practical problem in online commerce: how could buyers and sellers complete payments when trust between them was not yet established? ZarinPal grew from that need into a long-running infrastructure business serving digital merchants. As its scope expanded, the challenge shifted from launching one product to maintaining a network of financial, organizational and regulatory commitments.", "مسیر مصطفی امیری از یک مسئله ساده در تجارت اینترنتی شروع شد: چگونه خریدار و فروشنده می‌توانند بدون شناخت مستقیم یکدیگر، پرداخت را انجام دهند و به نتیجه معامله اعتماد کنند؟ شکل‌گیری زرین‌پال در همین بستر، تجربه‌ای بلندمدت از ساخت زیرساخت پرداخت و رشد اکوسیستم کسب‌وکارهای آنلاین پدید آورد. با بزرگ‌ترشدن خدمات، مسئله از راه‌اندازی یک محصول به نگه‌داشتن شبکه‌ای از تعهدات مالی، انسانی و نهادی تغییر کرد."],
+      ["During its early years, online commerce and the institutional treatment of new payment providers were still taking shape. Amiri described a faster growth phase beginning around 2016–2017, followed by new activities intended to strengthen the value delivered across the customer journey.", "در سال‌های نخست، بازار پرداخت اینترنتی و چارچوب‌های پذیرش بازیگران تازه هنوز در حال شکل‌گیری بود. امیری توضیح می‌دهد که زرین‌پال از حدود سال‌های ۱۳۹۵ و ۱۳۹۶ رشد پرشتاب‌تری را تجربه کرد و در سال‌های بعد، برای تکمیل زنجیره ارزش و خلق ارزش بیشتر برای کاربران، فعالیت‌های جدیدی را به مجموعه افزود."],
+      ["This expansion was not merely about accumulating companies. The group considered new capabilities wherever they could add value across fintech and e-commerce, weighing whether to build internally or work with and invest in external teams. The Zitech innovation and investment initiative arose within this logic; collaboration could shorten development time and reduce the need to build every team and system from scratch, provided the portfolio remained manageable.", "این توسعه صرفاً افزایش تعداد شرکت‌ها نبود. در این مسیر، هر جا قابلیت تازه‌ای در زنجیره خدمات مالی و تجارت الکترونیکی می‌توانست برای کاربر ارزش ایجاد کند، پرسش «ساختن در داخل یا سرمایه‌گذاری روی یک تیم دیگر» مطرح می‌شد. مرکز نوآوری و سرمایه‌گذاری زیتک نیز در همین منطق شکل گرفت. مشارکت با تیم‌های دیگر می‌توانست زمان توسعه، هزینه و نیاز به نیروی انسانی را کاهش دهد؛ البته هر توسعه‌ای در نهایت باید نسبت خود را با منابع واقعی سازمان روشن می‌کرد."],
+      ["The business also faced recurring external constraints, including restrictions on operating routes and unpredictable external decisions. Amiri's account includes a temporary shutdown of ZarinPal followed by its return. From a continuity perspective, the question is how a service company can maintain working relationships, protect essential delivery capabilities and pursue constructive engagement with institutions as conditions change.", "در کنار گسترش خدمات، شرکت با فشارهای مکرر روبه‌رو شد. امیری درباره تجربه محدودیت‌ها و مسدودشدن مسیر فعالیت و دشواری پیش‌بینی تصمیم‌های بیرونی صحبت می‌کند. تجربه توقف فعالیت و بازگشت زرین‌پال به‌عنوان بخشی از تاریخ کسب‌وکار بیان شده است. برای تحلیل تداوم، نکته مهم فقط وقوع این وقایع نیست؛ پرسش این است که چگونه می‌توان ضمن پیگیری گفت‌وگو با نهادهای تصمیم‌گیر، رابطه با پذیرندگان و توان اجرای خدمات را نگه داشت."],
+      ["Another part of the story is seasonal cash-flow pressure, commitments to employees and decisions to pause projects that are not necessarily failing. Transaction volume and commission revenue vary across the year, while end-of-year payments and the costs of following months remain real obligations. Temporarily parking an initiative may protect the funding needed to keep essential activity running; it is not necessarily abandonment of future growth.", "تجربه امیری بخش دیگری هم دارد که در روایت‌های پرزرق‌وبرق رشد استارتاپی کمتر دیده می‌شود: حساب‌وکتاب فصل‌های کم‌درآمد، تعهدات منابع انسانی و ضرورت توقف یا تعویق طرح‌هایی که حتی ممکن است عملکرد بدی نداشته باشند. در این وضعیت، درآمد و حجم تراکنش در همه ماه‌های سال یکسان نیست و برنامه‌ریزی برای هزینه‌های پایان سال و ماه‌های آغازین سال بعد می‌تواند به تصمیم سختِ کنارگذاشتن موقت بعضی فعالیت‌ها منتهی شود. این تصمیم، رهاکردن آینده نیست؛ حفاظت از توان ادامه ارائه خدمت در امروز است."],
+      ["Discussing severe disruption, including events in 2025, Amiri emphasized that infrastructure and organizational capacity must be prepared before a crisis. A shared ambition cannot substitute for available resources, usable alternatives and a capable team. Leaders need to know their operating core and which capabilities can be maintained, reduced or paused without losing the service outcome customers depend on.", "در مواجهه با بحران‌های شدیدتر، از جمله جنگ و اختلال‌های سال ۱۴۰۴، او بر آماده‌بودن زیرساخت پیش از وقوع بحران تأکید می‌کند. داشتن هدف یا امید به‌تنهایی جای ظرفیت اجرایی را نمی‌گیرد. به تعبیر تحلیلی این تجربه، سازمان باید پیش‌تر مسیرهای جایگزین، منابع، توان تیم و هسته اصلی فعالیت را شناخته باشد تا بتواند در وضعیت بحرانی درباره حفظ، محدودکردن یا تعلیق بخش‌های مختلف تصمیم بگیرد."],
+      ["Amiri also referred to possible changes in the division of management and ownership responsibilities between himself and his brother. Clarifying decision rights and planning leadership transitions are important continuity questions, but these remarks should not be treated as confirmation of the company's current ownership or executive structure.", "همچنین تفکیک مالکیت از مدیریت و تنظیم دوباره نقش‌های امیری و برادرش نیز به یکی از تصمیم‌های مهم مرحله بعد تبدیل شد. این بخش از روایت از منظر تداوم اهمیت دارد: انتقال مسئولیت و روشن‌شدن اختیار تصمیم‌گیری خود یک فرایند حساس سازمانی است. بااین‌حال، تغییرات مورد اشاره نباید بدون بررسی مستقل، به‌عنوان ساختار قطعی کنونی زرین‌پال منتشر شوند."],
+      ["His relevance to continuity brings together customer trust in an essential payment service, regulatory exposure, the economics of remaining operational and readiness to make difficult decisions. Continuity is not a promise of indefinite corporate existence; it is the capability to sustain essential service delivery, or restore it by a prepared route, when normal assumptions no longer hold.", "ارزش تجربه او برای طراحی تداوم خدمات در کنار هم قراردادن چهار مسئله است: خدمتِ وابسته به اعتماد، چارچوب تنظیم‌گری، اقتصاد واقعی ادامه فعالیت و آمادگی سازمان برای تصمیم سخت. تداوم در این نگاه، شعار ماندگاری نیست؛ قابلیت ارائه بی‌وقفه یا بازیابیِ ازپیش‌طراحی‌شده خدمت حیاتی در شرایطی است که بخشی از فرض‌های معمول دیگر برقرار نیست."]
+    ],
+    intersections: [
+      {
+        title: "Build scenarios before the event",
+        faTitle: "سناریو پیش از رخداد؛ نه فقط واکنش پس از آن",
+        body: "Scenarios should identify the service to preserve, the person empowered to decide, available alternatives and the resources needed when connectivity, regulation or team capacity is disrupted.",
+        faBody: "سناریو باید مشخص کند در اختلال ارتباطی، محدودیت مقرراتی یا آسیب به ظرفیت تیم، کدام خدمت حفظ می‌شود، چه کسی اختیار تصمیم دارد، چه مسیر جایگزینی در دسترس است و چه منابعی لازم خواهد بود.",
+        careerBasis: "Crisis-related decisions and ZarinPal leadership.",
+        faCareerBasis: "تصمیم‌گیری در بحران و تجربه رهبری زرین‌پال.",
+        managementFields: "Risk · Change · Accountability",
+        faManagementFields: "ریسک · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Severe-but-plausible scenario testing; Service-owner accountability model (editorial analysis, not individually verified).",
+        faRelatedPatterns: "آزمون سناریوهای شدید اما باورپذیر؛ مدل پاسخ‌گویی مالک خدمت (تحلیل تحریریه، بدون تأیید فردی).",
+        domains: [["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم"], ["Continuity Governance", "حاکمیت تداوم"]]
+      },
+      {
+        title: "Protect cash capacity before expansion",
+        faTitle: "اقتصاد تداوم؛ نقدینگی پیش از توسعه",
+        body: "Diversification adds value only when it does not consume the resources required for essential delivery. Cash-flow stress testing and investment priorities can keep expansion from creating a service interruption.",
+        faBody: "تنوع فعالیت‌ها زمانی ارزشمند است که منابع لازم برای ارائه خدمت اصلی را مصرف نکند. آزمون فشار جریان نقد و اولویت‌بندی سرمایه‌گذاری کمک می‌کند توسعه امروز به توقف خدمت فردا منجر نشود.",
+        careerBasis: "Operating a payment business, allocating resources and managing initiatives.",
+        faCareerBasis: "اداره کسب‌وکار پرداخت، تخصیص منابع و مدیریت طرح‌ها.",
+        managementFields: "Performance · Risk · Change",
+        faManagementFields: "عملکرد · ریسک · تغییر",
+        relatedPatterns: "Cash-positive resilience economics (editorial analysis, not individually verified).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ مبتنی بر جریان نقد مثبت (تحلیل تحریریه، بدون تأیید فردی).",
+        domains: [["Financial Continuity / Economic Resilience", "تداوم مالی و تاب‌آوری اقتصادی"], ["Continuity Smart Management", "مدیریت هوشمند تداوم"]]
+      },
+      {
+        title: "Maintain service under changing regulatory conditions",
+        faTitle: "حفظ جریان خدمت در محیط تنظیم‌گری متغیر",
+        body: "Licensing conditions, supervisory procedures and regulatory decisions can affect whether a payment service operates. Ongoing engagement and compliant alternatives therefore belong in continuity design.",
+        faBody: "مجوزها، رویه‌ها و تصمیم‌های نهاد تنظیم‌گر می‌توانند شرایط ارائه خدمت پرداخت را تغییر دهند. گفت‌وگوی مستمر و تعریف مسیرهای جایگزینِ سازگار با الزامات، بخشی از طراحی تداوم‌اند.",
+        careerBasis: "ZarinPal's experience with regulatory constraints and efforts to maintain operations.",
+        faCareerBasis: "مواجهه زرین‌پال با محدودیت‌های مقرراتی و پیگیری ادامه فعالیت.",
+        managementFields: "Risk · Change · Accountability",
+        faManagementFields: "ریسک · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Regulatory co-design and sector playbooks (editorial analysis, not individually verified).",
+        faRelatedPatterns: "طراحی مشترک مقررات و راهنماهای بخشی (تحلیل تحریریه، بدون تأیید فردی).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Diversify capabilities without losing the operating core",
+        faTitle: "تنوع قابلیت‌ها بدون ازدست‌دادن هسته خدمت",
+        body: "More products or companies do not automatically make service delivery more resilient. Clear responsibilities, shared failure points, critical resources and priority outcomes help contain disruption.",
+        faBody: "وجود چند محصول یا شرکت به‌خودی‌خود استمرار خدمت را تضمین نمی‌کند. مرز مسئولیت‌ها، نقاط شکست مشترک، منابع حیاتی و اولویت خدمات باید روشن باشد تا اختلال یک فعالیت کل مجموعه را از کار نیندازد.",
+        careerBasis: "Fintech ecosystem development and the Zitech investment initiative.",
+        faCareerBasis: "توسعه زیست‌بوم فناوری مالی و ابتکار سرمایه‌گذاری زیتک.",
+        managementFields: "Discovery · Performance · Change",
+        faManagementFields: "کشف مسئله · عملکرد · تغییر",
+        relatedPatterns: "Impact-tolerance and critical-service mapping; Service-owner accountability model (editorial analysis, not individually verified).",
+        faRelatedPatterns: "نگاشت آستانه اثر و خدمت حیاتی؛ مدل پاسخ‌گویی مالک خدمت (تحلیل تحریریه، بدون تأیید فردی).",
+        domains: [["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      }
+    ],
+    experience: [
+      ["ZarinPal", "زرین‌پال", "Co-founder; online-payment infrastructure", "هم‌بنیان‌گذار؛ زیرساخت پرداخت اینترنتی", "Professional journey", "مسیر حرفه‌ای", "Built a service around trust and payment between buyers, sellers and online merchants.", "ساخت خدمتی برای پرداخت و اعتماد میان خریدار، فروشنده و پذیرندگان آنلاین."],
+      ["ZarinPal growth", "توسعه زرین‌پال", "Expansion across fintech and e-commerce", "گسترش در فناوری مالی و تجارت الکترونیکی", "2016–2017 onward", "از حدود ۱۳۹۵ و ۱۳۹۶", "Added activities intended to strengthen customer value across the service journey.", "افزودن فعالیت‌هایی برای تکمیل زنجیره ارزش و افزایش ارزش برای کاربر."],
+      ["Zitech", "زیتک", "Innovation and investment initiative", "ابتکار نوآوری و سرمایه‌گذاری", "Ecosystem development", "توسعه زیست‌بوم", "Worked with and invested in complementary teams rather than building every capability from scratch.", "همکاری و سرمایه‌گذاری روی تیم‌های مکمل، به‌جای ساخت همه قابلیت‌ها از ابتدا."],
+      ["Regulatory and operating constraints", "محدودیت‌های مقرراتی و عملیاتی", "Maintaining relationships and essential delivery", "حفظ رابطه‌ها و ارائه خدمت ضروری", "Recorded business experience", "تجربه ثبت‌شده کسب‌وکار", "The interview account includes external restrictions and a temporary shutdown followed by a return; details require verification before publication.", "روایت مصاحبه شامل محدودیت‌های بیرونی و توقف موقت و سپس بازگشت فعالیت است؛ جزئیات باید پیش از انتشار راستی‌آزمایی شود."],
+      ["Cash-flow and portfolio decisions", "تصمیم‌های جریان نقد و سبد فعالیت‌ها", "Funding essential operations through seasonal variation", "تأمین عملیات ضروری در برابر نوسان فصلی", "Operating experience", "تجربه عملیاتی", "Considered employee obligations, uneven transaction volumes and when to pause initiatives to protect essential delivery.", "توجه به تعهدات کارکنان، نوسان تراکنش و زمان توقف موقت طرح‌ها برای حفاظت از ارائه خدمت اصلی."],
+      ["Management and ownership responsibilities", "مسئولیت‌های مدیریت و مالکیت", "Possible division of responsibilities discussed", "گفت‌وگو درباره تفکیک احتمالی مسئولیت‌ها", "Requires confirmation", "نیازمند تأیید", "The recorded discussion is not confirmation of ZarinPal's current ownership or executive structure.", "گفت‌وگوی ثبت‌شده، تأییدکننده ساختار کنونی مالکیت یا مدیریت زرین‌پال نیست."]
+    ],
+    themes: [
+      ["Financial Technology", "فناوری مالی"],
+      ["Online Payments", "پرداخت اینترنتی"],
+      ["E-commerce", "تجارت الکترونیکی"],
+      ["Business Development", "توسعه کسب‌وکار"],
+      ["Corporate Venture Investment", "سرمایه‌گذاری خطرپذیر شرکتی"],
+      ["Startup Leadership", "راهبری استارتاپ"],
+      ["Crisis Management", "مدیریت بحران"],
+      ["Regulatory Engagement", "تعامل با تنظیم‌گر"],
+      ["Resource Allocation and Business Models", "تخصیص منابع و مدل‌های کسب‌وکار"]
+    ],
+    relatedDomains: [
+      ["Continuity Governance", "حاکمیت تداوم", "Clarifying responsibilities, decision rights and service priorities under pressure.", "روشن‌کردن مسئولیت‌ها، اختیار تصمیم و اولویت خدمات در وضعیت فشار."],
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم", "Turning low-probability, high-impact scenarios into practical preparation and exercises.", "تبدیل سناریوهای کم‌احتمال اما اثرگذار به آمادگی عملی و تمرین."],
+      ["Continuity Smart Management", "مدیریت هوشمند تداوم", "Making explicit choices among protecting core operations, suspending initiatives and continuing investment.", "تصمیم آگاهانه میان حفظ عملیات اصلی، تعلیق طرح‌ها و ادامه سرمایه‌گذاری."],
+      ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت", "Assessing continuity from the merchant's perspective and the actual outcome of a transaction.", "سنجش تداوم از منظر پذیرنده و نتیجه واقعی یک تراکنش."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Understanding dependencies across payment networks, banks, regulators and commercial partners.", "شناخت وابستگی‌ها به شبکه‌های پرداخت، بانک‌ها، نهادهای تنظیم‌گر و شرکای تجاری."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This profile is a draft for human review. Confirm the current executive title, House role and publication consent before release. The opening statement and DBR mappings are editorial analysis, not direct quotations or verified personal pattern assignments.",
+      faNote: "این پروفایل پیش‌نویس و در انتظار بررسی انسانی است. عنوان شغلی جاری، نقش در خانه و رضایت انتشار باید پیش از انتشار تأیید شوند. جمله آغازین و پیوندهای DBR تحلیل تحریریه‌اند، نه نقل‌قول مستقیم یا انتساب فردیِ راستی‌آزمایی‌شده."
+    },
+    sources: []
+  };
+
+  var alirezaGhanadanProfile = {
+    id: "alireza-ghanadan",
+    name: "Alireza Ghanadan",
+    faName: "علیرضا قنادان",
+    role: "Technocratic Leader",
+    faRole: "رهبر تکنوکرات",
+    title: "CEO · Lendo (reported in 2024; current status to confirm)",
+    faTitle: "مدیرعامل لندو (گزارش انتصاب در ۱۴۰۲؛ وضعیت فعلی نیازمند تأیید)",
+    subject: "Digital lending, credit dependency and fintech continuity",
+    faSubject: "تسهیلات‌یاری دیجیتال، وابستگی اعتباری و تداوم فین‌تک",
+    image: "Assets/alireza-ghanadan.jpg",
+    imageClass: "person-photo-alireza-ghanadan",
+    profileLayout: "monograph",
+    profileNumber: "12",
+    faProfileNumber: "۱۲",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Alireza Ghanadan | Lendo CEO | House of Technocrats",
+    faSeoTitle: "علیرضا قنادان | مدیرعامل لندو | خانه تکنوکرات‌ها",
+    metaDescription: "Alireza Ghanadan's experience of fintech continuity, bank dependency, regulation and business-model redesign at Lendo.",
+    faMetaDescription: "روایت تجربه علیرضا قنادان در لندو، تنظیم‌گری، تنوع منابع درآمدی و طراحی تداوم خدمات مالی در شرایط بحران.",
+    positioning: "Continuity means preserving customer value when a crucial funding source, partner or regulatory assumption changes.",
+    faPositioning: "تداوم یعنی حفظ ارزش برای مشتری هنگامی که منبع حیاتی تأمین اعتبار، شریک یا یکی از مفروضات تنظیم‌گری تغییر می‌کند.",
+    heroTags: [
+      ["Digital lending and LendTech", "تسهیلات‌یاری دیجیتال و لندتک"],
+      ["Fintech continuity", "تداوم فین‌تک"],
+      ["Business-model redesign", "بازطراحی مدل کسب‌وکار"],
+      ["Regulatory engagement", "تعامل با تنظیم‌گر"],
+      ["Financial dependencies", "وابستگی‌های مالی"]
+    ],
+    quote: "When the main credit source disappears, continuity depends on adapting the service model.",
+    faQuote: "وقتی مسیر اصلی تأمین اعتبار از دست می‌رود، تداوم به توان تغییر مدل خدمت وابسته می‌شود.",
+    statementIsSynthesis: true,
+    linkedinUrl: "https://ir.linkedin.com/in/alirezaghanadan",
+    bio: "Alireza Ghanadan is an executive whose experience spans public institutions, municipal management and digital businesses before moving into financial services and the leadership of Lendo. His work in lending technology highlights dependence on credit providers and changing regulation. In this context, continuity means preserving service delivery by diversifying resources and adapting the operating model.",
+    faBio: "علیرضا قنادان مدیری با تجربه در نهادهای عمومی، مدیریت شهری و کسب‌وکارهای دیجیتال است که مسیر حرفه‌ای‌اش به خدمات مالی و راهبری لندو رسیده است. فعالیت او در لندتک، مسئله وابستگی به منابع اعتباری و تغییرات تنظیم‌گری را برجسته می‌کند. در این تجربه، تداوم به معنای حفظ جریان خدمت با تنوع‌بخشی به منابع و بازآرایی مدل کسب‌وکار است.",
+    storyTitle: "When financial dependency becomes a continuity issue",
+    faStoryTitle: "وقتی وابستگی مالی به مسئله تداوم تبدیل می‌شود",
+    experienceTitle: "From public service to digital lending",
+    faExperienceTitle: "از خدمات عمومی تا تسهیلات‌یاری دیجیتال",
+    story: [
+      ["Ghanadan moved through organizational planning, municipal management and capital-market experience before entering digital credit services. Working on both sides of the public-private boundary shaped an approach to customer experience and institutional constraints. Across these settings, the recurring challenge was translating an administrative or financial mechanism into a service people could actually use, including when its supporting arrangements changed.", "مسیر علیرضا قنادان از برنامه‌ریزی و مدیریت سازمانی و تجربه فعالیت در مدیریت شهری و بازار سرمایه به صنعت اعتبار و خدمات مالی دیجیتال رسیده است. این جابه‌جایی میان بخش عمومی و کسب‌وکار خصوصی، نگاه او را به تجربه کاربر، طراحی خدمت و محدودیت‌های تصمیم‌گیری نهادی شکل داده است. مسئله مشترک در این مسیر، تبدیل یک سازوکار اداری یا مالی به خدمتی است که در عمل برای مردم قابل استفاده بماند."],
+      ["During his work with the municipal taxi organization, QR-based taxi payments showed how a seemingly simple customer problem required more than a technical solution. Adoption depended on cooperation with public authorities, user behavior and a workable rollout. In fintech, the same lesson becomes more pronounced: regulation is part of service design, not an afterthought.", "در دوره فعالیت در سازمان تاکسیرانی، شکل‌گیری سرویس پرداخت در تاکسی نمونه‌ای از عبور از تعریف اداری خدمت به تجربه واقعی استفاده‌کننده بود. آزمایش‌های اولیه پرداخت مبتنی بر کد QR از یک مسئله ملموس پرداخت آغاز شد؛ اما توسعه محصول فقط طراحی فناوری نبود و پذیرش کاربر، رابطه با نهاد مسئول و امکان پیاده‌سازی عملی را هم‌زمان می‌طلبید. این الگو در فین‌تک، جایی که مقررات بخشی از معماری کسب‌وکار است، اهمیت بیشتری پیدا کرد."],
+      ["Ghanadan's appointment as Lendo CEO in 2024 was reported by Iranian technology and finance media. Lendo operates in digital lending and installment purchases. Its customer-facing products depend on bank funding lines, repayment mechanisms, financial agreements and regulatory decisions. A working software platform cannot alone guarantee continuity if credit issuance itself is disrupted.", "انتخاب قنادان به مدیرعاملی لندو در سال ۱۴۰۲ در رسانه‌های حوزه فناوری مالی منعکس شد. لندو در حوزه تسهیلات‌یاری، اعتبار و خرید اقساطی فعالیت می‌کند؛ بازاری که محصول مشتری‌محور آن به خطوط اعتباری، قراردادهای بانکی، امکان وصول اقساط و تصمیم‌های نهاد ناظر وابسته است. از این رو فعال‌بودن سامانه به‌تنهایی استمرار خدمت نیست؛ توقف اعتباردهی یا تغییر یک قاعده می‌تواند توان ارائه محصول اصلی را محدود کند."],
+      ["Lendo faced a sequence of shocks: changes to rules affecting lending facilitation, interruptions to a major credit line and the subsequent dissolution of Bank Ayandeh. In Ghanadan's account, the bank was both a majority shareholder and a central source of lending capacity. This created a dual dependency: ownership concentration and an operational funding bottleneck. The partner's disruption could therefore become a direct threat to the service model.", "لندو در این دوره با مجموعه‌ای از شوک‌ها روبه‌رو شد: تغییر جدی در رویه تنظیم‌گری تسهیلات‌یاری، اختلال در دسترسی به خط اعتباری و سپس انحلال بانک آینده. به روایت قنادان، بانک آینده سهامدار عمده و تأمین‌کننده مهم اعتبار لندو بود. این ترکیب، وابستگی را در دو سطح مالکیت و عملیات اعتباری ایجاد کرده بود؛ بنابراین بحران شریک می‌توانست مستقیماً تداوم مدل خدمت را تهدید کند."],
+      ["The response required more than finding another bank. The team developed alternative products and revenue flows with less direct reliance on bank funding. A House of Technocrats summary of the recorded account reports that dependence on the credit line fell from nearly 100 percent to around 30–40 percent over approximately nine months. These are reported figures, not independently audited financial data.", "پاسخ قنادان به این وضعیت فقط جست‌وجوی یک خط اعتباری جدید نبود. تغییر مدل درآمدی و توسعه محصولاتی که اتکای کمتری به تأمین مالی بانکی دارند، بخش اصلی برنامه شد. در روایت بازنشرشده از او در خانه تکنوکرات‌ها، گفته شده وابستگی به خط اعتباری بانک طی حدود نه ماه از نزدیک صد درصد به حدود سی تا چهل درصد کاهش یافت. این ارقام گزارش‌شده‌اند و داده مالی مستقلاً ممیزی‌شده محسوب نمی‌شوند."],
+      ["His public-sector background informed his conversations with banks and the central bank. Understanding the accountability pressures faced by regulators and government executives can make engagement more productive. In a highly regulated financial service, constructive dialogue and early clarification can themselves become continuity capabilities. Ghanadan also distinguishes risk management, which often seeks to prevent harm, from continuity, which assumes an adverse event has occurred and asks how essential value can still be delivered.", "سابقه فعالیت عمومی او بر تعامل با نهادهای بانکی و بانک مرکزی نیز اثر گذاشت. شناخت فشارهای پاسخ‌گویی مدیران دولتی و تنظیم‌گران می‌تواند گفت‌وگو با آنها را اثربخش‌تر کند. در یک خدمت مالیِ به‌شدت تنظیم‌گری‌شده، تعامل سازنده و روشن‌کردن زودهنگام الزامات خود به قابلیت تداوم تبدیل می‌شود. قنادان همچنین مدیریت ریسک را که اغلب می‌کوشد از آسیب جلوگیری کند، از تداوم متمایز می‌کند؛ تداوم از فرض وقوع رویداد نامطلوب آغاز می‌شود و می‌پرسد چگونه می‌توان ارزش ضروری را همچنان ارائه کرد."],
+      ["Ghanadan's relevance to the House of Technocrats lies in shifting attention from preserving an existing corporate configuration to preserving service capacity. Continuity is not waiting for the old funding environment to return. It is constructing financial, product and governance alternatives that allow customer value to continue when a crucial dependency fails.", "وجه متمایز تجربه قنادان، جابه‌جایی نقطه توجه از حفظ شکل پیشین کسب‌وکار به حفظ امکان خدمت‌رسانی است. تداوم نه انتظار برای بازگشت شرایط عادی، بلکه طراحی گزینه‌های عملی و مالی است که هنگام حذف یک وابستگی حیاتی فعال می‌شوند تا شکست یا حذف یک شریک به توقف کامل جریان ارزش برای مشتری منجر نشود."]
+    ],
+    intersections: [
+      {
+        title: "Reduce concentration around one credit provider",
+        faTitle: "کاهش وابستگی به یک منبع اعتبار",
+        body: "Excessive concentration in one institution can turn partner disruption into an operational interruption. Product and revenue diversification can preserve some customer value even when a primary funding line disappears; the relevant measure is the share of operations exposed to a single counterparty.",
+        faBody: "تمرکز بالا روی یک بانک یا قرارداد، اختلال شریک را به توقف عملیاتی تبدیل می‌کند. تنوع محصولات و جریان‌های درآمدی می‌تواند بخشی از ظرفیت ارائه خدمت را مستقل از منبع اصلی نگه دارد؛ سنجه مهم، سهم واقعی هر وابستگی در جریان درآمد و خدمت قابل‌تداوم است.",
+        careerBasis: "Leading Lendo through funding disruption and product diversification.",
+        faCareerBasis: "مدیریت لندو و بازطراحی ترکیب محصولات و وابستگی‌های اعتباری.",
+        managementFields: "Risk · Performance · Change",
+        faManagementFields: "ریسک · عملکرد · تغییر",
+        relatedPatterns: "Cash-positive resilience economics (analytical association, not personal attribution).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ مبتنی بر جریان نقد مثبت (ارتباط تحلیلی، بدون انتساب مالکیت).",
+        domains: [["Continuity Smart Management", "مدیریت هوشمند تداوم"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Rehearse the loss of a critical partner",
+        faTitle: "سناریونویسی پیش از ازدست‌دادن شریک حیاتی",
+        body: "Preparing for the loss of credit funding is less about predicting the exact shock than about readying decisions, financial alternatives and the operating team. A useful severe scenario examines contractual, liquidity, behavioral and service consequences together.",
+        faBody: "ارزش تمرین اداره شرکت بدون خط اعتباری در پیش‌بینی دقیق نوع بحران نیست؛ در آماده‌کردن تصمیم‌ها، گزینه‌های مالی و توان تیم پیش از رخداد است. سناریوی معتبر باید پیامدهای مالی، قراردادی، رفتاری و عملیاتی را هم‌زمان بررسی کند.",
+        careerBasis: "Credit-line disruption and preparation for partner failure.",
+        faCareerBasis: "مواجهه با قطع اعتبار و آمادگی برای شوک بانک شریک.",
+        managementFields: "Risk · Change",
+        faManagementFields: "ریسک · تغییر",
+        relatedPatterns: "Severe-but-plausible scenario testing (analytical association, not personal attribution).",
+        faRelatedPatterns: "آزمون سناریوهای شدید اما باورپذیر (ارتباط تحلیلی، بدون انتساب فردی).",
+        domains: [["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم"], ["Continuity Maintenance", "نگهداشت تداوم"]]
+      },
+      {
+        title: "Treat regulatory engagement as service design",
+        faTitle: "تنظیم‌گری به‌عنوان بخشی از طراحی خدمت",
+        body: "When a regulatory decision can reshape a product's financial viability, dialogue is more than compliance reporting. Understanding counterpart accountability, engaging early and developing lawful alternatives help preserve permitted services as rules change.",
+        faBody: "اگر تغییر مقررات بتواند مدل درآمدی را مختل کند، رابطه با نهاد ناظر فقط موضوع حقوقی یا گزارش‌دهی نیست. شناخت منطق تنظیم‌گر، گفت‌وگوی زودهنگام و ساخت گزینه‌های قانونی برای حفظ خدمات مجاز اهمیت دارد؛ نه برای دورزدن قواعد.",
+        careerBasis: "Municipal leadership and engagement with banking authorities at Lendo.",
+        faCareerBasis: "مدیریت شهری و تجربه تعامل با بانک‌ها و نهاد ناظر در لندو.",
+        managementFields: "Discovery · Risk · Accountability · Change",
+        faManagementFields: "کشف مسئله · ریسک · پاسخ‌گویی · تغییر",
+        relatedPatterns: "Regulatory co-design and sector playbooks (analytical association, not personal attribution).",
+        faRelatedPatterns: "طراحی مشترک مقررات و راهنماهای بخشی (ارتباط تحلیلی، بدون انتساب فردی).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Separate corporate survival from customer outcomes",
+        faTitle: "تفکیک بقای شرکت از استمرار ارزش برای مشتری",
+        body: "A legal entity may survive while customers can no longer use its core services. Continuity decisions need to specify which services and commitments remain possible, how customers are affected and how the value stream can be rebuilt after a critical dependency is lost.",
+        faBody: "زنده‌ماندن شخصیت حقوقی کافی نیست، اگر مشتری نتواند از خدمات اصلی استفاده کند. تصمیم تداوم باید روشن کند کدام خدمت و تعهد ادامه می‌یابد، اثر اختلال بر مشتری چیست و پس از حذف یک منبع کلیدی چگونه جریان ارزش بازسازی می‌شود.",
+        careerBasis: "Fintech operations and adaptation of credit-enabled services.",
+        faCareerBasis: "مدیریت عملیاتی لندتک و سازگارکردن ارائه خدمات با محدودیت اعتباری.",
+        managementFields: "Performance · Accountability · Change",
+        faManagementFields: "عملکرد · پاسخ‌گویی · تغییر",
+        relatedPatterns: "Impact-tolerance and critical-service mapping (analytical association, not personal attribution).",
+        faRelatedPatterns: "نگاشت آستانه اثر و خدمت حیاتی (ارتباط تحلیلی، بدون انتساب فردی).",
+        domains: [["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"], ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"]]
+      }
+    ],
+    experience: [
+      ["Municipal taxi payment", "پرداخت در تاکسی شهری", "QR-based service design and rollout", "طراحی و اجرای خدمت مبتنی بر کد QR", "Public-sector experience", "تجربه بخش عمومی", "Connected a practical payment need with user adoption and public-authority coordination.", "پیوند یک نیاز عملی پرداخت با پذیرش کاربر و هماهنگی با نهاد عمومی."],
+      ["Lendo", "لندو", "CEO appointment reported by public media", "انتصاب به مدیرعاملی در رسانه‌های عمومی گزارش شد", "2024 / ۱۴۰۲", "۲۰۲۴ / ۱۴۰۲", "Leadership of a digital-lending and installment-purchase business; current title requires confirmation.", "راهبری کسب‌وکار تسهیلات‌یاری دیجیتال و خرید اقساطی؛ عنوان جاری نیازمند تأیید است."],
+      ["Credit-line concentration", "تمرکز خط اعتباری", "Funding and ownership dependency", "وابستگی تأمین مالی و مالکیت", "Recorded period", "دوره ثبت‌شده", "The interview account describes Bank Ayandeh as a majority shareholder and a central credit source; verify details before release.", "در روایت مصاحبه، بانک آینده سهامدار عمده و منبع مهم اعتبار معرفی شده است؛ جزئیات پیش از انتشار نیازمند بررسی است."],
+      ["Alternative products and revenue flows", "محصولات و جریان‌های درآمدی جایگزین", "Reducing direct reliance on bank funding", "کاهش اتکای مستقیم به تأمین مالی بانکی", "Approximately nine months", "حدود نه ماه", "The reported credit-line dependency reduction from nearly 100% to around 30–40% has not been independently audited.", "کاهش وابستگی خط اعتباری از نزدیک ۱۰۰ به حدود ۳۰ تا ۴۰ درصد گزارش شده و مستقلاً حسابرسی نشده است."],
+      ["Bank and regulatory engagement", "تعامل با بانک و نهاد تنظیم‌گر", "Clarifying constraints and lawful operating alternatives", "روشن‌کردن محدودیت‌ها و گزینه‌های قانونی ادامه کار", "Recorded experience", "تجربه ثبت‌شده", "Applied experience across public and private settings to conversations with banking authorities.", "به‌کارگیری تجربه بخش عمومی و خصوصی در تعامل با نهادهای بانکی."]
+    ],
+    themes: [
+      ["LendTech and Digital Lending", "لندتک و تسهیلات‌یاری دیجیتال"],
+      ["Digital Banking and Payments", "بانکداری و پرداخت دیجیتال"],
+      ["Business Model Redesign", "استراتژی و بازطراحی مدل کسب‌وکار"],
+      ["Regulatory Engagement", "تعامل با تنظیم‌گر"],
+      ["Municipal and Public Services", "مدیریت شهری و خدمات عمومی"],
+      ["Financial Dependency Management", "مدیریت وابستگی‌های مالی"],
+      ["Digital Product Development", "توسعه محصول دیجیتال"],
+      ["Financial-Service Continuity", "تداوم خدمات مالی"]
+    ],
+    relatedDomains: [
+      ["Continuity Smart Management", "مدیریت هوشمند تداوم", "Allocating capacity and choosing alternatives as financial and operating assumptions change.", "تخصیص ظرفیت و انتخاب گزینه‌های عملیاتی هنگامی که مفروضات مالی تغییر می‌کنند."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Reducing dependence on the funding bank and preparing practical alternatives.", "کاستن از وابستگی به بانک تأمین‌کننده و آماده‌سازی گزینه‌های جایگزین."],
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم", "Testing the loss-of-credit scenario before it materializes.", "آزمودن سناریوی قطع اعتبار پیش از وقوع."],
+      ["Continuity Governance", "حاکمیت تداوم", "Managing accountabilities and working relationships with banks and regulators.", "مدیریت مسئولیت‌ها و رابطه کاری با بانک‌ها و نهادهای تنظیم‌گر."],
+      ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری", "Protecting customer value delivery even when the financing model changes.", "حفظ ارزش و جریان خدمت برای مشتری، حتی هنگام تغییر مدل تأمین مالی."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This profile is a draft for human review. Confirm current professional details, the House role and publication consent before release. Interview-derived ownership, funding and dependency figures are reported claims, not independently audited facts. DBR patterns are editorial associations, not personal attributions.",
+      faNote: "این پروفایل پیش‌نویس و در انتظار بررسی انسانی است. اطلاعات حرفه‌ای جاری، نقش در خانه و رضایت انتشار باید پیش از انتشار تأیید شوند. اطلاعات مالکیت، تأمین مالی و اعداد وابستگی برگرفته از مصاحبه‌اند و مستقلاً حسابرسی نشده‌اند. پترن‌های DBR پیوندهای تحلیلی تحریریه‌اند، نه انتساب فردی."
+    },
+    sources: [
+      { label: "Way2Pay · Report of Lendo CEO appointment", faLabel: "راه پرداخت · گزارش انتصاب مدیرعامل لندو", href: "https://www.linkedin.com/posts/newway2pay_%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D9%84%D9%86%D8%AF%D9%88-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%DA%A9%D8%B1%D8%AF-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B9%D9%84%DB%8C%D8%B1%D8%B6%D8%A7-activity-7169621340809818112-6PfU" },
+      { label: "Digiato · Appointment and earlier roles", faLabel: "دیجیاتو · انتصاب و مرور سمت‌های پیشین", href: "https://www.linkedin.com/posts/digiato_%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D9%84%D9%86%D8%AF%D9%88-activity-7169779671067250688-J5r1" },
+      { label: "Professional LinkedIn profile", faLabel: "پروفایل حرفه‌ای لینکدین", href: "https://ir.linkedin.com/in/alirezaghanadan" },
+      { label: "TechRasa Insight · Iran LendTech Industry Report 2025", faLabel: "تکراسا اینسایت · گزارش صنعت لندتک ایران ۱۴۰۴", href: "https://techrasainsight.com/fintech2025/Iran%20FinTech%202025%20-%20LendTech%20Industry%20-%20TechRasa%20Insight.pdf" },
+      { label: "Lendo company profile", faLabel: "صفحه شرکتی لندو", href: "https://www.linkedin.com/company/lendoir" }
+    ]
+  };
+
+  var ayatHosseiniProfile = {
+    id: "ayat-hosseini",
+    name: "Ayat Hosseini",
+    faName: "آیت حسینی",
+    role: "Technocratic Leader",
+    faRole: "رهبر تکنوکرات",
+    title: "Founder & CEO · AldyPay (current details to confirm)",
+    faTitle: "بنیان‌گذار و مدیرعامل آلدی‌پی (اطلاعات جاری نیازمند تأیید)",
+    subject: "Fintech, customer trust and service continuity",
+    faSubject: "فین‌تک، اعتماد مشتری و تداوم خدمت",
+    image: "Assets/ayat-hosseini.png",
+    imageClass: "person-photo-ayat-hosseini",
+    profileLayout: "monograph",
+    profileNumber: "13",
+    faProfileNumber: "۱۳",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Ayat Hosseini | Founder and CEO of AldyPay | House of Technocrats",
+    faSeoTitle: "آیت حسینی | بنیان‌گذار و مدیرعامل آلدی‌پی | خانه تکنوکرات‌ها",
+    metaDescription: "Ayat Hosseini's professional story, from banking innovation and transformation to keeping financial services available during infrastructure and connectivity disruption.",
+    faMetaDescription: "روایت حرفه‌ای آیت حسینی، بنیان‌گذار آلدی‌پی؛ از تحول بانکی و نوآوری تا طراحی تداوم خدمات اعتباری هنگام اختلال اینترنت و زیرساخت‌های پرداخت.",
+    positioning: "Continuity means honoring customer commitments through capable teams and alternative service routes when normal channels fail.",
+    faPositioning: "تداوم یعنی حفظ تعهد به مشتری با تکیه بر تیم توانمند و مسیرهای جایگزین، هنگامی که کانال‌های عادی از کار می‌افتند.",
+    heroTags: [
+      ["Banking innovation and transformation", "نوآوری و تحول بانکی"],
+      ["Fintech and lending technology", "فین‌تک و فناوری اعتباری"],
+      ["Financial product development", "توسعه محصول مالی"],
+      ["Customer experience and trust", "تجربه و اعتماد مشتری"],
+      ["Operational continuity", "تداوم عملیاتی"]
+    ],
+    quote: "When familiar channels fail, the promise made to customers must remain actionable.",
+    faQuote: "وقتی مسیرهای عادی از کار می‌افتند، تعهد به مشتری باید همچنان قابلیت اجرا داشته باشد.",
+    statementIsSynthesis: true,
+    linkedinUrl: "https://ir.linkedin.com/in/ayathosseini",
+    bio: "Ayat Hosseini is an entrepreneur and executive working in banking innovation and digital financial services. Her career connects strategic marketing and venture investment with business transformation, banking advisory and founding AldyPay. Her experience frames continuity as honoring customer commitments through capable teams and alternative service routes when normal channels are disrupted.",
+    faBio: "آیت حسینی از مدیران و کارآفرینان حوزه نوآوری بانکی و خدمات مالی دیجیتال است. مسیر حرفه‌ای او از بازاریابی راهبردی و سرمایه‌گذاری خطرپذیر به تحول کسب‌وکار، مشاوره بانکی و بنیان‌گذاری آلدی‌پی رسیده است. تجربه او تداوم را به مسئله‌ای از جنس تعهد به مشتری، آمادگی تیم و طراحی مسیرهای جایگزین برای ارائه خدمت در زمان اختلال تبدیل کرده است.",
+    storyTitle: "When infrastructure fails, the customer commitment remains",
+    faStoryTitle: "وقتی زیرساخت از کار می‌افتد، تعهد به مشتری باقی می‌ماند",
+    experienceTitle: "From banking innovation to customer-facing fintech",
+    faExperienceTitle: "از نوآوری بانکی تا فین‌تک روبه‌مشتری",
+    story: [
+      ["Hosseini encountered entrepreneurship and business setbacks early in her career. The closure of a venture in 2009 preceded her work on marketing strategy and branding at FANAP and later venture analysis and investment at Shenasa. Transformation roles at Bank Ayandeh brought these experiences together: building something new inside organizations that must still deliver existing services without interruption.", "آیت حسینی از سال‌های نخست فعالیت حرفه‌ای با کارآفرینی و سپس دشواری بازسازی یک کسب‌وکار روبه‌رو شد. توقف یکی از فعالیت‌هایش در سال ۱۳۸۸ مسیر او را به همکاری با فناپ در حوزه راهبرد بازاریابی و برند رساند و پس از آن، فعالیت در شناسا او را با منطق سرمایه‌گذاری و رشد شرکت‌های فناور آشنا کرد. تجربه تحول در بانک آینده، ساخت ایده‌های تازه در سازمان‌هایی را پیش روی او گذاشت که باید هم‌زمان خدمات موجود را بی‌وقفه ارائه دهند."],
+      ["Her entrepreneurial path was not a continuous sequence of growth. Neshaneh faced difficult decisions about downsizing, selling and closing parts of its business amid COVID-19. Her experience also includes digital-transformation advisory work related to Bank Melli, involvement with Finodad, international financial-product development and leadership coaching. Across these settings, the recurring challenge was moving from an idea to an organization capable of reliably delivering value.", "مسیر کارآفرینی او خطی و بی‌وقفه نبود. گروه نشانه در دوره کرونا با تغییر شرایط فعالیت و تصمیم‌های دشوار کوچک‌سازی، واگذاری یا توقف بخشی از کسب‌وکارها روبه‌رو شد. تجربه مشاوره تحول دیجیتال مرتبط با بانک ملی، فعالیت در فینوداد، توسعه بین‌المللی محصول مالی و کوچینگ راهبری نیز به این مسیر اضافه شدند. مسئله مشترک، رساندن ایده به سازمانی بود که بتواند ارزش را به‌طور قابل اتکا ارائه کند."],
+      ["In late 2024 and early 2025, Hosseini helped establish AldyPay with backing from Tabiat Makan Group. The company's own description identifies its legal entity as Neshaneh Hooshmand Mali and its focus as credit solutions and targeted payment services. Employers and their employees formed an initial customer group. Someone arriving at checkout may be counting on a balance or credit facility in the product, making an outage a real interruption in everyday life, not merely a technical incident.", "در اواخر ۱۴۰۳ و اوایل ۱۴۰۴، حسینی با حمایت گروه صنعتی طبیعت ماکان در راه‌اندازی آلدی‌پی نقش داشت. بر اساس معرفی رسمی شرکت، نام حقوقی آن «نشانه هوشمند مالی» و تمرکز آن راهکارهای اعتباری و خدمات پرداخت هدفمند است. سازمان‌ها و کارکنان آن‌ها گروه اولیه مخاطبان بودند؛ مشتری ممکن است هنگام خرید روزمره روی موجودی کیف پول یا اعتبار پلتفرم حساب کرده باشد. بنابراین اختلال، وقفه‌ای واقعی در زندگی مشتری است، نه صرفاً رویدادی فنی."],
+      ["The business was still developing its infrastructure when regional conflict, connectivity restrictions and operational disruption tested the team. The twelve-day war prompted contingency scenarios for future outages and a reassessment of dependencies on externally hosted capabilities. Physical damage near the office also made it necessary to protect staff, organize remote work and keep product delivery moving at the same time.", "آلدی‌پی هم‌زمان با ساخت زیرساخت اولیه با بحران‌های امنیتی، اختلال‌های اینترنتی و محدودیت دسترسی روبه‌رو شد. پس از تجربه جنگ دوازده‌روزه، تیم برای قطعی اینترنت و وضعیت اضطراری سناریوهای جایگزین تدوین کرد و وابستگی به سرویس‌های بیرونی را بازنگری کرد. آسیب به محدوده نزدیک دفتر نیز تصمیم‌گیری هم‌زمان درباره امنیت کارکنان، دورکاری و ادامه توسعه محصول را ضروری ساخت."],
+      ["The critical service was often threatened outside AldyPay's immediate systems. When SMS stopped, one-time passwords became difficult to deliver; when a merchant's checkout or internet connection failed, customers could be unable to spend an otherwise available balance. Alternative authentication and communication paths were implemented rapidly. Some were deliberately temporary: their value was enabling the customer journey to continue for the next few days, not providing a perfect long-term system.", "شدت مسئله زمانی آشکار شد که اختلال فقط به زیرساخت داخلی آلدی‌پی محدود نبود. قطع پیامک می‌توانست رمز یک‌بارمصرف را از دسترس خارج کند و اختلال اینترنت فروشگاه یا صندوق، خرید با موجودیِ در دسترس را متوقف کند. مسیرهای جایگزین احراز هویت و کانال‌های موقت ارتباطی به‌سرعت ساخته شدند. بعضی از این راه‌حل‌ها عمداً موقت بودند؛ ارزش آن‌ها در باز نگه‌داشتن مسیر خدمت برای روزهای بعد بود، نه ارائه سامانه‌ای بی‌نقص و دائمی."],
+      ["The crisis also changed infrastructure decisions. Part of the operating capacity was moved to another location, exposing limits in local providers' ability to support the required service. This illustrates the difference between a nominal backup and an operating recovery option supported by usable connectivity, suppliers and people. A major technical migration completed just before a later period of internet disruption was fortunate in its timing, not proof that the team had predicted the event.", "بحران تصمیم‌های فنی و عملیاتی را نیز تغییر داد. بخشی از ظرفیت به مکان دیگری منتقل شد و محدودیت توان تأمین‌کنندگان محلی برای پشتیبانی از خدمت موردنیاز آشکار شد. این تجربه تفاوت میان نسخه پشتیبان اسمی و گزینه بازیابیِ قابل اجرا با اتصال، تأمین‌کننده و نیروی انسانی در دسترس را نشان می‌دهد. مهاجرت فنی مهمی درست پیش از دوره بعدی محدودیت اینترنت انجام شد؛ زمان‌بندی آن مساعد بود، اما به معنای پیش‌بینی دقیق بحران نیست."],
+      ["People and judgment formed another layer of continuity. Hosseini contrasts a senior manager's accountability with a founder's, particularly when decisions affect employees directly. Her experience includes layoffs and closures at Neshaneh; she reported no layoffs at AldyPay during the crises discussed and described adjusting the pace of hiring instead. Team solidarity, rapid practical decisions and, at times, the CEO taking customer calls herself helped preserve operations. These details are reported experience, not independently audited performance indicators.", "تداوم فقط مسئله سرویس و زیرساخت نبود. حسینی تفاوت مسئولیت مدیر سازمان و بنیان‌گذار را، به‌ویژه هنگام تصمیم‌هایی که مستقیماً بر کارکنان اثر می‌گذارند، برجسته می‌کند. او در گذشته تجربه تعدیل نیرو و توقف فعالیت‌هایی در گروه نشانه را داشته، اما گزارش می‌کند که آلدی‌پی در بحران‌های مورد بحث تعدیل نداشت و سرعت استخدام را متناسب با شرایط تنظیم کرد. همبستگی تیم، تصمیم‌های عملی سریع و گاهی پاسخ‌گویی مستقیم مدیرعامل به تماس مشتریان به ادامه عملیات کمک کردند؛ این جزئیات روایت تجربه‌اند، نه شاخص‌های مستقل حسابرسی‌شده."],
+      ["AldyPay's experience brings continuity back to the customer outcome. The core system may be online while a merchant cannot finalize a purchase; credit may exist while authentication is inaccessible. An operational error may still require a personal explanation, apology and remedy. For Hosseini, safeguarding continuity is not defending an uptime statistic. It is keeping the commitment around which customers made plans.", "تجربه آلدی‌پی نشان می‌دهد تداوم خدمت مالی دیجیتال در آخرین نقطه تماس با مشتری سنجیده می‌شود. ممکن است سامانه مرکزی روشن باشد، اما پذیرنده نتواند خرید را ثبت کند؛ اعتبار موجود باشد، اما مسیر احراز هویت از کار بیفتد. حتی یک خطای عملیاتی ممکن است به توضیح انسانی، عذرخواهی و جبران نیاز داشته باشد. برای حسینی، حفظ تداوم دفاع از شاخص فنی نیست؛ ادامه‌دادن تعهدی است که مشتری بر مبنای آن برنامه‌ریزی کرده است."],
+      ["The significance of this trajectory lies in connecting alternative service paths, rapid decision-making and accountability for the end-customer result. Scenarios matter, but an organization must also be able to decide when the scenario is incomplete. The aim is continued delivery of essential services, not simply restoring equipment to its prior state.", "ارزش این تجربه در پیوندزدن مسیر جایگزین زیرساخت، تصمیم‌گیری سریع و مسئولیت‌پذیری نسبت به نتیجه نهایی مشتری است. سناریو اهمیت دارد، اما سازمان باید وقتی سناریو کامل نیست نیز بتواند تصمیم بگیرد. هدف، ادامه ارائه خدمات ضروری است، نه صرفاً بازگرداندن تجهیزات به وضعیت قبلی."]
+    ],
+    intersections: [
+      {
+        title: "Alternative customer paths, not only system restoration",
+        faTitle: "مسیر جایگزین برای خدمت، نه فقط بازیابی سامانه",
+        body: "SMS outages and merchant connectivity failures can stop a financial journey even while the core platform is running. Continuity design must follow the customer journey across merchants, channels and dependencies. A fallback may be simpler and temporary, but still needs suitable security, error controls and accountability.",
+        faBody: "قطع پیامک و اختلال اتصال فروشگاه‌ها می‌تواند خدمت مالی را در نقطه استفاده مشتری متوقف کند، حتی اگر بخشی از زیرساخت اصلی فعال باشد. تداوم باید سفر مشتری را تا شبکه پذیرندگان و کانال‌های دسترسی دنبال کند. گزینه جایگزین می‌تواند ساده و موقت باشد، اما باید از نظر امنیت، کنترل خطا و مسئولیت‌پذیری قابل اداره باشد.",
+        careerBasis: "AldyPay launch and management of disruption to customer journeys.",
+        faCareerBasis: "راه‌اندازی آلدی‌پی و مدیریت اختلال در مسیرهای مشتری.",
+        managementFields: "Performance · Risk · Change",
+        faManagementFields: "عملکرد · ریسک · تغییر",
+        relatedPatterns: "Impact-tolerance and critical-service mapping; Open-banking and fintech resilience standards; Path and infrastructure diversity (analytical mapping).",
+        faRelatedPatterns: "نگاشت آستانه اثر و خدمت حیاتی؛ استانداردهای تاب‌آوری بانکداری باز و فین‌تک؛ تنوع مسیر و زیرساخت (نگاشت تحلیلی).",
+        domains: [["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Plan scenarios and distribute infrastructure before the next outage",
+        faTitle: "سناریونویسی و پراکندگی زیرساخت پیش از اختلال بعدی",
+        body: "Alternative locations are not just an architecture diagram: suppliers, connectivity and operating teams need to be ready in practice. Scenarios should be operational, exercised and continuously revised.",
+        faBody: "محل جایگزین فقط یک تصمیم روی نمودار معماری نیست؛ تأمین‌کننده، شبکه و تیم عملیاتی باید در عمل آماده باشند. سناریوها باید عملیاتی، آزموده و پیوسته بازنگری شوند.",
+        careerBasis: "Contingency planning, technical migration and service-capacity redesign.",
+        faCareerBasis: "برنامه‌ریزی اضطراری، مهاجرت فنی و بازآرایی ظرفیت خدمت.",
+        managementFields: "Risk · Change · Performance",
+        faManagementFields: "ریسک · تغییر · عملکرد",
+        relatedPatterns: "Path and infrastructure diversity; Severe-but-plausible scenario testing; Release resilience and rollback engineering (analytical mapping).",
+        faRelatedPatterns: "تنوع مسیر و زیرساخت؛ آزمون سناریوهای شدید اما باورپذیر؛ تاب‌آوری انتشار و مهندسی بازگشت (نگاشت تحلیلی).",
+        domains: [["Continuity Architecture", "معماری تداوم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم"]]
+      },
+      {
+        title: "Teams able to decide under uncertainty",
+        faTitle: "تیمی که در ابهام تصمیم می‌گیرد",
+        body: "No runbook can predict every combination of failed channels. Trust, decision rights close to the service, employee commitment and rapid practical choices build the capability, while necessary financial controls remain in place.",
+        faBody: "هیچ دستورالعملی نمی‌تواند همه ترکیب‌های اختلال را پیش‌بینی کند. اعتماد، اختیار تصمیم نزدیک به خدمت، همراهی کارکنان و انتخاب‌های عملی سریع به ساخت این قابلیت کمک می‌کنند؛ در کنار آن، کنترل‌های لازم در خدمات مالی باید برقرار بمانند.",
+        careerBasis: "Fintech team leadership under disruption and previous business restructuring.",
+        faCareerBasis: "رهبری تیم فین‌تک در بحران و تجربه پیشین بازسازی کسب‌وکار.",
+        managementFields: "Accountability · Change · Performance",
+        faManagementFields: "پاسخ‌گویی · تغییر · عملکرد",
+        relatedPatterns: "Small autonomous resilience teams; Service-owner accountability model (analytical mapping).",
+        faRelatedPatterns: "تیم‌های تاب‌آور کوچک و خودمختار؛ مدل پاسخ‌گویی مالک خدمت (نگاشت تحلیلی).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم"]]
+      },
+      {
+        title: "Preserve trust when a customer cannot wait",
+        faTitle: "حفظ اعتماد وقتی مشتری نمی‌تواند منتظر بماند",
+        body: "Credit has little practical value if a customer cannot use it at checkout. Direct support, limited manual alternatives and remediation connect continuity to trust. The key questions are which promise can still be honored, how limitations are explained and what remedy exists when something goes wrong.",
+        faBody: "داشتن اعتبار بدون امکان خرید ارزش عملی ندارد. پاسخ‌گویی مستقیم، راه‌های جایگزین محدود و رسیدگی به خطاهای عملیاتی، تداوم را به اعتماد پیوند می‌دهند. پرسش این است که چه تعهدی همچنان قابل انجام است، محدودیت چگونه توضیح داده می‌شود و هنگام خطا چه راهی برای جبران وجود دارد.",
+        careerBasis: "Customer experience, loyalty systems and AldyPay financial-service operations.",
+        faCareerBasis: "مدیریت تجربه مشتری، وفادارسازی و عملیات خدمات مالی در آلدی‌پی.",
+        managementFields: "Performance · Accountability · Risk",
+        faManagementFields: "عملکرد · پاسخ‌گویی · ریسک",
+        relatedPatterns: "Impact-tolerance and critical-service mapping; Service-owner accountability model (analytical mapping).",
+        faRelatedPatterns: "نگاشت آستانه اثر و خدمت حیاتی؛ مدل پاسخ‌گویی مالک خدمت (نگاشت تحلیلی).",
+        domains: [["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"], ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"]]
+      }
+    ],
+    experience: [
+      ["FANAP and Shenasa", "فناپ و شناسا", "Marketing strategy, branding and venture investment", "راهبرد بازاریابی، برند و سرمایه‌گذاری خطرپذیر", "Career experience", "تجربه حرفه‌ای", "Connected business positioning with venture analysis and growth of technology companies.", "پیوند جایگاه‌یابی کسب‌وکار با تحلیل سرمایه‌گذاری و رشد شرکت‌های فناور."],
+      ["Bank Ayandeh", "بانک آینده", "Business transformation", "تحول کسب‌وکار", "Career experience", "تجربه حرفه‌ای", "Worked on building new initiatives within an organization with ongoing service commitments.", "کار روی ابتکارهای تازه در سازمانی با تعهدهای جاری ارائه خدمت."],
+      ["Neshaneh", "نشانه", "Entrepreneurship and business restructuring", "کارآفرینی و بازسازی کسب‌وکار", "2009 and COVID period", "۱۳۸۸ و دوره کرونا", "Experienced venture closure and difficult decisions about downsizing, selling or closing parts of the business.", "تجربه توقف فعالیت و تصمیم‌های دشوار برای کوچک‌سازی، واگذاری یا توقف بخش‌هایی از کسب‌وکار."],
+      ["Bank Melli and Finodad", "بانک ملی و فینوداد", "Digital-transformation advisory and innovation", "مشاوره تحول دیجیتال و نوآوری", "Career experience", "تجربه حرفه‌ای", "Extended work across banking transformation and digital-business development.", "گسترش فعالیت در تحول بانکی و توسعه کسب‌وکار دیجیتال."],
+      ["AldyPay", "آلدی‌پی", "Founder and CEO; credit and targeted payment services", "بنیان‌گذار و مدیرعامل؛ راهکار اعتباری و پرداخت هدفمند", "Late 2024–early 2025", "اواخر ۱۴۰۳ تا اوایل ۱۴۰۴", "Established the company with backing from Tabiat Makan Group; current title and company details require release-date confirmation.", "راه‌اندازی با حمایت گروه طبیعت ماکان؛ سمت جاری و مشخصات شرکت باید پیش از انتشار تأیید شوند."],
+      ["AldyPay continuity operations", "عملیات تداوم آلدی‌پی", "Alternative access, communication and infrastructure paths", "مسیرهای جایگزین دسترسی، ارتباطات و زیرساخت", "Recorded crisis experience", "تجربه ثبت‌شده در بحران", "The interview account describes connectivity disruption, temporary workarounds, infrastructure distribution and customer support; claims are not independent performance metrics.", "روایت مصاحبه از اختلال ارتباطی، راه‌حل موقت، پراکندگی زیرساخت و پشتیبانی مشتری می‌گوید؛ این موارد شاخص عملکرد مستقل نیستند."]
+    ],
+    themes: [
+      ["Digital and Business Transformation", "تحول دیجیتال و تحول کسب‌وکار"],
+      ["Fintech and Lending Technology", "فین‌تک و لندتک"],
+      ["Financial Product Development", "توسعه محصول مالی"],
+      ["Banking Innovation and Venture Capital", "نوآوری بانکی و سرمایه‌گذاری خطرپذیر"],
+      ["Brand and Customer Experience", "مدیریت برند و تجربه مشتری"],
+      ["Team Leadership and Business Coaching", "رهبری تیم و کوچینگ کسب‌وکار"],
+      ["Operational Continuity and Scenario Planning", "سناریونویسی و تداوم عملیاتی"]
+    ],
+    relatedDomains: [
+      ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری", "Service outcomes across authentication, merchants and customer support.", "نتیجه خدمت در مسیر احراز هویت، پذیرندگان و پشتیبانی مشتری."],
+      ["Continuity Architecture", "معماری تداوم", "Alternative connectivity and distributed capability that reduce dependence on a single point.", "ارتباط جایگزین و قابلیت پراکنده برای کاهش وابستگی به یک نقطه."],
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانه تداوم", "Scenario development and operational testing of fallback options.", "تدوین سناریو و آزمون عملیاتی گزینه‌های جایگزین."],
+      ["Continuity Governance", "حاکمیت تداوم", "Clear accountability and fast decisions in financial services.", "مسئولیت روشن و تصمیم سریع در خدمات مالی."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "The effect of merchant, network and infrastructure-provider disruption on customer outcomes.", "اثر اختلال پذیرنده، شبکه و ارائه‌دهنده زیرساخت بر نتیجه مشتری."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This profile is a draft for human review. Confirm current title, House role, company details and publication consent before release. Interview-derived operational details are reported experience, not independently audited performance indicators. DBR patterns and domains are editorial mappings, not personal attributions.",
+      faNote: "این پروفایل پیش‌نویس و در انتظار بررسی انسانی است. عنوان جاری، نقش در خانه، اطلاعات شرکت و رضایت انتشار باید پیش از انتشار تأیید شوند. جزئیات عملیاتی برگرفته از مصاحبه، روایت تجربه‌اند و شاخص مستقل حسابرسی‌شده نیستند. پترن‌ها و دامین‌های DBR نگاشت تحریریه‌اند، نه انتساب فردی."
+    },
+    sources: []
+  };
+
+  var nimaAmirshakariProfile = {
+    id: "nima-amirshakari",
+    name: "Nima Amirshakari",
+    faName: "نیما امیرشکاری",
+    role: "Technocratic Thinker · House role unverified",
+    faRole: "اندیشمند تکنوکرات · نقش در خانه تأییدنشده",
+    title: "Digital economy analyst · Banking-sector adviser (reported; verify)",
+    faTitle: "تحلیلگر اقتصاد دیجیتال · مشاور حوزه بانکی (روایت ثبت‌شده؛ نیازمند تأیید)",
+    subject: "Interbank payments, service recovery and banking continuity",
+    faSubject: "پرداخت بین‌بانکی، بازیابی خدمت و تداوم بانکداری",
+    image: "Assets/nima-amirshekari.jpg",
+    imageClass: "person-photo-nima-amirshekari",
+    profileLayout: "monograph",
+    profileNumber: "14",
+    faProfileNumber: "۱۴",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Nima Amirshakari | Digital Economy and Banking Continuity | House of Technocrats",
+    faSeoTitle: "نیما امیرشکاری | اقتصاد دیجیتال و تداوم خدمات بانکی | خانه تکنوکرات‌ها",
+    metaDescription: "Professional profile of Nima Amirshakari, covering interbank payments, digital economy, service recovery and operational continuity.",
+    faMetaDescription: "پروفایل حرفه‌ای نیما امیرشکاری؛ از زیرساخت‌های پرداخت و اقتصاد دیجیتال تا بازیابی خدمت، آمادگی عملیاتی و تداوم بانکداری.",
+    positioning: "Continuity is not the promise that controls never fail; it is the tested ability to restore essential services when they do.",
+    faPositioning: "تداوم وعدهٔ شکست‌ناپذیری کنترل‌ها نیست؛ توان آزموده‌شده برای بازگرداندن خدمات ضروری پس از شکست آن‌هاست.",
+    heroTags: [
+      ["Digital economy", "اقتصاد دیجیتال"],
+      ["Electronic banking", "بانکداری الکترونیکی"],
+      ["Interbank payments", "پرداخت بین‌بانکی"],
+      ["Service recovery", "بازیابی خدمت"],
+      ["Operational continuity", "تداوم عملیاتی"]
+    ],
+    quote: "Continuity is not the promise that controls never fail; it is the tested ability to restore essential services when they do.",
+    faQuote: "تداوم وعدهٔ شکست‌ناپذیری کنترل‌ها نیست؛ توان آزموده‌شده برای بازگرداندن خدمات ضروری پس از شکست آن‌هاست.",
+    statementIsSynthesis: true,
+    bio: "Nima Amirshakari is presented in the source interview as a digital-economy analyst with longstanding experience in electronic banking. His reported professional path spans payment and interbank infrastructure projects, banking advisory and digital-business analysis. The profile remains subject to confirmation and human approval.",
+    faBio: "در روایت مصاحبه، نیما امیرشکاری تحلیلگر اقتصاد دیجیتال با سابقه‌ای طولانی در بانکداری الکترونیکی معرفی می‌شود. مسیر حرفه‌ای ثبت‌شدهٔ او از پروژه‌های زیرساخت پرداخت و مبادلات بین‌بانکی تا مشاوره بانکی و تحلیل کسب‌وکار دیجیتال امتداد دارد. این اطلاعات همچنان نیازمند تأیید و بازبینی انسانی است.",
+    storyTitle: "When prevention is not enough, recovery must be designed in advance",
+    faStoryTitle: "وقتی پیشگیری کافی نیست، بازیابی باید از قبل طراحی شده باشد",
+    experienceTitle: "From payment infrastructure to tested recovery readiness",
+    faExperienceTitle: "از زیرساخت پرداخت تا آمادگی آزموده‌شده برای بازیابی",
+    story: [
+      ["The interview account places Amirshakari's entry into banking technology in the early 2000s, through projects associated with Iran's central banking and payment infrastructure. The experience connected technology decisions to the operation of payment and interbank services.", "بر اساس روایت مصاحبه، ورود امیرشکاری به فناوری بانکی در اوایل دههٔ ۱۳۸۰ و از مسیر پروژه‌های مرتبط با زیرساخت بانک مرکزی و پرداخت شکل گرفت. این تجربه، تصمیم‌های فناوری را به کارکرد خدمات پرداخت و مبادلات بین‌بانکی پیوند می‌داد."],
+      ["The source describes a later move into advisory work with several banks around the late 2000s, followed by professional experience at an international company after doctoral studies. It presents these settings as a contrast between relatively predictable operations and the challenge of sustaining services amid management, economic and infrastructure instability. Dates and role details require confirmation before publication.", "در روایت منبع، پس از آن ورود به نقش‌های مشاوره‌ای برای چند بانک در اواخر دههٔ ۱۳۸۰ و سپس تجربهٔ حرفه‌ای در یک شرکت بین‌المللی پس از تحصیلات دکتری آمده است. این محیط‌ها تفاوت میان عملیات نسبتاً قابل‌پیش‌بینی و حفظ خدمت در شرایط ناپایداری مدیریتی، اقتصادی و زیرساختی را برجسته می‌کنند. تاریخ‌ها و جزئیات سمت‌ها پیش از انتشار نیازمند تأییدند."],
+      ["One interview example concerns a backup site for a payment system. The account says that generator-fuel problems, software-version mismatches and gaps in staff preparation complicated a live transfer. It illustrates why owning a secondary site is not the same as having a tested recovery capability; the account has not been independently verified.", "یکی از مثال‌های مصاحبه به سایت پشتیبان یک سامانهٔ پرداخت مربوط است. طبق این روایت، مشکل سوخت ژنراتور، ناهماهنگی نسخه‌های نرم‌افزار و آماده‌نبودن کافی کارکنان، انتقال واقعی عملیات را دشوار کرد. این مثال نشان می‌دهد داشتن سایت دوم با قابلیت بازیابی آزموده‌شده یکسان نیست؛ این روایت مستقلاً راستی‌آزمایی نشده است."],
+      ["Amirshakari's reported perspective distinguishes unlimited investment in preventing every possible intrusion from targeted preparation for recovery. Organizations need to identify essential services and data, recovery points, accountable people and the minimum operating capacity that can return within a useful time. Recovery complements prevention; it does not replace it.", "دیدگاه ثبت‌شدهٔ امیرشکاری میان سرمایه‌گذاری نامحدود برای جلوگیری از هر نفوذ احتمالی و آمادگی هدفمند برای بازیابی تفاوت می‌گذارد. سازمان باید خدمات و داده‌های ضروری، نقاط بازیابی، افراد پاسخ‌گو و حداقل ظرفیت عملیاتی قابل‌بازگشت در زمانی مفید را بشناسد. بازیابی مکمل پیشگیری است، نه جایگزین آن."],
+      ["The source also treats instability as a continuity risk: changing decisions and leadership, constrained hardware procurement, narrow supply routes and limited access to critical resources can undermine a technically sound plan. Continuity therefore depends on management choices, resource allocation and alternative operating arrangements as well as technology and security.", "منبع، ناپایداری را نیز ریسکی برای تداوم می‌داند: تغییر تصمیم‌ها و مدیران، دشواری تأمین تجهیزات، محدودبودن مسیرهای تأمین و دسترسی ناکافی به منابع حیاتی می‌تواند حتی برنامه‌ای معقول از نظر فنی را تضعیف کند. بنابراین تداوم، علاوه بر فناوری و امنیت، به تصمیم مدیریتی، تخصیص منابع و ترتیبات عملیاتی جایگزین وابسته است."],
+      ["Reflecting on banking disruptions in 2025, the interview account emphasizes readiness before an incident: trained staff, usable recovery copies, clear decision rights and a way to restore priority customer services with limited collateral impact. A BCP document or standby site matters only when the organization can put it into practice.", "روایت مصاحبه در مرور اختلال‌های بانکی سال ۱۴۰۴ بر آمادگی پیش از حادثه تأکید می‌کند: کارکنان آموزش‌دیده، نسخه‌های قابل‌بازیابی، اختیار تصمیم روشن و توان بازگرداندن خدمات اولویت‌دار مشتری با کمترین پیامد جانبی. سند BCP یا سایت پشتیبان زمانی اهمیت دارد که سازمان بتواند آن را در عمل به کار گیرد."]
+    ],
+    intersections: [
+      {
+        title: "Design recovery for when prevention fails",
+        faTitle: "طراحی بازیابی برای زمانی که پیشگیری شکست می‌خورد",
+        body: "Security controls reduce risk but cannot eliminate it. Recovery points, service priorities, accountable owners and minimum restart capacity make the return to service an explicit design objective.",
+        faBody: "کنترل‌های امنیتی ریسک را کاهش می‌دهند، اما آن را حذف نمی‌کنند. تعیین نقطهٔ بازیابی، اولویت خدمت، مالک پاسخ‌گو و حداقل ظرفیت راه‌اندازی مجدد، بازگشت به خدمت را به هدفی روشن در طراحی تبدیل می‌کند.",
+        careerBasis: "Reported payment-infrastructure projects, banking advisory and analysis of cyber disruption.",
+        faCareerBasis: "پروژه‌های گزارش‌شدهٔ زیرساخت پرداخت، مشاوره بانکی و تحلیل اختلال‌های سایبری.",
+        managementFields: "Risk · Performance · Accountability",
+        faManagementFields: "ریسک · عملکرد · پاسخ‌گویی",
+        relatedPatterns: "Immutable cyber-recovery and air-gapped resilience; impact-tolerance and critical-service mapping (editorial mapping).",
+        faRelatedPatterns: "بازیابی سایبری تغییرناپذیر و تاب‌آوری ایزوله؛ نگاشت آستانهٔ اثر و خدمت حیاتی (نگاشت تحریریه).",
+        domains: [["Continuity Architecture", "معماری تداوم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم"]]
+      },
+      {
+        title: "Test the backup site and the people who operate it",
+        faTitle: "آزمودن سایت پشتیبان و افرادی که آن را اداره می‌کنند",
+        body: "A secondary site and a written failover procedure do not establish readiness. Exercises need to expose version differences, staffing gaps, utilities and other dependencies under realistic conditions.",
+        faBody: "سایت ثانویه و دستورالعمل انتقال به‌تنهایی آمادگی نمی‌سازند. تمرین‌ها باید تفاوت نسخه‌ها، کمبود نیروی آماده، خدمات زیرساختی و وابستگی‌های دیگر را در شرایط واقع‌گرایانه آشکار کنند.",
+        careerBasis: "The interview's account of payment-site failover; details remain subject to verification.",
+        faCareerBasis: "روایت مصاحبه از انتقال سایت پرداخت؛ جزئیات همچنان نیازمند راستی‌آزمایی است.",
+        managementFields: "Performance · Risk · Change",
+        faManagementFields: "عملکرد · ریسک · تغییر",
+        relatedPatterns: "Severe-but-plausible scenario testing (editorial mapping).",
+        faRelatedPatterns: "آزمون سناریوهای شدید اما باورپذیر (نگاشت تحریریه).",
+        domains: [["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم"], ["Continuity Maintenance", "نگهداشت تداوم"]]
+      },
+      {
+        title: "Set minimum service and recovery priorities",
+        faTitle: "تعیین حداقل خدمت و اولویت‌های بازیابی",
+        body: "Restoring every capability at once may not be feasible. Start with customer impact, define the minimum recoverable service and align recovery points and resources to that priority.",
+        faBody: "بازگرداندن هم‌زمان همهٔ قابلیت‌ها ممکن است شدنی نباشد. طراحی را از اثر بر مشتری آغاز کنید، حداقل خدمت قابل‌بازیابی را مشخص کنید و نقاط بازیابی و منابع را با همان اولویت هماهنگ سازید.",
+        careerBasis: "Reported experience with interbank services and minimum recoverable operating capacity.",
+        faCareerBasis: "تجربهٔ گزارش‌شده در خدمات بین‌بانکی و ظرفیت حداقلی عملیاتی قابل‌بازیابی.",
+        managementFields: "Performance · Risk · Accountability",
+        faManagementFields: "عملکرد · ریسک · پاسخ‌گویی",
+        relatedPatterns: "Impact-tolerance and critical-service mapping (editorial mapping).",
+        faRelatedPatterns: "نگاشت آستانهٔ اثر و خدمت حیاتی (نگاشت تحریریه).",
+        domains: [["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"], ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"]]
+      },
+      {
+        title: "Treat decision stability and resources as dependencies",
+        faTitle: "دیدن ثبات تصمیم و منابع به‌عنوان وابستگی‌های تداوم",
+        body: "Leadership changes, equipment scarcity and constrained supply can defeat a recovery plan before an incident starts. Accountability, investment priorities and alternative sourcing belong in continuity design.",
+        faBody: "تغییر مدیران، کمبود تجهیزات و محدودیت تأمین می‌توانند پیش از شروع حادثه برنامهٔ بازیابی را ناکارآمد کنند. پاسخ‌گویی، اولویت سرمایه‌گذاری و مسیرهای جایگزین تأمین بخشی از طراحی تداوم‌اند.",
+        careerBasis: "Reported domestic and international banking experience and analysis of operating constraints.",
+        faCareerBasis: "تجربهٔ گزارش‌شدهٔ بانکی در داخل و خارج و تحلیل محدودیت‌های عملیاتی.",
+        managementFields: "Risk · Change · Accountability",
+        faManagementFields: "ریسک · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Service-owner accountability; multi-vendor and spare-parts resilience (editorial mapping).",
+        faRelatedPatterns: "پاسخ‌گویی مالک خدمت؛ تاب‌آوری چندتأمین‌کننده‌ای و قطعات یدکی (نگاشت تحریریه).",
+        domains: [["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"], ["Continuity Governance", "حاکمیت تداوم"]]
+      }
+    ],
+    experience: [
+      ["Payment and central-banking infrastructure projects", "پروژه‌های زیرساخت پرداخت و بانک مرکزی", "Banking technology and interbank infrastructure", "فناوری بانکی و زیرساخت بین‌بانکی", "early 2000s (reported)", "اوایل دههٔ ۱۳۸۰ (روایت ثبت‌شده)", "The interview account describes early work connected to payment and central-banking infrastructure; project details require confirmation.", "روایت مصاحبه از فعالیت‌های آغازین مرتبط با زیرساخت بانک مرکزی و پرداخت می‌گوید؛ جزئیات پروژه نیازمند تأیید است."],
+      ["Banking advisory", "مشاوره بانکی", "Advisory work with several banks (reported)", "فعالیت مشاوره‌ای با چند بانک (روایت ثبت‌شده)", "late 2000s (reported)", "اواخر دههٔ ۱۳۸۰ (روایت ثبت‌شده)", "Reported progression from operational projects to advisory work; specific organizations and dates are not asserted here.", "گسترش گزارش‌شده از پروژه‌های عملیاتی به مشاوره؛ در اینجا نام سازمان یا تاریخ مشخصی ادعا نمی‌شود."],
+      ["International technology company", "شرکت فناوری بین‌المللی", "Professional experience after doctoral studies (reported)", "تجربهٔ حرفه‌ای پس از تحصیلات دکتری (روایت ثبت‌شده)", "period to confirm", "دوره نیازمند تأیید", "The draft mentions exposure to international technology and risk-management practices; employer and dates require confirmation.", "پیش‌نویس از آشنایی با تجربه‌های بین‌المللی فناوری و مدیریت ریسک می‌گوید؛ نام محل کار و تاریخ‌ها نیازمند تأییدند."],
+      ["Payment-site recovery example", "نمونهٔ بازیابی سایت پرداخت", "Backup-site failover account from interview", "روایت مصاحبه از انتقال به سایت پشتیبان", "reported experience", "تجربهٔ گزارش‌شده", "Generator fuel, software versions and staff preparation are described as dependencies; this account is not independently verified.", "سوخت ژنراتور، نسخه‌های نرم‌افزار و آمادگی کارکنان به‌عنوان وابستگی مطرح شده‌اند؛ این روایت مستقلاً راستی‌آزمایی نشده است."],
+      ["Banking disruption and recovery readiness", "اختلال بانکی و آمادگی بازیابی", "BCP, recoverable copies, decision rights and priority services", "BCP، نسخه‌های قابل‌بازیابی، اختیار تصمیم و خدمات اولویت‌دار", "2025 account", "روایت سال ۱۴۰۴", "The source frames these as lessons and viewpoints, not independently verified findings about any named organization.", "منبع این موارد را درس‌آموخته و دیدگاه معرفی می‌کند، نه یافته‌ای مستقل و راستی‌آزمایی‌شده دربارهٔ سازمانی مشخص."]
+    ],
+    themes: [
+      ["Electronic Banking", "بانکداری الکترونیکی"],
+      ["Digital Economy", "اقتصاد دیجیتال"],
+      ["Interbank Payments Infrastructure", "زیرساخت پرداخت بین‌بانکی"],
+      ["Payment Settlement Systems", "سامانه‌های تسویهٔ پرداخت"],
+      ["Banking Technology Advisory", "مشاورهٔ فناوری بانکی"],
+      ["Technology Risk", "ریسک فناوری"],
+      ["Service Recovery and Operational Continuity", "بازیابی خدمت و تداوم عملیاتی"]
+    ],
+    relatedDomains: [
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم", "Exercise real recovery sites and procedures before disruption.", "آزمودن عملی سایت‌ها و فرایندهای بازیابی پیش از اختلال."],
+      ["Continuity Maintenance", "نگهداشت تداوم", "Keep staff, recoverable copies and operating capabilities ready over time.", "حفظ آمادگی کارکنان، نسخه‌های قابل‌بازیابی و قابلیت‌های عملیاتی در گذر زمان."],
+      ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت", "Define critical services and their recovery priorities and targets.", "تعیین خدمات حیاتی و اولویت‌ها و هدف‌های بازیابی آن‌ها."],
+      ["Continuity Architecture", "معماری تداوم", "Prepare alternative service paths and minimum operating capacity.", "آماده‌سازی مسیرهای جایگزین خدمت و حداقل ظرفیت عملیاتی."],
+      ["Continuity Governance", "حاکمیت تداوم", "Clarify recovery ownership and investment decisions.", "روشن‌کردن مالکیت بازیابی و تصمیم‌های سرمایه‌گذاری."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This profile is a draft for human review. Confirm professional roles and dates, the House role, publication consent and the final wording of the thematic statement before release. Interview-derived accounts about named banking environments and security incidents are reported viewpoints, not independently verified findings. DBR patterns are editorial associations, not personal endorsements. Keep noindex until approved.",
+      faNote: "این پروفایل پیش‌نویس و در انتظار بازبینی انسانی است. سمت‌ها و تاریخ‌های حرفه‌ای، نقش فرد در خانه، رضایت انتشار و متن نهایی گزارهٔ محوری باید پیش از انتشار تأیید شوند. روایت‌های مصاحبه دربارهٔ محیط‌های بانکی و رخدادهای امنیتی دیدگاه‌های گزارش‌شده‌اند، نه یافته‌های مستقلاً راستی‌آزمایی‌شده. پترن‌های DBR پیوندهای تحلیلی تحریریه‌اند، نه تأیید شخصی. تا زمان تأیید، noindex حفظ شود."
+    },
+    sources: []
+  };
+
+  var ramyarGhanbariProfile = {
+    id: "ramyar-ghanbari",
+    name: "Ramyar Ghanbari",
+    faName: "رامیار قنبری",
+    role: "Technocratic Thinker · House role unverified",
+    faRole: "اندیشمند تکنوکرات · نقش در خانه تأییدنشده",
+    title: "President · Iran's Electronic Payments Association (at interview time)",
+    faTitle: "رئیس انجمن پرداخت‌های الکترونیک ایران (در زمان مصاحبه)",
+    subject: "Payments, fintech regulation, trust and service continuity",
+    faSubject: "پرداخت، تنظیم‌گری فین‌تک، اعتماد و تداوم خدمت",
+    image: "Assets/ramyar-ghanbari.png",
+    imageClass: "person-photo-ramyar-ghanbari",
+    profileLayout: "monograph",
+    profileNumber: "15",
+    faProfileNumber: "۱۵",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Ramyar Ghanbari | Payments, Fintech and Continuity | House of Technocrats",
+    faSeoTitle: "رامیار قنبری | پرداخت، فین‌تک و تداوم خدمات | خانه تکنوکرات‌ها",
+    metaDescription: "Professional profile of Ramyar Ghanbari, recorded as head of Iran's Electronic Payments Association at the time of interview, focusing on fintech regulation, trust and service continuity.",
+    faMetaDescription: "پروفایل حرفه‌ای رامیار قنبری؛ فعال صنعت پرداخت و رئیس انجمن پرداخت‌های الکترونیک ایران در زمان تجربهٔ ثبت‌شده، با تمرکز بر تنظیم‌گری فین‌تک، اعتماد و تداوم خدمت.",
+    positioning: "When payment rules change, continuity depends on trust, dialogue and the ability to adapt.",
+    faPositioning: "وقتی قواعد پرداخت تغییر می‌کنند، تداوم به اعتماد، گفت‌وگو و توان تغییر مسیر وابسته است.",
+    heroTags: [
+      ["Electronic payments", "پرداخت الکترونیک"],
+      ["Fintech", "فین‌تک"],
+      ["Industry–regulator engagement", "تعامل صنف و تنظیم‌گر"],
+      ["Trust and settlement", "اعتماد و تسویه"],
+      ["Adaptive management", "مدیریت تطبیقی"]
+    ],
+    quote: "When payment rules change, continuity depends on trust, dialogue and the ability to adapt.",
+    faQuote: "وقتی قواعد پرداخت تغییر می‌کنند، تداوم به اعتماد، گفت‌وگو و توان تغییر مسیر وابسته است.",
+    statementIsSynthesis: true,
+    bio: "Ramyar Ghanbari is a payments and financial-technology professional whose reported career spans business development, banking infrastructure, payment ventures and industry representation. The supplied interview account connects financial-service continuity to technical readiness as well as regulatory clarity, market trust and business adaptation. His current roles and House affiliation remain to be confirmed.",
+    faBio: "رامیار قنبری از فعالان حوزهٔ پرداخت و فناوری مالی است که مسیر حرفه‌ای ثبت‌شدهٔ او توسعهٔ کسب‌وکار، زیرساخت بانکی، کسب‌وکارهای پرداخت و فعالیت صنفی را دربر می‌گیرد. روایت مصاحبه، تداوم خدمات مالی را علاوه بر آمادگی فنی به شفافیت تنظیم‌گری، اعتماد بازار و سازگاری کسب‌وکار پیوند می‌دهد. سمت‌های جاری و نقش او در خانه نیازمند تأییدند.",
+    storyTitle: "When continuity is interrupted beyond the technology layer",
+    faStoryTitle: "وقتی تداوم خدمت پشت مرزهای فناوری متوقف می‌شود",
+    experienceTitle: "From payment ventures to industry representation",
+    faExperienceTitle: "از کسب‌وکار پرداخت تا نمایندگی صنفی",
+    story: [
+      ["Ghanbari's reported career moved from public-sector roles and bank-affiliated technology companies into the management and development of payment and fintech businesses. His work later included industry representation and engagement across the payment ecosystem. This combination shows how a financial service may be technically ready yet unusable without customer trust, regulatory clarity and workable settlement arrangements.", "مسیر حرفه‌ای ثبت‌شدهٔ قنبری از فعالیت در بخش دولتی و شرکت‌های فناوری وابسته به بانک‌ها به مدیریت و توسعهٔ کسب‌وکارهای پرداخت و فین‌تک رسید. فعالیت صنفی و تعامل با بازیگران اکوسیستم پرداخت نیز به این تجربه افزوده شد. این ترکیب نشان می‌دهد خدمت مالی ممکن است از نظر فنی آماده باشد، اما بدون اعتماد مشتری، شفافیت تنظیم‌گری و سازوکار تسویهٔ عملی قابل استفاده نباشد."],
+      ["At the time of the recorded account, he was president of Iran's Electronic Payments Association. He describes the association's role as connecting market participants with decision-makers rather than operating their businesses. Payment facilitators, payment companies and merchants depend on overlapping rules and institutions, so a decision affecting one group can have consequences across customers and partners.", "در زمان تجربهٔ ثبت‌شده، قنبری ریاست انجمن پرداخت‌های الکترونیک ایران را بر عهده داشت. او نقش انجمن را ایجاد مسیر ارتباط میان فعالان بازار و تصمیم‌گیران می‌داند، نه ادارهٔ مستقیم کسب‌وکارها. پرداخت‌یارها، شرکت‌های پرداخت و پذیرندگان با قواعد و نهادهای هم‌پوشان سروکار دارند؛ بنابراین تصمیم دربارهٔ یک گروه می‌تواند بر مشتریان و شرکای دیگر نیز اثر بگذارد."],
+      ["His account describes changing requirements, restrictions on some uses of payment facilitators and uncertainty around licenses or renewals. These risks do not necessarily begin with a failed application or network: a service can remain technically operational while a regulatory decision constrains its use. He argues for industry dialogue, transparent requirements and clarity about decisions as part of continuity design. These are his experience-based perspectives, not official association findings.", "روایت او از تغییر الزامات، محدودشدن برخی کاربردهای پرداخت‌یارها و ابهام در وضعیت مجوز یا تمدید آن‌ها می‌گوید. این ریسک‌ها الزاماً با خرابی نرم‌افزار یا شبکه آغاز نمی‌شوند؛ ممکن است خدمت از نظر فنی فعال باشد اما تصمیم تنظیم‌گری استفاده از آن را محدود کند. او گفت‌وگوی صنفی، شفافیت الزامات و روشن‌بودن تصمیم‌ها را بخشی از طراحی تداوم می‌داند. این موارد دیدگاه مبتنی بر تجربهٔ اوست، نه یافته یا موضع رسمی انجمن."],
+      ["A reported client example shows the trust layer at work: a business stopped using payment gateways after its finance leadership questioned whether to trust the payment facilitator. The issue was not gateway performance alone. Ghanbari emphasizes clear license status, settlement arrangements and how customer funds are handled; technical access is not enough when clients cannot confidently use a service.", "یک نمونهٔ ثبت‌شده از مشتری، نقش اعتماد را نشان می‌دهد: کسب‌وکاری پس از آن‌که مدیر مالی‌اش دربارهٔ اعتماد به پرداخت‌یار تردید کرد، استفاده از درگاه را کنار گذاشت. مسئله فقط عملکرد فنی درگاه نبود. قنبری بر شفافیت وضعیت مجوز، سازوکار تسویه و نحوهٔ نگهداری وجوه مشتری تأکید می‌کند؛ دسترسی فنی وقتی کافی نیست که مشتری نتواند با اطمینان از خدمت استفاده کند."],
+      ["Economic pressure and frequent rule changes shaped operating choices in the interview account. He describes tighter spending and staffing in some activities, redeploying people across projects rather than automatically discarding capability, and reviewing priorities more frequently. Shorter decision cycles replaced the assumption that a fixed long-range plan would remain valid; this adjusts the planning horizon rather than abandoning planning.", "در روایت مصاحبه، فشار اقتصادی و تغییر مداوم قواعد بر تصمیم‌های اجرایی اثر گذاشته‌اند. قنبری از محدودکردن هزینه و نیروی انسانی در برخی فعالیت‌ها، جابه‌جایی افراد میان پروژه‌ها به‌جای کنارگذاشتن خودکار قابلیت‌ها و بازنگری پرتکرارتر اولویت‌ها می‌گوید. چرخهٔ تصمیم کوتاه‌تر جای فرض اعتبار همیشگی یک برنامهٔ ثابت بلندمدت را گرفت؛ این یعنی تنظیم افق برنامه‌ریزی، نه کنارگذاشتن آن."],
+      ["Another example involved a financial-service proposition for international visitors, for which banking cooperation, infrastructure, hardware and people had been assembled before later events interrupted rollout. An early-stage initiative also explored taking online commerce and handicrafts to overseas markets. At the time of the account, that path was still being tested. The examples suggest preserving useful capabilities while exploring a different product or market, rather than insisting on the original execution path.", "نمونه‌ای دیگر به طرح خدمات مالی برای گردشگران خارجی مربوط است که پیش از توقف اجرا بر اثر تحولات بعدی، همکاری بانکی، زیرساخت، تجهیزات و نیروی انسانی آن فراهم شده بود. ابتکاری در مرحلهٔ آغاز نیز فروش آنلاین محصولات و صنایع‌دستی در بازارهای خارجی را بررسی می‌کرد؛ این مسیر در زمان ثبت روایت همچنان در مرحلهٔ آزمون بود. این نمونه‌ها اهمیت حفظ قابلیت‌های مفید و هم‌زمان بررسی محصول یا بازاری دیگر را نشان می‌دهند، نه اصرار بر مسیر اجرای اولیه."],
+      ["The source characterizes Ghanbari's comments on regulators as critical and experience-based. He advocates ongoing private-sector consultation, coordination among regulators and clear decision responsibilities. The practical continuity question is how financial-service governance can manage risk without unnecessarily interrupting the services it oversees. His remarks should not be read as independently established institutional findings.", "منبع، اظهارنظر قنبری دربارهٔ نهادهای تنظیم‌گر را انتقادی و مبتنی بر تجربهٔ او توصیف می‌کند. او مشورت مستمر با بخش خصوصی، هماهنگی میان تنظیم‌گران و روشن‌بودن مسئولیت تصمیم را پیشنهاد می‌کند. پرسش عملی تداوم این است که چگونه می‌توان ریسک خدمات مالی را مدیریت کرد بی‌آن‌که خدمت تحت نظارت بی‌دلیل متوقف شود. این گفته‌ها نباید یافته‌های نهادیِ مستقلاً اثبات‌شده تلقی شوند."],
+      ["The profile's continuity lens brings three layers together: service delivery, trust and the regulatory and economic conditions that allow delivery to continue. Readiness in one layer does not automatically compensate for failure in another.", "در این خوانش از تداوم، سه لایه به هم می‌رسند: ارائهٔ خدمت، اعتماد و شرایط تنظیم‌گری و اقتصادیِ ادامهٔ ارائه. آمادگی در یک لایه به‌تنهایی شکست لایه‌ای دیگر را جبران نمی‌کند."]
+    ],
+    intersections: [
+      {
+        title: "Regulatory co-design as continuity work",
+        faTitle: "طراحی مشارکتی تنظیم‌گری به‌عنوان کار تداوم",
+        body: "When a rule change can interrupt payment services, regulator engagement is preventive continuity work. Issue documentation, service-impact evidence, cross-institutional dialogue and clear licensing requirements can reduce avoidable disruption. This is an analytical connection, not a claim that Ghanbari implemented a complete DBR pattern.",
+        faBody: "وقتی تغییر قاعده می‌تواند خدمات پرداخت را متوقف کند، تعامل با تنظیم‌گر بخشی از کار پیشگیرانهٔ تداوم است. مستندسازی مسئله، شواهد اثر بر خدمت، گفت‌وگوی میان‌نهادی و الزامات روشن مجوز می‌توانند از اختلال قابل‌پیشگیری بکاهند. این پیوند تحلیلی است و به معنای اجرای کامل یک پترن DBR توسط قنبری نیست.",
+        careerBasis: "Association leadership at interview time and reported advocacy on payment-sector requirements.",
+        faCareerBasis: "ریاست انجمن در زمان مصاحبه و پیگیری گزارش‌شدهٔ الزامات صنعت پرداخت.",
+        managementFields: "Risk · Change · Accountability",
+        faManagementFields: "ریسک · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Regulatory co-design and sector playbooks (editorial mapping).",
+        faRelatedPatterns: "طراحی مشارکتی تنظیم‌گری و playbookهای بخشی (نگاشت تحریریه).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Trust, licensing and usable service access",
+        faTitle: "اعتماد، مجوز و دسترسی واقعی به خدمت",
+        body: "An operational gateway is not a usable service if merchants question the provider's legal status, settlement or handling of funds. Continuity assessment should include customer confidence, banking-partner requirements and the ability to transact, not only technical availability.",
+        faBody: "درگاه فعال لزوماً خدمت قابل‌استفاده‌ای نیست؛ ممکن است پذیرنده دربارهٔ وضعیت قانونی ارائه‌دهنده، تسویه یا نگهداری وجوه تردید داشته باشد. ارزیابی تداوم باید اعتماد مشتری، الزامات شریک بانکی و امکان انجام تراکنش را نیز دربرگیرد، نه فقط دسترس‌پذیری فنی را.",
+        careerBasis: "Reported payment facilitation, business-client relationships and advocacy for license transparency.",
+        faCareerBasis: "پرداخت‌یاری، تعامل گزارش‌شده با مشتریان سازمانی و پیگیری شفافیت مجوز.",
+        managementFields: "Performance · Risk · Accountability",
+        faManagementFields: "عملکرد · ریسک · پاسخ‌گویی",
+        relatedPatterns: "Open-banking and fintech resilience standards; impact-tolerance and critical-service mapping (editorial mapping).",
+        faRelatedPatterns: "استانداردهای تاب‌آوری بانکداری باز و فین‌تک؛ نگاشت آستانهٔ اثر و خدمت حیاتی (نگاشت تحریریه).",
+        domains: [["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"], ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "Diversify revenue paths without assuming every option will work",
+        faTitle: "تنوع مسیر درآمد، بدون فرض موفقیت همهٔ گزینه‌ها",
+        body: "Dependence on one market or service can turn external disruption into an existential risk. The interview account describes postponed projects and alternative fintech and commerce paths under exploration; it points to portfolio choices and preserving useful capabilities, not guaranteed success through diversification.",
+        faBody: "وابستگی به یک بازار یا خدمت می‌تواند اختلال بیرونی را به تهدیدی برای بقای کسب‌وکار تبدیل کند. روایت مصاحبه از پروژه‌های متوقف‌شده و مسیرهای جایگزین در فین‌تک و تجارت می‌گوید؛ این تجربه به انتخاب سبد فعالیت و حفظ قابلیت‌های مفید اشاره دارد، نه تضمین موفقیت از راه تنوع‌بخشی.",
+        careerBasis: "Participation in fintech and e-commerce ventures and reported project reassessment during disruption.",
+        faCareerBasis: "مشارکت در کسب‌وکارهای فین‌تک و تجارت آنلاین و بازنگری گزارش‌شدهٔ پروژه‌ها هنگام اختلال.",
+        managementFields: "Performance · Risk · Change",
+        faManagementFields: "عملکرد · ریسک · تغییر",
+        relatedPatterns: "Cash-positive resilience economics (editorial mapping).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ جریان‌نقد مثبت (نگاشت تحریریه).",
+        domains: [["Continuity Smart Management", "مدیریت هوشمند تداوم"], ["Continuity Maintenance", "نگهداشت تداوم"]]
+      },
+      {
+        title: "Short-cycle decisions and preserved team capability",
+        faTitle: "تصمیم کوتاه‌چرخه و حفظ قابلیت تیم",
+        body: "Under fast-changing market and regulatory conditions, rigid plans can reduce the ability to respond. The source account connects tighter spending, redeployment and frequent priority reviews to decision rights, resource allocation and retaining organizational knowledge.",
+        faBody: "در شرایطی که بازار و مقررات سریع تغییر می‌کنند، برنامهٔ انعطاف‌ناپذیر می‌تواند توان واکنش را کم کند. روایت منبع، کنترل هزینه، جابه‌جایی نیرو و بازبینی پرتکرار اولویت‌ها را به اختیار تصمیم، تخصیص منابع و حفظ دانش سازمانی پیوند می‌دهد.",
+        careerBasis: "Reported fintech management, staffing redeployment and changing project priorities.",
+        faCareerBasis: "مدیریت گزارش‌شدهٔ کسب‌وکارهای فین‌تک، بازتخصیص نیرو و تغییر اولویت پروژه‌ها.",
+        managementFields: "Change · Performance · Accountability",
+        faManagementFields: "تغییر · عملکرد · پاسخ‌گویی",
+        relatedPatterns: "Small autonomous resilience teams (conceptual adjacency; implementation not evidenced).",
+        faRelatedPatterns: "تیم‌های تاب‌آور کوچک و خودمختار (هم‌جواری مفهومی؛ شواهدی از اجرا در منبع نیست).",
+        domains: [["Continuity Smart Management", "مدیریت هوشمند تداوم"], ["Continuity Maintenance", "نگهداشت تداوم"]]
+      }
+    ],
+    experience: [
+      ["Public-sector and bank-affiliated technology roles", "فعالیت دولتی و شرکت‌های فناوری وابسته به بانک", "Business development and banking infrastructure", "توسعهٔ کسب‌وکار و زیرساخت بانکی", "career history (verify)", "مسیر حرفه‌ای (نیازمند تأیید)", "The source describes a move from public-sector roles and bank-affiliated technology firms into payment and fintech ventures.", "منبع از گذار فعالیت در بخش دولتی و شرکت‌های فناوری وابسته به بانک به کسب‌وکارهای پرداخت و فین‌تک می‌گوید."],
+      ["Payment and fintech ventures", "کسب‌وکارهای پرداخت و فین‌تک", "Management and business development", "مدیریت و توسعهٔ کسب‌وکار", "various periods (verify)", "دوره‌های مختلف (نیازمند تأیید)", "Experience is described across several ventures; specific company names and dates require editorial confirmation.", "تجربه در چند کسب‌وکار توصیف شده است؛ نام شرکت‌ها و تاریخ‌ها نیازمند تأیید تحریریه‌اند."],
+      ["Iran's Electronic Payments Association", "انجمن پرداخت‌های الکترونیک ایران", "President at the time of the recorded interview", "رئیس انجمن در زمان مصاحبهٔ ثبت‌شده", "interview-time role", "سمت در زمان مصاحبه", "The recorded role is historical to the source account and should not be presented as current without confirmation.", "این سمت به زمان روایت منبع مربوط است و بدون تأیید نباید جاری معرفی شود."],
+      ["Financial services for international visitors", "خدمات مالی برای گردشگران خارجی", "Payment and banking proposition; rollout interrupted", "طرح پرداخت و همکاری بانکی؛ اجرای آن متوقف شد", "reported project", "پروژهٔ گزارش‌شده", "The account says infrastructure, equipment, banking cooperation and people were assembled before later events interrupted rollout.", "طبق روایت، زیرساخت، تجهیزات، همکاری بانکی و نیروی انسانی فراهم شده بود، اما تحولات بعدی اجرا را متوقف کرد."],
+      ["Online commerce and handicrafts", "تجارت آنلاین و صنایع‌دستی", "Overseas-market initiative under exploration", "ابتکار ورود به بازار خارجی در مرحلهٔ بررسی", "early-stage at interview time", "در مرحلهٔ آغازین هنگام مصاحبه", "The source describes the initiative as still being tested at the time; no success outcome is claimed.", "منبع این ابتکار را در زمان مصاحبه همچنان در مرحلهٔ آزمون توصیف می‌کند و ادعایی دربارهٔ موفقیت آن ندارد."]
+    ],
+    themes: [
+      ["Electronic Payments", "پرداخت الکترونیک"],
+      ["Payment Facilitation", "پرداخت‌یاری"],
+      ["Fintech and Digital Finance", "فین‌تک و مالی دیجیتال"],
+      ["Industry–Regulator Engagement", "تعامل صنف و تنظیم‌گر"],
+      ["Banking Infrastructure and Switching", "زیرساخت و سوئیچ بانکی"],
+      ["Digital Business Development", "توسعهٔ کسب‌وکار دیجیتال"],
+      ["Revenue Models and Adaptive Management", "مدل درآمدی و مدیریت تطبیقی"],
+      ["E-commerce", "تجارت آنلاین"]
+    ],
+    relatedDomains: [
+      ["Continuity Governance", "حاکمیت تداوم", "Align regulatory decisions, accountability and the conditions for continued service.", "هم‌راستاکردن تصمیم تنظیم‌گری، پاسخ‌گویی و شرایط ادامهٔ خدمت."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Map dependencies among payment facilitators, banks, infrastructure, merchants and public institutions.", "نگاشت وابستگی میان پرداخت‌یار، بانک، زیرساخت، پذیرنده و نهادهای عمومی."],
+      ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری", "Address the gap between technical availability and a service customers can confidently use.", "توجه به فاصلهٔ میان دسترس‌پذیری فنی و خدمتی که مشتری با اطمینان استفاده می‌کند."],
+      ["Business Process Continuity / SLA", "تداوم فرایند کسب‌وکار و توافق سطح خدمت", "Clarify licensing, settlement workflows and commitments across service parties.", "روشن‌کردن مجوز، گردش تسویه و تعهدات طرف‌های خدمت."],
+      ["Continuity Smart Management", "مدیریت هوشمند تداوم", "Choose what to preserve, where to contain cost and when to change direction.", "انتخاب قابلیت‌های قابل‌حفظ، مهار هزینه و زمان تغییر مسیر."],
+      ["Continuity Maintenance", "نگهداشت تداوم", "Reassess priorities and retain useful capabilities as conditions change.", "بازنگری اولویت‌ها و حفظ قابلیت‌های مفید در شرایط متغیر."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This draft is based on the supplied interview narrative and DBR pattern collection. The association presidency is stated as recorded at interview time, not as a current role. Confirm professional roles and organization names, House affiliation, publication consent and analytical mappings before release. Critical comments about regulators are attributed perspectives, not independently established findings or an official association position. DBR patterns are editorial mappings, not personal endorsements. Keep noindex until approved.",
+      faNote: "این پیش‌نویس بر پایهٔ روایت مصاحبه و مجموعهٔ پترن‌های DBR تهیه شده است. ریاست انجمن مربوط به زمان مصاحبه ذکر شده و سمت جاری نیست. سمت‌ها و نام سازمان‌ها، نقش در خانه، رضایت انتشار و نگاشت‌های تحلیلی پیش از انتشار نیازمند تأییدند. نقد نهادهای تنظیم‌گر دیدگاه منتسب به گوینده است، نه یافتهٔ مستقلاً اثبات‌شده یا موضع رسمی انجمن. پترن‌های DBR نگاشت تحریریه‌اند، نه تأیید شخصی. تا زمان تأیید، noindex حفظ شود."
+    },
+    sources: []
+  };
+
+  var amirhosseinShobeiriProfile = {
+    id: "amirhossein-shobeiri",
+    name: "Amirhossein Shobeiri",
+    faName: "امیرحسین شبیری",
+    role: "Technocratic Leader · House role unverified",
+    faRole: "رهبر تکنوکرات · نقش در خانه تأییدنشده",
+    title: "Vice President of Information Technology · Melal Credit Institution (recorded; current status to confirm)",
+    faTitle: "معاون فناوری اطلاعات مؤسسه اعتباری ملل (سمت ثبت‌شده؛ وضعیت جاری نیازمند تأیید) · مدیرعامل پیشین شاپرک",
+    subject: "Fintech innovation, payment systems and banking technology",
+    faSubject: "نوآوری فین‌تک، سامانه‌های پرداخت و فناوری بانکی",
+    image: "Assets/amirhossein-shabiri.jpg",
+    imageClass: "person-photo-amirhossein-shobeiri",
+    profileLayout: "monograph",
+    profileNumber: "16",
+    faProfileNumber: "۱۶",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Amirhossein Shobeiri | Banking Technology and Payment Continuity | House of Technocrats",
+    faSeoTitle: "امیرحسین شبیری | فناوری بانکی و تداوم پرداخت | خانه تکنوکرات‌ها",
+    metaDescription: "The professional journey of Amirhossein Shobeiri across fintech innovation, Shaparak and Melal, connecting leadership, regulatory judgment, people and financial-service continuity.",
+    faMetaDescription: "مسیر حرفه‌ای امیرحسین شبیری از نوآوری و سرمایه‌گذاری فین‌تک تا راهبری شاپرک و فناوری ملل، با تمرکز بر تصمیم مدیریتی، منابع انسانی و تداوم خدمات پرداخت.",
+    positioning: "Payment continuity requires infrastructure, decision authority and teams ready for disruption.",
+    faPositioning: "تداوم خدمات پرداخت به زیرساخت، اختیار تصمیم و آمادگی تیم در لحظهٔ اختلال وابسته است.",
+    heroTags: [
+      ["Banking technology", "فناوری اطلاعات بانکی"],
+      ["Payment networks", "شبکه‌های پرداخت"],
+      ["Fintech innovation", "نوآوری فین‌تک"],
+      ["People and decision continuity", "تداوم منابع انسانی و تصمیم"],
+      ["Operational risk", "ریسک عملیاتی"]
+    ],
+    quote: "Payment continuity requires infrastructure, decision authority and teams ready for disruption.",
+    faQuote: "تداوم خدمات پرداخت به زیرساخت، اختیار تصمیم و آمادگی تیم در لحظهٔ اختلال وابسته است.",
+    statementIsSynthesis: true,
+    bio: "Amirhossein Shobeiri is an executive whose reported experience spans fintech innovation and investment, payment-system leadership and banking technology. His work at Shaparak and Melal connects network-level coordination with the operational responsibilities of a financial institution. The profile is based on an interview transcription with acknowledged recognition errors and public reporting; current details and publication approval remain to be confirmed.",
+    faBio: "امیرحسین شبیری مدیری است که تجربهٔ ثبت‌شدهٔ او نوآوری و سرمایه‌گذاری فین‌تک، راهبری سامانه‌های پرداخت و فناوری بانکی را دربر می‌گیرد. فعالیت در شاپرک و ملل، هماهنگی در مقیاس شبکه را به مسئولیت‌های عملیاتی یک مؤسسهٔ مالی متصل می‌کند. این پروفایل بر پایهٔ پیاده‌سازی مصاحبه با خطاهای شنیداری اعلام‌شده و گزارش‌های عمومی تهیه شده و جزئیات جاری و مجوز انتشار همچنان نیازمند تأییدند.",
+    storyTitle: "Keeping speed, control and service continuity together",
+    faStoryTitle: "حفظ هم‌زمان سرعت، کنترل و استمرار خدمت",
+    experienceTitle: "From fintech innovation to payment-network leadership",
+    faExperienceTitle: "از نوآوری فین‌تک تا راهبری شبکهٔ پرداخت",
+    story: [
+      ["The source account places Shobeiri's entry into fintech around 2017, through Box and Sharif University's innovation environment. As responsibilities widened, the management question shifted from whether a product could grow to whether operating quality, network risk and reliable access could be governed together.", "روایت منبع، ورود شبیری به فین‌تک را حدود سال ۱۳۹۶ و از مسیر مجموعهٔ باکس و محیط نوآوری دانشگاه صنعتی شریف توصیف می‌کند. با گسترش مسئولیت‌ها، پرسش مدیریتی از امکان رشد محصول به ادارهٔ هم‌زمان کیفیت اجرا، ریسک شبکه و دسترسی قابل‌اتکا تغییر کرد."],
+      ["His subsequent work in venture capital and fintech-oriented businesses, including activity associated with Servat Setaregan, brought funding, organizational support and scale into the picture. At Finodad, Bank Melli's innovation center, the challenge became sustaining innovation inside a large institution. An innovation unit may remain active while its original mission shifts toward delivering specific internal projects; institutional survival and mission continuity are not necessarily the same.", "فعالیت بعدی در سرمایه‌گذاری خطرپذیر و کسب‌وکارهای فین‌تک، از جمله تجربهٔ مرتبط با ثروت ستارگان، تأمین مالی، پشتیبانی سازمانی و مقیاس را وارد این نگاه کرد. در فینوداد، مرکز نوآوری بانک ملی، مسئله به حفظ نوآوری درون یک نهاد بزرگ تغییر یافت. واحد نوآوری ممکن است به فعالیت ادامه دهد، در حالی که مأموریت اولیه‌اش به اجرای پروژه‌های داخلی خاص تغییر می‌کند؛ بقای نهاد لزوماً به معنای تداوم مأموریت آن نیست."],
+      ["At Shaparak, the focus widened from a growing business to coordination across a national payment network involving service providers, acquiring businesses and banks. Continuity therefore requires more than keeping one application available: decisions about risk, payment access, coordination and supervision can affect participants beyond one company. Public reporting records his appointment as CEO and later departure from that position.", "در شاپرک، تمرکز از رشد یک کسب‌وکار به هماهنگی در شبکه‌ای فراگیر از ارائه‌دهندگان خدمت، شرکت‌های پذیرنده و بانک‌ها گسترش یافت. بنابراین تداوم فقط به روشن‌ماندن یک نرم‌افزار محدود نیست؛ تصمیم دربارهٔ ریسک، دسترسی به پرداخت، هماهنگی و نظارت می‌تواند بر بازیگرانی فراتر از یک شرکت اثر بگذارد. گزارش‌های عمومی انتصاب او به مدیرعاملی و خروج بعدی از این سمت را ثبت کرده‌اند."],
+      ["The interview account says disruption accelerated work across the payment ecosystem that might otherwise have taken years. It also cautions that equipment, standby sites and formal plans do not guarantee readiness. Unclear decision authority, slow human coordination or unsettled rules for crisis action can prevent prepared infrastructure from producing the needed service outcome.", "در روایت مصاحبه، فشار اختلال اقدام‌هایی را در اکوسیستم پرداخت سرعت داد که شاید در شرایط عادی سال‌ها طول می‌کشیدند. در عین حال، داشتن تجهیزات، سایت پشتیبان و برنامهٔ رسمی را تضمین آمادگی نمی‌داند. اختیار مبهم تصمیم، هماهنگی انسانی کند یا قواعد نامشخص برای اقدام در بحران می‌تواند مانع تبدیل زیرساخت آماده به نتیجهٔ مطلوب خدمت شود."],
+      ["Shobeiri later took on the recorded role of Vice President of Information Technology at Melal Credit Institution. This brought network-level experience closer to service delivery inside a financial institution, where workforce capability, core banking, digital channels and modernization priorities need to be considered together. He identifies human resources as a central IT-resilience concern and asks whether an organization can meet essential commitments if revenue or cash flow is interrupted for several months.", "شبیری پس از آن در سمت ثبت‌شدهٔ معاون فناوری اطلاعات مؤسسهٔ اعتباری ملل قرار گرفت. این مسئولیت تجربهٔ شبکه‌ای را به ارائهٔ خدمت درون یک مؤسسهٔ مالی نزدیک کرد؛ جایی که توان نیروی انسانی، خدمات بانکی هسته‌ای، کانال‌های دیجیتال و اولویت‌های نوسازی باید کنار هم دیده شوند. او منابع انسانی را مسئله‌ای محوری در تاب‌آوری فناوری می‌داند و می‌پرسد آیا سازمان در صورت اختلال چندماههٔ درآمد یا جریان نقدی، می‌تواند تعهدهای ضروری خود را ادامه دهد."],
+      ["His account raises a difficult crisis-governance question: a manager may need to preserve a critical service under exceptional conditions, only to have that decision reviewed later against normal assumptions. This uncertainty can discourage timely action. The continuity implication is to define emergency mandates, evidence standards, oversight and proportionate review in advance, without removing accountability or anti-money-laundering safeguards.", "روایت او پرسشی دشوار دربارهٔ حکمرانی بحران مطرح می‌کند: مدیر ممکن است در شرایط استثنایی برای حفظ خدمت حیاتی تصمیم بگیرد، اما بعد همان تصمیم با مفروضات عادی ارزیابی شود. این ابهام می‌تواند اقدام به‌موقع را دشوار کند. پیامد آن برای تداوم، تعیین پیشاپیش حدود اختیار اضطراری، معیارهای شواهد، نظارت و بازبینی متناسب است؛ نه حذف پاسخ‌گویی یا الزامات مبارزه با پول‌شویی."],
+      ["The continuity contribution of this experience is a managerial balance: innovation and customer experience without risk controls can undermine trust, while disproportionate restrictions can stop more service than necessary. Essential outcomes need capable teams, timely decisions and clear accountability even when normal conditions fail.", "اهمیت این تجربه برای طراحی تداوم، یافتن تعادل مدیریتی است: نوآوری و تجربهٔ مشتری بدون کنترل ریسک می‌توانند اعتماد را تضعیف کنند و محدودیت نامتناسب نیز ممکن است خدمت را بیش از ضرورت متوقف کند. در اختلال، نتیجهٔ ضروری خدمت به تیم آماده، تصمیم به‌موقع و پاسخ‌گویی روشن نیاز دارد."]
+    ],
+    intersections: [
+      {
+        title: "Decision ownership and crisis governance",
+        faTitle: "مالکیت تصمیم و حکمرانی بحران",
+        body: "Payment-network disruptions can affect providers, merchants and customers together. Continuity needs explicit decision rights for restricting a service, operating in a controlled mode or initiating recovery, with clear evidence and coordination across technology, operations, risk and oversight.",
+        faBody: "اختلال شبکهٔ پرداخت می‌تواند هم‌زمان بر ارائه‌دهنده، پذیرنده و مشتری اثر بگذارد. تداوم به اختیارهای روشن برای محدودکردن خدمت، ادامهٔ کنترل‌شده یا آغاز بازیابی، همراه با شواهد مشخص و هماهنگی فناوری، عملیات، ریسک و نظارت نیاز دارد.",
+        careerBasis: "Shaparak leadership and reported experience with payment-system management.",
+        faCareerBasis: "راهبری شاپرک و تجربهٔ ثبت‌شده در مدیریت سامانهٔ پرداخت.",
+        managementFields: "Risk · Accountability · Performance",
+        faManagementFields: "ریسک · پاسخ‌گویی · عملکرد",
+        relatedPatterns: "Service-owner accountability model; small autonomous resilience teams; regulatory co-design and sector playbooks (editorial analysis).",
+        faRelatedPatterns: "مدل پاسخ‌گویی مالک خدمت؛ تیم‌های تاب‌آور کوچک و خودمختار؛ طراحی مشارکتی تنظیم‌گری و playbookهای بخشی (تحلیل تحریریه).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"]]
+      },
+      {
+        title: "People as essential service infrastructure",
+        faTitle: "نیروی انسانی به‌عنوان زیرساخت ضروری خدمت",
+        body: "Presence alone is not resilience. Transferable knowledge, competent substitutes, clear responsibilities and teams able to decide under pressure belong alongside standby systems. Dependence on one specialist may be as consequential as dependence on one data center.",
+        faBody: "حضور کارکنان به‌تنهایی تاب‌آوری نیست. دانش قابل‌انتقال، جانشین توانمند، مسئولیت روشن و تیمی که زیر فشار تصمیم می‌گیرد باید کنار سامانهٔ پشتیبان طراحی شود. وابستگی به یک متخصص می‌تواند به‌اندازهٔ وابستگی به یک مرکز داده تعیین‌کننده باشد.",
+        careerBasis: "Technology leadership and direct emphasis on workforce resilience.",
+        faCareerBasis: "راهبری فناوری و تأکید مستقیم بر تاب‌آوری نیروی انسانی.",
+        managementFields: "Performance · Change · Accountability",
+        faManagementFields: "عملکرد · تغییر · پاسخ‌گویی",
+        relatedPatterns: "Small autonomous resilience teams; severe-but-plausible scenario testing (editorial analysis).",
+        faRelatedPatterns: "تیم‌های تاب‌آور کوچک و خودمختار؛ آزمون سناریوهای شدید اما باورپذیر (تحلیل تحریریه).",
+        domains: [["People and Decision Continuity", "تداوم منابع انسانی و تصمیم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم"]]
+      },
+      {
+        title: "Balance customer speed with systemic risk control",
+        faTitle: "تعادل سرعت خدمت با کنترل ریسک سیستمی",
+        body: "Low-friction fintech journeys must coexist with traceability, fraud and financial-crime controls and containment of network disruption. Continuity should define safe operating limits, exception handling and auditability instead of treating service and oversight as opposing goals.",
+        faBody: "مسیر سادهٔ فین‌تک باید با ردیابی مالی، کنترل تقلب و جرایم مالی و مهار گسترش اختلال در شبکه هم‌زمان برقرار باشد. تداوم باید حدود ایمن فعالیت، رسیدگی به استثنا و قابلیت حسابرسی را روشن کند، نه این‌که خدمت و نظارت را دو هدف متضاد بداند.",
+        careerBasis: "Reported fintech work, payment-network governance and regulatory exposure.",
+        faCareerBasis: "فعالیت ثبت‌شده در فین‌تک، حکمرانی شبکهٔ پرداخت و مواجهه با تنظیم‌گری.",
+        managementFields: "Risk · Discovery · Performance",
+        faManagementFields: "ریسک · کشف · عملکرد",
+        relatedPatterns: "Regulatory co-design and sector playbooks; open-banking and fintech resilience standards (editorial analysis).",
+        faRelatedPatterns: "طراحی مشارکتی تنظیم‌گری و playbookهای بخشی؛ استانداردهای تاب‌آوری بانکداری باز و فین‌تک (تحلیل تحریریه).",
+        domains: [["Payment and Fintech Ecosystem Continuity", "تداوم اکوسیستم پرداخت و فین‌تک"], ["Customer-Facing Service Continuity", "تداوم خدمات روبه‌مشتری"]]
+      },
+      {
+        title: "Financial capacity for extended disruption",
+        faTitle: "ظرفیت مالی برای اختلال طولانی",
+        body: "An institution may have backup technology yet lack the liquidity to retain specialists, pay suppliers or sustain alternatives for months. Scenario exercises should test financial and human response as well as machine restoration; funding and operational readiness are parts of one capability.",
+        faBody: "مؤسسه ممکن است فناوری پشتیبان داشته باشد اما نقدینگی لازم برای حفظ متخصصان، پرداخت به تأمین‌کنندگان یا ادامهٔ مسیر جایگزین در چند ماه را نداشته باشد. تمرین سناریو باید پاسخ مالی و انسانی را نیز در کنار بازگردانی تجهیزات بیازماید؛ تأمین مالی و آمادگی عملیاتی اجزای یک قابلیت‌اند.",
+        careerBasis: "Venture-development experience and reported attention to cash-flow management.",
+        faCareerBasis: "تجربهٔ توسعهٔ کسب‌وکار و توجه ثبت‌شده به مدیریت جریان نقدی.",
+        managementFields: "Risk · Performance · Change",
+        faManagementFields: "ریسک · عملکرد · تغییر",
+        relatedPatterns: "Cash-positive resilience economics; severe-but-plausible scenario testing (editorial analysis).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ جریان‌نقد مثبت؛ آزمون سناریوهای شدید اما باورپذیر (تحلیل تحریریه).",
+        domains: [["Continuity Economics", "اقتصاد تداوم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم"]]
+      }
+    ],
+    experience: [
+      ["Box and Sharif innovation environment", "باکس و محیط نوآوری دانشگاه صنعتی شریف", "Fintech entry and technology ventures", "ورود به فین‌تک و کسب‌وکارهای فناورانه", "around 2017 (reported)", "حدود ۱۳۹۶ (روایت ثبت‌شده)", "Connected innovation work to the practical questions of product growth and operational quality.", "فعالیت نوآورانه را به پرسش‌های عملی رشد محصول و کیفیت اجرا پیوند داد."],
+      ["Servat Setaregan and fintech businesses", "ثروت ستارگان و کسب‌وکارهای فین‌تک", "Venture capital and company development", "سرمایه‌گذاری خطرپذیر و توسعهٔ کسب‌وکار", "career period (verify)", "دورهٔ حرفه‌ای (نیازمند تأیید)", "Brought investment, funding and organizational scale into the management perspective.", "سرمایه‌گذاری، تأمین مالی و مقیاس سازمانی را وارد نگاه مدیریتی کرد."],
+      ["Finodad · Bank Melli innovation center", "فینوداد · مرکز نوآوری بانک ملی", "Innovation within a large institution", "نوآوری درون یک نهاد بزرگ", "career period (verify)", "دورهٔ حرفه‌ای (نیازمند تأیید)", "Raised the distinction between keeping an innovation unit active and sustaining its original mission.", "تفاوت میان ادامهٔ فعالیت واحد نوآوری و تداوم مأموریت اولیهٔ آن را برجسته کرد."],
+      ["Shaparak", "شاپرک", "Chief Executive Officer (former)", "مدیرعامل پیشین", "appointment and departure publicly reported", "انتصاب و خروج از سمت در گزارش‌های عمومی", "Led in a network context where decisions can affect payment providers, banks, merchants and customers.", "در بستری شبکه‌ای مسئولیت داشت که تصمیم‌ها بر ارائه‌دهندگان پرداخت، بانک‌ها، پذیرندگان و مشتریان اثر می‌گذارند."],
+      ["Melal Credit Institution", "مؤسسهٔ اعتباری ملل", "Vice President of Information Technology (recorded; confirm current status)", "معاون فناوری اطلاعات (سمت ثبت‌شده؛ وضعیت جاری تأیید شود)", "reported appointment", "انتصاب گزارش‌شده", "Connected payment-network experience to workforce capability, core banking, digital channels and modernization.", "تجربهٔ شبکهٔ پرداخت را به توان نیروی انسانی، بانکداری هسته‌ای، کانال دیجیتال و نوسازی متصل کرد."]
+    ],
+    themes: [
+      ["Banking Information Technology", "فناوری اطلاعات بانکی"],
+      ["Payment Network Governance", "حکمرانی شبکهٔ پرداخت"],
+      ["Fintech Innovation and Investment", "نوآوری و سرمایه‌گذاری فین‌تک"],
+      ["Digital Financial Services", "خدمات مالی دیجیتال"],
+      ["Operational Risk and Regulation", "ریسک عملیاتی و تنظیم‌گری"],
+      ["Technology Leadership", "راهبری فناوری"],
+      ["People and Decision Continuity", "تداوم منابع انسانی و تصمیم"],
+      ["Business Continuity", "تداوم کسب‌وکار"]
+    ],
+    relatedDomains: [
+      ["Service Governance and Ownership", "حاکمیت و مالکیت سرویس", "Clarify decision rights, responsibility for service and escalation paths during disruption.", "روشن‌کردن اختیار تصمیم، مسئولیت حفظ خدمت و مسیرهای تشدید بحران."],
+      ["People and Decision Continuity", "تداوم منابع انسانی و تصمیم", "Reduce dependence on individuals, rehearse roles and enable timely decisions under risk controls.", "کاهش وابستگی به افراد، تمرین نقش‌ها و تسریع تصمیم در کنار کنترل ریسک."],
+      ["Payment and Fintech Ecosystem Continuity", "تداوم اکوسیستم پرداخت و فین‌تک", "Follow how decisions and disruptions affect service providers and end customers.", "پیگیری اثر تصمیم‌ها و اختلال‌ها بر ارائه‌دهندگان خدمت و مشتری نهایی."],
+      ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم", "Test decision processes and team roles as well as backup equipment.", "آزمون فرایند تصمیم و نقش تیم‌ها، نه فقط صحت تجهیزات پشتیبان."],
+      ["Continuity Economics", "اقتصاد تداوم", "Account for liquidity and the cost of sustaining operations during a prolonged interruption.", "درنظرگرفتن نقدینگی و توان تأمین هزینهٔ عملیات در اختلال طولانی."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This draft combines an interview transcription with acknowledged recognition errors and public reporting. Confirm the current Melal appointment, official English spelling, House role, publication consent and interpretations reconstructed from the interview before release. Interview-derived details are paraphrased, not verbatim quotations. The supplied source labels its source list internal and not for the public page, so no source list is displayed here. DBR patterns are analytical links, not public personal endorsements. Keep noindex until approved.",
+      faNote: "این پیش‌نویس، پیاده‌سازی مصاحبه با خطاهای شنیداری اعلام‌شده را با گزارش‌های عمومی ترکیب می‌کند. سمت جاری در ملل، املای رسمی انگلیسی نام، نقش در خانه، رضایت انتشار و برداشت‌های بازسازی‌شده از مصاحبه باید پیش از انتشار تأیید شوند. جزئیات مصاحبه بازنویسی معنایی‌اند، نه نقل‌قول لفظ‌به‌لفظ. سند منبع فهرست منابع را داخلی و خارج از صفحهٔ عمومی می‌داند؛ بنابراین فهرستی در این صفحه نمایش داده نمی‌شود. پترن‌های DBR پیوندهای تحلیلی‌اند، نه تأیید شخصی. تا زمان تأیید، noindex حفظ شود."
+    },
+    sources: []
+  };
+
+  var baharehSharifiounProfile = {
+    id: "bahareh-sharifioun",
+    name: "Bahareh Sharifioun",
+    faName: "بهاره شریفیون",
+    role: "Technocratic Leader · House role unverified",
+    faRole: "رهبر تکنوکرات · نقش در خانه تأییدنشده",
+    title: "Chief Executive Officer · Sepas Holding (recorded; current status to confirm)",
+    faTitle: "مدیرعامل هلدینگ سپاس (سمت ثبت‌شده؛ وضعیت جاری نیازمند تأیید)",
+    subject: "Holding-company leadership, digital businesses and continuity",
+    faSubject: "راهبری هلدینگ، کسب‌وکارهای دیجیتال و تداوم",
+    image: "Assets/bahareh-sharifioun.jpg",
+    imageClass: "person-photo-bahareh-sharifioun",
+    profileLayout: "monograph",
+    profileNumber: "17",
+    faProfileNumber: "۱۷",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Bahareh Sharifioun | Sepas Holding and Business Continuity | House of Technocrats",
+    faSeoTitle: "بهاره شریفیون | هلدینگ سپاس و تداوم کسب‌وکار | خانه تکنوکرات‌ها",
+    metaDescription: "Bahareh Sharifioun's recorded journey from technology ventures and Bimeh.com to leading Sepas Holding, with a focus on continuity across a diversified portfolio.",
+    faMetaDescription: "مسیر ثبت‌شدهٔ بهاره شریفیون از کسب‌وکارهای فناوری و بیمه‌دات‌کام تا راهبری هلدینگ سپاس، با تمرکز بر تداوم در سبدی متنوع از کسب‌وکارها.",
+    positioning: "Continuity across a holding company depends on protecting services, decision capacity and shared dependencies.",
+    faPositioning: "تداوم در یک هلدینگ به حفظ خدمات، ظرفیت تصمیم‌گیری و شناخت وابستگی‌های مشترک نیاز دارد.",
+    heroTags: [
+      ["Holding-company leadership", "راهبری هلدینگ"],
+      ["Digital businesses", "کسب‌وکارهای دیجیتال"],
+      ["Portfolio management", "مدیریت سبد کسب‌وکار"],
+      ["Resource allocation", "تخصیص منابع"],
+      ["Shared dependencies", "وابستگی‌های مشترک"]
+    ],
+    quote: "Holding-company continuity protects services and decision capacity across different businesses.",
+    faQuote: "تداوم یک هلدینگ، حفظ جریان خدمت و قدرت تصمیم در میان کسب‌وکارهای متفاوت است.",
+    statementIsSynthesis: true,
+    bio: "Bahareh Sharifioun is an entrepreneur and executive whose recorded path spans technology ventures, Bimeh.com and leadership of Sepas Holding. Her experience across insurance, travel, e-commerce and credit-related businesses highlights how disruption can affect a portfolio unevenly, while shared technology and connectivity create common exposure. Current role details, the profile's interpretations and publication consent remain to be confirmed.",
+    faBio: "بهاره شریفیون مدیر و کارآفرینی است که مسیر ثبت‌شدهٔ او کسب‌وکارهای فناوری، بیمه‌دات‌کام و راهبری هلدینگ سپاس را دربر می‌گیرد. تجربه در حوزه‌های بیمه، گردشگری، تجارت الکترونیک و خدمات اعتباری نشان می‌دهد اختلال می‌تواند بر بخش‌های یک سبد اثر متفاوتی بگذارد، در حالی که فناوری و ارتباطات وابستگی مشترک ایجاد می‌کنند. جزئیات سمت جاری، برداشت‌های این پروفایل و رضایت انتشار همچنان نیازمند تأییدند.",
+    storyTitle: "When one crisis affects ten businesses differently",
+    faStoryTitle: "وقتی یک بحران، ده کسب‌وکار را به یک شکل تحت تأثیر قرار نمی‌دهد",
+    experienceTitle: "From digital ventures to holding-company leadership",
+    faExperienceTitle: "از کسب‌وکارهای دیجیتال تا راهبری هلدینگ",
+    story: [
+      ["Sharifioun's professional path moved through electronic insurance, information technology and payment-related projects before she began building digital-service businesses. Familiarity with the limits of conventional insurance distribution informed the market study behind Bimeh.com. Experience across industries then shaped a broader undertaking: businesses addressing distinct customer needs while drawing on selected shared capabilities.", "مسیر حرفه‌ای شریفیون از بیمهٔ الکترونیک، فناوری اطلاعات و پروژه‌های مرتبط با پرداخت گذشت و سپس به ساخت کسب‌وکارهای خدمات دیجیتال رسید. آشنایی با محدودیت‌های توزیع سنتی بیمه، زمینهٔ بررسی بازار برای شکل‌گیری بیمه‌دات‌کام را فراهم کرد. تجربه در چند صنعت نیز به ایده‌ای گسترده‌تر انجامید: کسب‌وکارهایی برای نیازهای متفاوت مشتریان که از بخشی از ظرفیت‌های مشترک بهره می‌گیرند."],
+      ["In 2016, after market research and preparation, Bimeh.com entered its operational phase with a small team. Technology activity in tourism developed alongside it. The travel initiative also aimed to give agencies websites, operating tools and digital distribution without requiring each to build a large technology team. In both cases, technology mattered when it made delivery to customers and partners more practical.", "در سال ۱۳۹۵، پس از بررسی و آماده‌سازی بازار، بیمه‌دات‌کام با تیمی کوچک وارد فاز عملیاتی شد. فعالیت‌های فناوری در گردشگری نیز در کنار آن توسعه یافت. هدف این ابتکار فقط فروش مستقیم سفر نبود؛ فراهم‌کردن وب‌سایت، ابزارهای عملیاتی و توزیع دیجیتال برای آژانس‌ها را هم دنبال می‌کرد تا هر آژانس ناچار به ساخت تیم فنی بزرگی نباشد. در هر دو تجربه، فناوری وقتی اهمیت داشت که ارائهٔ خدمت به مشتری و شریک را عملی‌تر کند."],
+      ["Changes in the earlier ownership and support structure in 2020 pushed the businesses toward greater independence. Sepas Holding was formally established in 2021. Its developing model paired shared corporate functions with dedicated operating teams and leaders in each company. At the period described, the group comprised approximately ten companies in four activity clusters: InsurTech, TravelTech, e-commerce and energy; these figures require reconfirmation before publication.", "تغییر در ساختار سهام‌داری و پشتیبانی پیشین در سال ۱۳۹۹، کسب‌وکارها را به سوی استقلال بیشتر سوق داد. هلدینگ سپاس در سال ۱۴۰۰ به‌طور رسمی شکل گرفت. الگوی در حال توسعهٔ آن، خدمات ستادی مشترک را با تیم‌های اجرایی و مدیران اختصاصی هر شرکت ترکیب می‌کرد. در مقطع مورد اشاره، گروه حدود ده شرکت در چهار خانوادهٔ فعالیت داشت: اینشورتک، تراول‌تک، تجارت الکترونیک و انرژی؛ این اعداد پیش از انتشار باید دوباره بررسی شوند."],
+      ["This operating model separates decisions best made close to a service from those needing holding-level coordination. Product, engineering, operations and marketing teams face different customers and pressures, while selected finance, people and administrative capabilities are shared. During disruption, a local decision about team connectivity should not take as long as a group-wide capital allocation decision.", "این مدل عملیاتی، تصمیم‌هایی را که بهتر است نزدیک به خدمت گرفته شوند از تصمیم‌های نیازمند هماهنگی در سطح هلدینگ جدا می‌کند. تیم‌های محصول، فناوری، عملیات و بازاریابی با مشتریان و فشارهای متفاوت روبه‌رو هستند، در حالی که بخشی از ظرفیت‌های مالی، منابع انسانی و اداری مشترک است. هنگام اختلال، تصمیم محلی دربارهٔ اتصال تیم نباید به‌اندازهٔ تصمیم تخصیص سرمایه در کل گروه زمان ببرد."],
+      ["Repeated crises tested this architecture. In Sharifioun's account, travel businesses faced a severe contraction in demand and movement restrictions, while some online insurance services continued and sometimes saw demand rise. The group shifted attention toward credit products and readiness for a later recovery in affected sectors. Diversification offered different ways to sustain relevant services and move teams as markets changed, but it did not remove shared exposure: internet access, hosting, text messages, banking systems and settlements could affect several companies at once.", "بحران‌های پیاپی این معماری را آزمودند. در روایت شریفیون، کسب‌وکارهای گردشگری با افت شدید تقاضا و محدودیت سفر روبه‌رو شدند، در حالی که برخی خدمات بیمه‌ای آنلاین ادامه یافتند و گاهی تقاضایشان بالا رفت. گروه توجه خود را به محصولات اعتباری و آمادگی برای بازگشت تقاضا در بخش‌های آسیب‌دیده معطوف کرد. تنوع، مسیرهای متفاوتی برای حفظ خدمات مرتبط و جابه‌جایی ظرفیت تیم‌ها فراهم آورد؛ اما وابستگی مشترک را از میان نبرد: اینترنت، میزبانی، پیامک، سامانه‌های بانکی و تسویه می‌توانستند چند شرکت را هم‌زمان متأثر کنند."],
+      ["The response also involved human and financial trade-offs. During the period described, the group sought to avoid immediate layoffs, slowed recruitment and shifted capacity between priorities. Sharifioun also cautions that preserving every cost at any price can threaten the whole organization. Continuity decisions need to account for actual demand, funding, customer impact and operating commitments; scaling down one activity can sometimes help preserve the wider group.", "پاسخ به بحران، موازنه‌های انسانی و مالی هم داشت. در دورهٔ مورد اشاره، گروه تلاش کرد از تعدیل فوری نیرو پرهیز کند، جذب را کندتر کرد و بخشی از ظرفیت را میان اولویت‌ها جابه‌جا کرد. شریفیون هم‌زمان هشدار می‌دهد که حفظ همهٔ هزینه‌ها به هر قیمت ممکن است کل سازمان را به خطر بیندازد. تصمیم تداوم باید تقاضای واقعی، منابع مالی، پیامد برای مشتری و تعهدهای عملیاتی را در نظر بگیرد؛ گاهی کوچک‌کردن یک فعالیت به حفظ کل مجموعه کمک می‌کند."],
+      ["A further principle from this period is architecting opportunities: understand needs created by changed conditions, shape a workable response and retain the ability to develop new value. The continuity perspective connects three levels: protect the customer service, let each company respond to its market, and govern limited resources across the holding as a whole.", "اصل دیگری که از این دوره برمی‌آید «معماری فرصت» است: شناخت نیازهای تازه، طراحی پاسخی عملی و حفظ توان خلق ارزش جدید. نگاه تداوم، سه سطح را به هم پیوند می‌دهد: حفاظت از خدمت مشتری، امکان واکنش متناسب هر شرکت به بازار خود، و مدیریت منابع محدود در کل هلدینگ."]
+    ],
+    intersections: [
+      {
+        title: "Diversified portfolios and resource flow",
+        faTitle: "تنوع سبد کسب‌وکار و مدیریت جریان منابع",
+        body: "A crisis rarely changes demand uniformly. Diversification supports continuity only when leadership can assess businesses separately, allocate resources toward essential services and viable demand, and make timely decisions about activities with weaker prospects. Keeping the wider organization running does not require every initiative to continue unchanged.",
+        faBody: "بحران تقاضا را به‌شکل یکنواخت تغییر نمی‌دهد. تنوع تنها زمانی به تداوم کمک می‌کند که مدیران بتوانند عملکرد هر بخش را جداگانه ببینند، منابع را به خدمات ضروری و تقاضای پایدار برسانند و دربارهٔ فعالیت‌های کم‌تقاضا به‌موقع تصمیم بگیرند. ادامهٔ حیات کل مجموعه مستلزم تداوم بی‌تغییر همهٔ ابتکارها نیست.",
+        careerBasis: "Leadership across businesses in insurance, tourism, e-commerce and energy.",
+        faCareerBasis: "راهبری کسب‌وکارهایی در بیمه، گردشگری، تجارت الکترونیک و انرژی.",
+        managementFields: "Risk · Change · Performance",
+        faManagementFields: "ریسک · تغییر · عملکرد",
+        relatedPatterns: "Cash-positive resilience economics; revenue diversification and portfolio allocation (analytical mapping, not a personally validated Pattern).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ جریان‌نقد مثبت؛ تنوع درآمد و تخصیص سبد (تطبیق تحلیلی، نه پترن تأییدشدهٔ شخصی).",
+        domains: [["Continuity Economics", "اقتصاد تداوم"], ["Proactive Continuity Evaluation", "ارزیابی پیش‌دستانهٔ تداوم"]]
+      },
+      {
+        title: "Decisions close to services, coordinated across the group",
+        faTitle: "تصمیم‌گیری نزدیک به خدمت، با هماهنگی در سطح هلدینگ",
+        body: "Operating teams need authority to adapt work arrangements, maintain customer support and address immediate service problems. Portfolio direction, capital allocation and group-wide policies need broader coordination. Clear decision rights and escalation paths can combine local response speed with holding-level accountability.",
+        faBody: "تیم‌های اجرایی برای تغییر شیوهٔ کار، حفظ پشتیبانی مشتری و رسیدگی به مسئلهٔ فوری خدمت به اختیار نیاز دارند؛ اما جهت‌گیری سبد، تخصیص سرمایه و سیاست‌های گروهی به هماهنگی گسترده‌تر وابسته‌اند. اختیار تصمیم و مسیر تشدید روشن می‌تواند سرعت پاسخ محلی را با پاسخ‌گویی در سطح هلدینگ همراه کند.",
+        careerBasis: "Designing a holding-company structure and leading multiple executive teams.",
+        faCareerBasis: "طراحی ساختار هلدینگ و راهبری تیم‌های مدیریتی چندشرکتی.",
+        managementFields: "Accountability · Performance · Change",
+        faManagementFields: "پاسخ‌گویی · عملکرد · تغییر",
+        relatedPatterns: "Small autonomous resilience teams; Service-owner accountability model (analytical mapping).",
+        faRelatedPatterns: "تیم‌های تاب‌آور کوچک و خودمختار؛ مدل پاسخ‌گویی مالک خدمت (تطبیق تحلیلی).",
+        domains: [["Continuity Governance", "حاکمیت تداوم"], ["People and Decision Continuity", "تداوم منابع انسانی و تصمیم"]]
+      },
+      {
+        title: "Shared dependencies behind apparently separate businesses",
+        faTitle: "وابستگی‌های مشترک در کسب‌وکارهای ظاهراً مستقل",
+        body: "Insurance, travel, credit and e-commerce may rely on the same networks, payment rails, identity services, data centers and providers. Connectivity and settlement disruptions can therefore affect several businesses together. Continuity governance needs dependency maps, alternative service paths and an understanding of common-provider failure.",
+        faBody: "بیمه، گردشگری، اعتبار و تجارت الکترونیک ممکن است به شبکه‌ها، مسیرهای پرداخت، خدمات هویت، دیتاسنترها و تأمین‌کنندگان مشترک وابسته باشند. اختلال ارتباطات یا تسویه می‌تواند چند کسب‌وکار را با هم متأثر کند. حاکمیت تداوم به نقشهٔ وابستگی‌ها، مسیر جایگزین خدمت و شناخت پیامد خرابی تأمین‌کنندهٔ مشترک نیاز دارد.",
+        careerBasis: "Operating digital-service businesses through infrastructure and inter-organizational settlement disruptions.",
+        faCareerBasis: "ادارهٔ کسب‌وکارهای دیجیتال در مواجهه با اختلال زیرساخت و تسویهٔ بین‌سازمانی.",
+        managementFields: "Risk · Performance · Accountability",
+        faManagementFields: "ریسک · عملکرد · پاسخ‌گویی",
+        relatedPatterns: "Path and infrastructure diversity; impact-tolerance and critical-service mapping; third-party continuity (analytical mapping).",
+        faRelatedPatterns: "تنوع مسیر و زیرساخت؛ نگاشت خدمات حیاتی و تحمل اختلال؛ تداوم طرف‌های ثالث (تطبیق تحلیلی).",
+        domains: [["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا"], ["Infrastructure and Path Diversity", "تنوع زیرساخت و مسیر"]]
+      },
+      {
+        title: "Preserving essential delivery while changing priorities",
+        faTitle: "حفظ ارائهٔ خدمت ضروری هم‌زمان با تغییر اولویت‌ها",
+        body: "When demand or operating conditions deteriorate, capacity can shift toward product readiness, infrastructure or a new need. The test is whether the change protects customer outcomes and the financial ability to continue: what must operate now, what can wait, and which capabilities need protection for the next phase?",
+        faBody: "وقتی تقاضا یا شرایط عملیاتی افت می‌کند، ظرفیت می‌تواند به آمادگی محصول، زیرساخت یا نیاز تازه منتقل شود. معیار آن است که تغییر، نتیجهٔ مورد انتظار مشتری و توان مالی ادامه‌دادن را حفظ کند: چه چیزی باید اکنون فعال بماند، چه چیزی می‌تواند صبر کند و کدام قابلیت باید برای مرحلهٔ بعد حفظ شود؟",
+        careerBasis: "Reprioritizing the portfolio during tourism contraction and uneven digital-service demand.",
+        faCareerBasis: "تغییر اولویت‌های سبد هنگام افت گردشگری و نوسان تقاضای خدمات دیجیتال.",
+        managementFields: "Discovery · Change · Performance",
+        faManagementFields: "کشف · تغییر · عملکرد",
+        relatedPatterns: "Cash-positive resilience economics; severe-but-plausible scenario testing (relevant testing opportunity, not a documented implementation).",
+        faRelatedPatterns: "اقتصاد تاب‌آوریِ جریان‌نقد مثبت؛ آزمون سناریوهای شدید اما باورپذیر (فرصت آزمون مرتبط، نه اقدام مستند).",
+        domains: [["Critical-Service Evaluation and Impact Tolerance", "ارزیابی خدمات حیاتی و تحمل اختلال"], ["Continuity Economics", "اقتصاد تداوم"]]
+      }
+    ],
+    experience: [
+      ["Technology, electronic insurance and payment-related projects", "فناوری، بیمهٔ الکترونیک و پروژه‌های مرتبط با پرداخت", "Technology and business development", "فناوری و توسعهٔ کسب‌وکار", "reported career period (verify)", "دورهٔ حرفه‌ای ثبت‌شده (نیازمند تأیید)", "The recorded career account describes experience before the launch of Bimeh.com; exact dates and organizations need confirmation.", "روایت مسیر حرفه‌ای از تجربه‌هایی پیش از راه‌اندازی بیمه‌دات‌کام می‌گوید؛ تاریخ‌ها و نام مجموعه‌ها باید تأیید شوند."],
+      ["Bimeh.com", "بیمه‌دات‌کام", "Digital insurance service; operational phase launched with a small team", "خدمت بیمهٔ دیجیتال؛ آغاز فاز عملیاتی با تیمی کوچک", "2016 (reported)", "۱۳۹۵ (روایت ثبت‌شده)", "The source account places the start of operations after market research and preparation.", "روایت منبع آغاز فعالیت عملیاتی را پس از بررسی و آماده‌سازی بازار قرار می‌دهد."],
+      ["Digital tools for travel agencies", "ابزارهای دیجیتال برای آژانس‌های گردشگری", "Websites, operating tools and digital distribution", "وب‌سایت، ابزارهای عملیاتی و توزیع دیجیتال", "period and company details to confirm", "دوره و جزئیات شرکت نیازمند تأیید", "The initiative aimed to help agencies operate digital channels without building large in-house technology teams.", "هدف ابتکار کمک به آژانس‌ها برای ادارهٔ کانال دیجیتال بدون ساخت تیم فنی بزرگ درون‌سازمانی بود."],
+      ["Sepas Holding", "هلدینگ سپاس", "Holding-company leadership; recorded CEO role", "راهبری هلدینگ؛ سمت مدیرعاملی ثبت‌شده", "formally established 2021; current details to confirm", "تأسیس رسمی ۱۴۰۰؛ جزئیات جاری نیازمند تأیید", "The source describes shared corporate functions alongside operating teams and leaders in each company.", "منبع از ترکیب خدمات ستادی مشترک با تیم‌های اجرایی و مدیران هر شرکت می‌گوید."],
+      ["Portfolio across InsurTech, TravelTech, e-commerce and energy", "سبد کسب‌وکار در اینشورتک، تراول‌تک، تجارت الکترونیک و انرژی", "Portfolio management and resource allocation", "مدیریت سبد و تخصیص منابع", "approximately ten companies at the account period (verify)", "حدود ده شرکت در مقطع روایت (نیازمند تأیید)", "The reported count and activity clusters refer to the source period and should not be presented as current without confirmation.", "تعداد و حوزه‌های فعالیت گزارش‌شده مربوط به مقطع روایت است و بدون تأیید نباید جاری معرفی شود."]
+    ],
+    themes: [
+      ["Holding-company leadership and portfolio management", "راهبری هلدینگ و مدیریت سبد کسب‌وکار"],
+      ["InsurTech and digital insurance", "اینشورتک و بیمهٔ دیجیتال"],
+      ["E-commerce", "تجارت الکترونیک"],
+      ["TravelTech", "تراول‌تک"],
+      ["Credit and payment services", "خدمات اعتباری و پرداخت"],
+      ["Organizational design", "طراحی سازمان"],
+      ["Crisis response and resource allocation", "پاسخ به بحران و تخصیص منابع"],
+      ["Digital transformation and technology ventures", "تحول دیجیتال و کسب‌وکارهای فناورانه"]
+    ],
+    relatedDomains: [
+      ["Continuity Economics and Financial Readiness", "اقتصاد تداوم و آمادگی مالی", "Funding and cost decisions that protect essential service capacity across a portfolio.", "تصمیم‌های مالی و هزینه‌ای برای حفاظت از ظرفیت خدمات ضروری در کل سبد."],
+      ["Continuity Governance and Service Accountability", "حاکمیت تداوم و پاسخ‌گویی خدمت", "Clarify authority boundaries between subsidiaries and holding leadership.", "روشن‌کردن مرز اختیار شرکت‌های زیرمجموعه و راهبری هلدینگ."],
+      ["Third-Party and Partner Continuity", "تداوم طرف‌های ثالث و شرکا", "Manage dependencies on banks, telecommunications, providers and settlement networks.", "مدیریت وابستگی به بانک‌ها، ارتباطات، تأمین‌کنندگان و شبکه‌های تسویه."],
+      ["Critical-Service Evaluation and Impact Tolerance", "ارزیابی خدمات حیاتی و تحمل اختلال", "Understand which customer outcomes must continue under pressure.", "شناخت نتیجه‌هایی که باید در فشار و اختلال برای مشتری حفظ شوند."],
+      ["Infrastructure and Path Diversity", "تنوع زیرساخت و مسیر", "Limit common-mode failures across otherwise different businesses.", "کاهش اثر خرابی‌های مشترک بر کسب‌وکارهایی که در ظاهر متفاوت‌اند."]
+    ],
+    editorialStatus: {
+      label: "Draft / Noindex · human approval pending",
+      faLabel: "پیش‌نویس / Noindex · در انتظار تأیید انسانی",
+      note: "This profile is based on an interview account, public sources and editorial analysis. Confirm the current Sepas CEO title, current portfolio size and brands, House affiliation, publication consent, and interview-derived details before release. The source notes transcription errors; interview statements are paraphrased. Its source list is explicitly internal and is not displayed here. DBR Patterns are analytical mappings, not personal endorsements. Keep noindex until approved.",
+      faNote: "این پروفایل بر پایهٔ روایت مصاحبه، منابع عمومی و تحلیل تحریریه تهیه شده است. عنوان جاری مدیرعاملی سپاس، اندازه و برندهای فعلی سبد، وابستگی به خانه، رضایت انتشار و جزئیات برگرفته از مصاحبه باید پیش از انتشار تأیید شوند. منبع به خطاهای پیاده‌سازی اشاره می‌کند و گفته‌های مصاحبه بازنویسی معنایی شده‌اند. فهرست منابع در سند صراحتاً داخلی است و در اینجا نمایش داده نمی‌شود. پترن‌های DBR تطبیق تحلیلی‌اند، نه تأیید شخصی. تا زمان تأیید، noindex حفظ شود."
+    },
+    sources: []
+  };
+
   function selectedPersonProfile() {
-    var id = new URLSearchParams(window.location.search).get("person") || peopleProfiles[0].id;
+    var id = document.body.getAttribute("data-profile-id") || new URLSearchParams(window.location.search).get("person") || peopleProfiles[0].id;
     if (id === alirezaProfile.id) return alirezaProfile;
+    if (id === aliAkhavanProfile.id) return aliAkhavanProfile;
+    if (id === mahmoudrezaFarhadiProfile.id) return mahmoudrezaFarhadiProfile;
+    if (id === mostafaAmiriProfile.id) return mostafaAmiriProfile;
+    if (id === alirezaGhanadanProfile.id) return alirezaGhanadanProfile;
+    if (id === ayatHosseiniProfile.id) return ayatHosseiniProfile;
+    if (id === nimaAmirshakariProfile.id) return nimaAmirshakariProfile;
+    if (id === ramyarGhanbariProfile.id) return ramyarGhanbariProfile;
+    if (id === amirhosseinShobeiriProfile.id) return amirhosseinShobeiriProfile;
+    if (id === baharehSharifiounProfile.id) return baharehSharifiounProfile;
     return peopleProfiles.find(function (person) { return person.id === id; }) || peopleProfiles[0];
   }
 
@@ -3962,12 +5306,12 @@
     },
     serviceGranularityResilience: {
       nav: "insights",
-      label: "Article / Farhad Inaloui",
+      label: "Article / Farhad Inalouei",
       title: "Service Granularity and Digital Banking Resilience",
       faTitle: "ریزدانگی سرویس؛ معماری تاب‌آوری بانک دیجیتال",
       lede: "Service separation, owning teams and decision rights must be designed together if a digital bank wants to contain failure instead of spreading it.",
       faLede: "جداسازی سرویس، تیم مالک و اختیار تصمیم باید با هم طراحی شوند تا بانک دیجیتال خرابی را مهار کند، نه اینکه آن را گسترش دهد.",
-      meta: ["Digital banking resilience", "August 2026", "Farhad Inaloui"],
+      meta: ["Digital banking resilience", "August 2026", "Farhad Inalouei"],
       special: "media",
       articleBody: true,
       mediaHeading: "",
@@ -4014,12 +5358,12 @@
     },
     serviceCatalogOperatingModel: {
       nav: "insights",
-      label: "Article / Farhad Inaloui",
+      label: "Article / Farhad Inalouei",
       title: "Service Catalog as the Operating Model",
       faTitle: "Service Catalog؛ نقطه شروع تداوم سرویس‌محور",
       lede: "Service Catalog is not a decorative list or an IT-only output. It is a shared operating model connecting business, technology, security, operations and customer experience at the service level.",
       faLede: "Service Catalog یک فهرست تزئینی یا خروجی واحد فناوری نیست؛ مدل عملیاتی مشترکی است که کسب‌وکار، فناوری، امنیت، عملیات و تجربه مشتری را در سطح یک خدمت به هم متصل می‌کند.",
-      meta: ["Service catalog", "August 2026", "Farhad Inaloui"],
+      meta: ["Service catalog", "August 2026", "Farhad Inalouei"],
       special: "media",
       articleBody: true,
       mediaHeading: "",
@@ -4078,12 +5422,12 @@
     },
     ecosystemContinuityGovernance: {
       nav: "insights",
-      label: "Article / Farhad Inaloui",
+      label: "Article / Farhad Inalouei",
       title: "Ecosystem Continuity Governance",
       faTitle: "تداوم اکوسیستم مالی؛ از وابستگی تا تنظیم‌گری مشارکتی",
       lede: "Financial continuity is no longer the property of one organization. It is a chain capability whose dependencies, responsibilities and scenarios must be known and rehearsed together.",
       faLede: "تداوم دیگر خاصیت یک سازمان منفرد نیست؛ خاصیت زنجیره‌ای است که باید وابستگی‌هایش شناخته، مسئولیت‌هایش توافق و سناریوهایش مشترکاً آزموده شوند.",
-      meta: ["Ecosystem continuity", "August 2026", "Farhad Inaloui"],
+      meta: ["Ecosystem continuity", "August 2026", "Farhad Inalouei"],
       special: "media",
       articleBody: true,
       mediaHeading: "",
@@ -5039,9 +6383,9 @@
     },
     podcast: {
       nav: "insights",
-      label: "Podcast / Farhad Inaloui",
+      label: "Podcast / Farhad Inalouei",
       faLabel: "پادکست / فرهاد اینالویی",
-      title: "Continuity Podcast - Farhad Inaloui",
+      title: "Continuity Podcast - Farhad Inalouei",
       faTitle: "پادکست کانتینیویتی - فرهاد اینالویی",
       lede: "An audio conversation on service continuity, decision ownership and the practical meaning of banking resilience.",
       faLede: "گفت‌وگوی صوتی درباره تداوم خدمت، مالکیت تصمیم و معنای عملی تاب‌آوری بانکی.",
@@ -5119,11 +6463,11 @@
       faLabel: "ویدیوکست / اپیزود ۰۱",
       title: "Continuity Videocast - Episode 01",
       faTitle: "ویدیوکست کانتینیویتی - اپیزود ۰۱",
-      subtitle: "Farhad Inaloui",
+      subtitle: "Farhad Inalouei",
       faSubtitle: "فرهاد اینالویی",
       lede: "A videocast record from the House insight library, focused on continuity questions, service responsibility and digital banking practice.",
       faLede: "ویدیوکستی از کتابخانه بینش‌ها درباره پرسش‌های تداوم، مسئولیت خدمت و تجربه بانکداری دیجیتال.",
-      meta: ["Aparat", "Videocast", "Farhad Inaloui"],
+      meta: ["Aparat", "Videocast", "Farhad Inalouei"],
       special: "media",
       mediaHeading: "Videocast player",
       faMediaHeading: "پلیر ویدیوکست",
@@ -5511,7 +6855,7 @@
     "Three storytelling formats connect evidence, people and practical Continuity decisions.": "سه قالب روایت‌گری، شواهد، افراد و تصمیم‌های عملی تداوم را به هم متصل می‌کنند.",
     "Podcast": "پادکست",
     "Videocast": "ویدیوکست",
-    "Continuity Podcast - Farhad Inaloui": "پادکست کانتینیویتی - فرهاد اینالویی",
+    "Continuity Podcast - Farhad Inalouei": "پادکست کانتینیویتی - فرهاد اینالویی",
     "Continuity Podcast - Alireza Bozorgmehri": "پادکست کانتینیویتی - علیرضا بزرگمهری",
     "Continuity Podcast - Ali Akhavan": "پادکست کانتینیویتی - علی اخوان",
     "Continuity Podcast - Ramyar Ghanbari": "پادکست کانتینیویتی - رامیار قنبری",
@@ -5531,11 +6875,11 @@
     "Continuity Videocast - Episode 12": "ویدیوکست کانتینیویتی - اپیزود ۱۲",
     "Continuity Videocast - Episode 15": "ویدیوکست کانتینیویتی - اپیزود ۱۵",
     "Continuity Videocast - Episode 16": "ویدیوکست کانتینیویتی - اپیزود ۱۶",
-    "Podcast / Farhad Inaloui": "پادکست / فرهاد اینالویی",
+    "Podcast / Farhad Inalouei": "پادکست / فرهاد اینالویی",
     "Podcast / Alireza Bozorgmehri": "پادکست / علیرضا بزرگمهری",
     "Podcast / Ali Akhavan": "پادکست / علی اخوان",
     "Podcast / Ramyar Ghanbari": "پادکست / رامیار قنبری",
-    "Videocast / Farhad Inaloui": "ویدیوکست / فرهاد اینالویی",
+    "Videocast / Farhad Inalouei": "ویدیوکست / فرهاد اینالویی",
     "Videocast / Alireza Bozorgmehri": "ویدیوکست / علیرضا بزرگمهری",
     "Videocast / Ali Akhavan": "ویدیوکست / علی اخوان",
     "Videocast / Mohammad Farjood": "ویدیوکست / محمد فرجود",
@@ -7523,15 +8867,17 @@
     return '<span class="' + (className || "profile-chip") + '" data-en="' + escapeHtml(item[0]) + '" data-fa="' + escapeHtml(item[1]) + '">' + escapeHtml(item[0]) + '</span>';
   }
 
-  function profileLinkedInMarkup(person) {
-    var url = person.linkedinUrl || "";
-    var linkAttrs = url
-      ? ' href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer"'
-      : ' aria-disabled="true" tabindex="-1"';
+  function profileExternalLinkMarkup(person) {
+    var isLinkedIn = Boolean(person.linkedinUrl);
+    var url = person.linkedinUrl || person.websiteUrl || "";
+    if (!url) return "";
+    var label = isLinkedIn ? "See LinkedIn profile" : (person.websiteLabel || "Professional website");
+    var faLabel = isLinkedIn ? "مشاهده پروفایل لینکدین" : (person.faWebsiteLabel || "وب‌سایت حرفه‌ای");
+    var iconMarkup = isLinkedIn ? '<span class="profile-linkedin-icon" aria-hidden="true"><img src="Assets/linkedin-logo-initials.png" alt="" loading="lazy"></span>' : "";
     return [
       '<div class="profile-linkedin-row">',
-      '<span class="profile-linkedin-icon" aria-hidden="true"><img src="Assets/linkedin-logo-initials.png" alt="" loading="lazy"></span>',
-      '<a class="profile-linkedin-link' + (url ? "" : " is-disabled") + '"' + linkAttrs + '><span data-en="See LinkedIn profile" data-fa="مشاهده پروفایل لینکدین">See LinkedIn profile</span></a>',
+      iconMarkup,
+      '<a class="profile-linkedin-link" href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer"><span data-en="' + escapeHtml(label) + '" data-fa="' + escapeHtml(faLabel) + '">' + escapeHtml(label) + '</span></a>',
       '</div>'
     ].join("");
   }
@@ -7539,6 +8885,8 @@
   function alirezaProfileMarkup(person) {
     var profileNumber = person.profileNumber || "02";
     var faProfileNumber = person.faProfileNumber || persianDigits(profileNumber);
+    var experienceTitle = person.experienceTitle || "A career moving from systems to service responsibilities";
+    var faExperienceTitle = person.faExperienceTitle || "مسیری از سامانه تا مسئولیت خدمت";
     var portraitClass = person.imageClass ? ' class="' + escapeHtml(person.imageClass) + '"' : "";
     var storyMarkup = person.story.map(function (paragraph) {
       return localizedElement("p", "", paragraph[0], paragraph[1]);
@@ -7557,6 +8905,28 @@
       var surfaceClass = index % 2 === 1 ? "paper-card" : "glass-card";
       return '<article class="profile-domain-card ' + surfaceClass + '" data-chamfer="tr" data-cut="20" data-radius="10" data-fillet="8"><p class="dbr-label" data-en="DBR DOMAIN" data-fa="حوزهٔ DBR">DBR DOMAIN</p><h3 data-en="' + escapeHtml(domain[0]) + '" data-fa="' + escapeHtml(domain[1]) + '">' + escapeHtml(domain[0]) + '</h3><p data-en="' + escapeHtml(domain[2]) + '" data-fa="' + escapeHtml(domain[3]) + '">' + escapeHtml(domain[2]) + '</p></article>';
     }).join("");
+    var statementTag = person.statementIsSynthesis ? "div" : "blockquote";
+    var statementClass = person.statementIsSynthesis ? "profile-monograph-statement profile-monograph-synthesis" : "profile-monograph-statement";
+    var statementOpenMark = '<span class="profile-statement-mark profile-statement-mark-open" aria-hidden="true">“</span>';
+    var statementCloseMark = '<span class="profile-statement-mark profile-statement-mark-close" aria-hidden="true">”</span>';
+    var statementText = '<p data-en="' + escapeHtml(person.quote) + '" data-fa="' + escapeHtml(person.faQuote) + '">' + escapeHtml(person.quote) + '</p>';
+    var statementContent = person.statementIsSynthesis
+      ? '<div class="profile-statement-quote">' + statementOpenMark + statementText + statementCloseMark + '</div>'
+      : statementOpenMark + statementText + statementCloseMark;
+    var sourceMarkup = (person.sources || []).map(function (source) {
+      var label = '<span data-en="' + escapeHtml(source.label) + '" data-fa="' + escapeHtml(source.faLabel) + '">' + escapeHtml(source.label) + '</span>';
+      var item = source.href ? '<a href="' + escapeHtml(source.href) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>' : label;
+      return '<p class="profile-source-item">' + item + '</p>';
+    }).join("");
+    var editorialMarkup = person.editorialStatus ? [
+      '<section class="profile-section-block profile-editorial-status" data-chamfer="" data-radius="12">',
+      '<div class="profile-section-heading"><p class="dbr-label" data-en="SOURCES AND EDITORIAL STATUS" data-fa="منابع و وضعیت تحریریه">SOURCES AND EDITORIAL STATUS</p><h2 data-en="Sources and editorial status" data-fa="منابع و وضعیت تحریریه">Sources and editorial status</h2></div>',
+      '<article class="profile-story-body">',
+      '<p class="profile-editorial-notice" data-en="' + escapeHtml(person.editorialStatus.label) + '" data-fa="' + escapeHtml(person.editorialStatus.faLabel) + '">' + escapeHtml(person.editorialStatus.label) + '</p>',
+      '<p data-en="' + escapeHtml(person.editorialStatus.note) + '" data-fa="' + escapeHtml(person.editorialStatus.faNote) + '">' + escapeHtml(person.editorialStatus.note) + '</p>',
+      sourceMarkup,
+      '</article></section>'
+    ].join("") : "";
 
     return [
       '<section class="profile-feature-hero profile-monograph-hero" data-chamfer="br" data-cut="48" data-radius="12" data-fillet="10">',
@@ -7567,11 +8937,11 @@
       '<p class="profile-house-role"><strong data-en="' + escapeHtml(person.role) + '" data-fa="' + escapeHtml(person.faRole) + '">' + escapeHtml(person.role) + '</strong></p>',
       '<div class="profile-monograph-tags">' + person.heroTags.map(function (tag) { return localizedChip(tag, "profile-monograph-tag"); }).join("") + '</div>',
       '<p class="profile-monograph-positioning" data-en="' + escapeHtml(person.positioning) + '" data-fa="' + escapeHtml(person.faPositioning) + '">' + escapeHtml(person.positioning) + '</p>',
-      profileLinkedInMarkup(person),
+      profileExternalLinkMarkup(person),
       '</div>',
       '<figure class="profile-monograph-portrait" data-chamfer="tl" data-cut="64" data-radius="0" data-fillet="10"><img' + portraitClass + ' src="' + escapeHtml(person.image) + '" alt="Portrait of ' + escapeHtml(person.name) + '" data-fa-alt="پرترهٔ ' + escapeHtml(person.faName) + '"></figure>',
       '</div>',
-      '<blockquote class="profile-monograph-statement" data-chamfer="br" data-cut="48" data-radius="0" data-radius-bl="12" data-fillet="10"><span class="profile-statement-mark profile-statement-mark-open" aria-hidden="true">“</span><p data-en="' + escapeHtml(person.quote) + '" data-fa="' + escapeHtml(person.faQuote) + '">' + escapeHtml(person.quote) + '</p><span class="profile-statement-mark profile-statement-mark-close" aria-hidden="true">”</span></blockquote>',
+      '<' + statementTag + ' class="' + statementClass + '" data-chamfer="br" data-cut="48" data-radius="0" data-radius-bl="12" data-fillet="10">' + statementContent + '</' + statementTag + '>',
       '</section>',
       '<section class="profile-story-section" data-chamfer="" data-radius="12">',
       '<div class="profile-story-lead"><p class="dbr-label" data-en="PROFESSIONAL ARC" data-fa="مسیر حرفه‌ای">PROFESSIONAL ARC</p><h2 data-en="' + escapeHtml(person.storyTitle) + '" data-fa="' + escapeHtml(person.faStoryTitle) + '">' + escapeHtml(person.storyTitle) + '</h2></div>',
@@ -7582,13 +8952,14 @@
       '<div class="profile-continuity-grid">' + intersectionMarkup + '</div>',
       '</section>',
       '<section class="profile-experience-section" data-chamfer="" data-radius="12">',
-      '<div class="profile-section-heading profile-experience-heading"><p class="dbr-label" data-en="SELECTED EXPERIENCE" data-fa="تجربه‌های منتخب">SELECTED EXPERIENCE</p><h2 class="profile-experience-title" data-en="A career moving from systems to service responsibilities" data-fa="مسیری از سامانه تا مسئولیت خدمت">A career moving from systems to service responsibilities</h2></div>',
+      '<div class="profile-section-heading profile-experience-heading"><p class="dbr-label" data-en="SELECTED EXPERIENCE" data-fa="تجربه‌های منتخب">SELECTED EXPERIENCE</p><h2 class="profile-experience-title" data-en="' + escapeHtml(experienceTitle) + '" data-fa="' + escapeHtml(faExperienceTitle) + '">' + escapeHtml(experienceTitle) + '</h2></div>',
       '<div class="profile-timeline">' + experienceMarkup + '</div>',
       '</section>',
       '<section class="profile-section-block profile-domain-section" data-chamfer="" data-radius="12">',
       '<div class="profile-section-heading profile-domain-heading"><div><p class="dbr-label" data-en="RELATED DBR DOMAINS" data-fa="حوزه‌های DBR مرتبط">RELATED DBR DOMAINS</p><h2 data-en="Where the profile connects to the Radar" data-fa="جایی که پروفایل به رادار وصل می‌شود">Where the profile connects to the Radar</h2></div><div class="profile-carousel-controls" aria-label="Related DBR domains carousel controls"><button class="profile-carousel-button profile-carousel-button-prev" type="button" data-profile-carousel="prev" aria-label="Previous domains" data-fa-aria-label="حوزه‌های قبلی">' + icon("arrow") + '</button><button class="profile-carousel-button profile-carousel-button-next" type="button" data-profile-carousel="next" aria-label="Next domains" data-fa-aria-label="حوزه‌های بعدی">' + icon("arrow") + '</button></div></div>',
       '<div class="profile-domain-carousel"><div class="profile-domain-grid" tabindex="0" aria-label="Related DBR domains" data-fa-aria-label="حوزه‌های DBR مرتبط">' + domainMarkup + '</div></div>',
       '</section>',
+      editorialMarkup,
       profileRelatedInsightsMarkup(person)
     ].join("");
   }
@@ -7791,9 +9162,10 @@
   function renderSecondary(page) {
     var data = pageData[page];
     var app = document.getElementById("app");
+    var person = null;
     if (!data || !app) return;
     if (page === "person") {
-      var person = selectedPersonProfile();
+      person = selectedPersonProfile();
       data = Object.assign({}, data, {
         label: person.role,
         title: person.name,
@@ -7838,11 +9210,34 @@
       "</div></div>",
       searchMarkup()
     ].join("");
-    document.title = data.title + " — House of Technocrats";
+    var language = currentLanguage();
+    document.title = person && person.seoTitle
+      ? (language === "fa" ? person.faSeoTitle : person.seoTitle)
+      : data.title + " — House of Technocrats";
+    if (person && person.robots) {
+      var robotsMeta = document.querySelector('meta[name="robots"]');
+      if (!robotsMeta) {
+        robotsMeta = document.createElement("meta");
+        robotsMeta.name = "robots";
+        document.head.appendChild(robotsMeta);
+      }
+      robotsMeta.content = person.robots;
+    }
+    if (person && person.metaDescription) {
+      var descriptionMeta = document.querySelector('meta[name="description"]');
+      if (!descriptionMeta) {
+        descriptionMeta = document.createElement("meta");
+        descriptionMeta.name = "description";
+        document.head.appendChild(descriptionMeta);
+      }
+      descriptionMeta.content = language === "fa" ? person.faMetaDescription : person.metaDescription;
+    }
   }
 
   function currentLanguage() {
-    return new URLSearchParams(window.location.search).get("lang") === "en" ? "en" : "fa";
+    var language = new URLSearchParams(window.location.search).get("lang");
+    if (language === "en" || language === "fa") return language;
+    return document.body.classList.contains("profile-public") ? "en" : "fa";
   }
 
   function translateLiteralText(lang) {
@@ -8069,8 +9464,13 @@
         : page === "pattern"
           ? (lang === "fa" ? titleData.pattern[1] : titleData.pattern[0])
         : (lang === "fa" ? titleData.faTitle || titleData.title : titleData.title);
-      document.title = localizedTitle +
-        (lang === "fa" ? " — خانهٔ تکنوکرات‌ها" : " — House of Technocrats");
+      document.title = page === "person" && titleData.seoTitle
+        ? (lang === "fa" ? titleData.faSeoTitle : titleData.seoTitle)
+        : localizedTitle + (lang === "fa" ? " — خانهٔ تکنوکرات‌ها" : " — House of Technocrats");
+      if (page === "person" && titleData.metaDescription) {
+        var descriptionMeta = document.querySelector('meta[name="description"]');
+        if (descriptionMeta) descriptionMeta.content = lang === "fa" ? titleData.faMetaDescription : titleData.metaDescription;
+      }
     }
     syncAidaFilterSelects();
     if (window.dbrApplyFillets) window.dbrApplyFillets();
@@ -8080,6 +9480,7 @@
     var next = currentLanguage() === "fa" ? "en" : "fa";
     var url = new URL(window.location.href);
     if (next === "en") url.searchParams.set("lang", "en");
+    else if (document.body.classList.contains("profile-public")) url.searchParams.set("lang", "fa");
     else url.searchParams.delete("lang");
     window.location.href = url.toString();
   }

@@ -1252,12 +1252,42 @@ body[data-page="home"] .participate-strip {
   object-position: 62% center;
 }
 
+.people-gallery-card .person-photo img.person-photo-alireza-ghanadan {
+  object-position: 66% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-ayat-hosseini {
+  object-position: 68% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-nima-amirshekari {
+  object-position: 51% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-ramyar-ghanbari {
+  object-position: 55% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-amirhossein-shobeiri {
+  object-position: 50% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-bahareh-sharifioun {
+  object-position: 66% center;
+}
+
 .people-gallery-card .person-photo img.person-photo-hesam {
   object-position: 64% center;
 }
 
 .people-gallery-card .person-photo img.person-photo-mostafa {
   object-position: 66% center;
+}
+
+.people-gallery-card .person-photo img.person-photo-mostafa-amiri {
+  object-position: 62% center;
+  transform: scale(1.08) !important;
+  transform-origin: center center !important;
 }
 
 .people-gallery-card .person-photo img.person-photo-farjood {
@@ -6067,12 +6097,40 @@ html[lang="fa"] .radar-showcase p {
   object-position: 62% center;
 }
 
+.profile-monograph-portrait img.person-photo-alireza-ghanadan {
+  object-position: 66% center;
+}
+
+.profile-monograph-portrait img.person-photo-ayat-hosseini {
+  object-position: 68% center;
+}
+
+.profile-monograph-portrait img.person-photo-nima-amirshekari {
+  object-position: 51% center;
+}
+
+.profile-monograph-portrait img.person-photo-ramyar-ghanbari {
+  object-position: 55% center;
+}
+
+.profile-monograph-portrait img.person-photo-amirhossein-shobeiri {
+  object-position: 50% center;
+}
+
+.profile-monograph-portrait img.person-photo-bahareh-sharifioun {
+  object-position: 66% center;
+}
+
 .profile-monograph-portrait img.person-photo-hesam {
   object-position: 64% center;
 }
 
 .profile-monograph-portrait img.person-photo-mostafa {
   object-position: 66% center;
+}
+
+.profile-monograph-portrait img.person-photo-mostafa-amiri {
+  object-position: 62% center;
 }
 
 .profile-monograph-portrait img.person-photo-farjood {
@@ -6127,6 +6185,22 @@ html[lang="fa"] .radar-showcase p {
   font-size: clamp(18px, 1.55vw, 24px);
   font-weight: var(--fw-bold);
   line-height: 1.28;
+}
+
+.profile-monograph-synthesis {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+.profile-statement-quote {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: clamp(12px, 2vw, 24px);
+  align-items: center;
+}
+
+.profile-statement-quote > * {
+  order: 0;
 }
 
 .profile-linkedin-row {
@@ -6376,6 +6450,23 @@ html[lang="fa"] .radar-showcase p {
   color: var(--text-2);
   font-size: 15px;
   line-height: 1.82;
+}
+
+.profile-editorial-notice {
+  color: var(--text-1) !important;
+  font-weight: var(--fw-bold);
+}
+
+.profile-source-item {
+  padding-block-start: 12px;
+  border-block-start: 1px solid var(--line-card);
+}
+
+.profile-source-item a {
+  color: var(--text-1);
+  text-decoration: underline;
+  text-decoration-color: var(--line-card);
+  text-underline-offset: 3px;
 }
 
 .profile-story-themes {
@@ -6672,6 +6763,10 @@ html[lang="fa"] .profile-linkedin-link {
 
 html[lang="fa"] .profile-statement-mark-close {
   order: 1;
+}
+
+html[lang="fa"] .profile-statement-quote {
+  direction: rtl;
 }
 
 html[lang="fa"] .profile-quote {
