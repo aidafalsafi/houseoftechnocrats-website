@@ -30,6 +30,13 @@ jobs:
             --exclude ".github/*" \
             --exclude ".DS_Store"
 
+      - name: Publish robots.txt with plain-text content type
+        run: |
+          aws s3 cp ./robots.txt s3://houseoftechnocrats/robots.txt \
+            --endpoint-url https://hot.ir-central1.arvanstorage.ir \
+            --content-type text/plain \
+            --acl public-read
+
       - name: Fix public access for all existing objects
         run: |
           aws s3api list-objects-v2 \
