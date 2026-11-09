@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: production-houseoftechnocrats
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -29,6 +33,8 @@ jobs:
         run: |
           npm run build:seo
           npm run check:seo
+          npm run build:indexnow
+          npm run test:indexnow
 
       - name: Configure AWS CLI
         run: |
@@ -37,13 +43,39 @@ jobs:
           aws configure set default.region ir-central1
           aws configure set default.s3.addressing_style path
 
+      - name: Load last successful IndexNow baseline
+        run: |
+          baseline_count=$(aws s3api list-objects-v2 \
+            --bucket houseoftechnocrats \
+            --prefix .indexnow/manifest.json \
+            --endpoint-url https://hot.ir-central1.arvanstorage.ir \
+            --query 'length(not_null(Contents, `[]`))' \
+            --output text)
+          if [ "$baseline_count" = "1" ]; then
+            aws s3 cp s3://houseoftechnocrats/.indexnow/manifest.json indexnow-previous.json \
+              --endpoint-url https://hot.ir-central1.arvanstorage.ir
+          elif [ "$baseline_count" != "0" ]; then
+            echo "Unexpected IndexNow baseline count: $baseline_count" >&2
+            exit 1
+          fi
+          node scripts/indexnow.mjs diff indexnow-previous.json indexnow-current.json indexnow-diff.json
+
       - name: Deploy website
         run: |
           aws s3 sync ./dist/ s3://houseoftechnocrats/ \
             --endpoint-url https://hot.ir-central1.arvanstorage.ir \
             --delete \
             --acl public-read \
-            --exclude ".DS_Store"
+            --exclude ".DS_Store" \
+            --exclude ".indexnow/*"
+
+      - name: Publish IndexNow key with plain-text content type
+        run: |
+          aws s3 cp ./dist/37dda4f7ee42472da5e825c239300add.txt s3://houseoftechnocrats/37dda4f7ee42472da5e825c239300add.txt \
+            --endpoint-url https://hot.ir-central1.arvanstorage.ir \
+            --content-type text/plain \
+            --cache-control "public, max-age=300" \
+            --acl public-read
 
       - name: Publish robots.txt with plain-text content type
         run: |
@@ -69,6 +101,7 @@ jobs:
             --query 'Contents[].Key' \
             --output text | tr '\t' '\n' | while IFS= read -r key; do
               [ -z "$key" ] && continue
+              case "$key" in .indexnow/*) continue ;; esac
 
               echo "Making public: $key"
 
@@ -78,3 +111,12 @@ jobs:
                 --acl public-read \
                 --endpoint-url https://hot.ir-central1.arvanstorage.ir
             done
+
+      - name: Verify production and notify IndexNow
+        run: |
+          if node scripts/indexnow.mjs verify indexnow-diff.json indexnow-current.json && node scripts/indexnow.mjs submit indexnow-diff.json; then
+            aws s3 cp indexnow-current.json s3://houseoftechnocrats/.indexnow/manifest.json \
+              --endpoint-url https://hot.ir-central1.arvanstorage.ir
+          else
+            echo "::warning::IndexNow notification failed; the deployment remains live and the previous baseline is retained for retry."
+          fi
