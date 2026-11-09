@@ -4400,6 +4400,7 @@ body.modal-open {
   text-align: center;
 }
 
+.about-contact-copy h1,
 .about-contact-copy h2 {
   margin: 0;
   max-width: 460px;
@@ -4407,10 +4408,12 @@ body.modal-open {
   line-height: 1.05;
 }
 
+.about-contact-copy h1 span,
 .about-contact-copy h2 span {
   display: block;
 }
 
+html[lang="fa"] .about-contact-copy h1,
 html[lang="fa"] .about-contact-copy h2 {
   line-height: 1.28;
 }
@@ -5181,6 +5184,7 @@ html[lang="fa"] .insight-carousel-controls {
   gap: 24px;
 }
 
+.insight-library-heading h1,
 .insight-library-heading h2 {
   margin-top: 10px;
   font-size: clamp(36px, 5vw, 64px);

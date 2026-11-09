@@ -13,6 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install build dependencies
+        run: npm ci
+
+      - name: Install Chromium for static rendering
+        run: npx playwright install --with-deps chromium
+
+      - name: Build and validate the public website
+        run: |
+          npm run build:seo
+          npm run check:seo
+
       - name: Configure AWS CLI
         run: |
           aws configure set aws_access_key_id "${{ secrets.ARVAN_ACCESS_KEY }}"
@@ -22,19 +39,26 @@ jobs:
 
       - name: Deploy website
         run: |
-          aws s3 sync ./ s3://houseoftechnocrats/ \
+          aws s3 sync ./dist/ s3://houseoftechnocrats/ \
             --endpoint-url https://hot.ir-central1.arvanstorage.ir \
             --delete \
             --acl public-read \
-            --exclude ".git/*" \
-            --exclude ".github/*" \
             --exclude ".DS_Store"
 
       - name: Publish robots.txt with plain-text content type
         run: |
-          aws s3 cp ./robots.txt s3://houseoftechnocrats/robots.txt \
+          aws s3 cp ./dist/robots.txt s3://houseoftechnocrats/robots.txt \
             --endpoint-url https://hot.ir-central1.arvanstorage.ir \
             --content-type text/plain \
+            --cache-control "public, max-age=300" \
+            --acl public-read
+
+      - name: Publish sitemap.xml with XML content type
+        run: |
+          aws s3 cp ./dist/sitemap.xml s3://houseoftechnocrats/sitemap.xml \
+            --endpoint-url https://hot.ir-central1.arvanstorage.ir \
+            --content-type application/xml \
+            --cache-control "public, max-age=300" \
             --acl public-read
 
       - name: Fix public access for all existing objects

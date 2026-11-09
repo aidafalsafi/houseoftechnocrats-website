@@ -3734,7 +3734,7 @@
 
   function selectedRadarCategory() {
     var params = new URLSearchParams(window.location.search);
-    var id = params.get("category") || radarCategories[0].id;
+    var id = document.body.getAttribute("data-category-id") || params.get("category") || radarCategories[0].id;
     return radarCategories.find(function (category) { return category.id === id; }) || radarCategories[0];
   }
 
@@ -3755,7 +3755,7 @@
 
   function selectedRadarPattern() {
     var category = selectedRadarCategory();
-    var requested = new URLSearchParams(window.location.search).get("pattern") || patternSlug(category.patterns[0]);
+    var requested = document.body.getAttribute("data-pattern-id") || new URLSearchParams(window.location.search).get("pattern") || patternSlug(category.patterns[0]);
     var index = category.patterns.findIndex(function (pattern) { return patternSlug(pattern) === requested; });
     if (index < 0) index = 0;
     return { category: category, pattern: category.patterns[index], index: index, slug: patternSlug(category.patterns[index]) };
@@ -8435,7 +8435,7 @@
 
     return [
       '<section class="inner-section insight-library-section" id="insight-library" data-chamfer="" data-radius="12">',
-      '<div class="insight-library-heading"><div><p class="dbr-label" data-en="INSIGHT LIBRARY" data-fa="کتابخانه بینش‌ها">INSIGHT LIBRARY</p><h2 data-en="Browse Insights" data-fa="مرور بینش‌ها">Browse Insights</h2></div><p class="insight-result-count dbr-label" aria-live="polite"></p></div>',
+      '<div class="insight-library-heading"><div><p class="dbr-label" data-en="INSIGHT LIBRARY" data-fa="کتابخانه بینش‌ها">INSIGHT LIBRARY</p><h1 data-en="Browse Insights" data-fa="مرور بینش‌ها">Browse Insights</h1></div><p class="insight-result-count dbr-label" aria-live="polite"></p></div>',
       '<div class="insight-search-row"><label><span data-en="Search" data-fa="جست‌وجو">Search</span><input class="insight-search" type="search" data-en-placeholder="Search" data-fa-placeholder="جست‌وجو" placeholder="Search"></label></div>',
       '<div class="filter-bar people-filter-bar insight-filter-bar insight-filter-panel" id="insight-filter-panel"><label><span data-en="Type" data-fa="نوع">Type</span><select class="insight-type-filter">' + fixedOptions(typeOptions, "All types", "همه نوع‌ها") + '</select></label><label><span data-en="Subject" data-fa="موضوع">Subject</span><select class="insight-subject-filter">' + uniqueOptions("topic", "faTopic", "All subjects", "همه موضوع‌ها") + '</select></label><label><span data-en="Industry" data-fa="صنعت">Industry</span><select class="insight-industry-filter">' + uniqueOptions("industry", "faIndustry", "All industries", "همه صنعت‌ها") + '</select></label><label><span data-en="Person" data-fa="فرد">Person</span><select class="insight-person-filter">' + uniqueOptions("author", "faAuthor", "All people", "همه افراد") + '</select></label></div>',
       '<div class="insight-card-grid">' + mixedInsightItems().map(insightCardMarkup).join("") + '</div>',
@@ -9072,7 +9072,7 @@
       '<figure class="about-contact-image"><img src="Assets/contact-house-courtyard.png" alt="House of Technocrats courtyard" data-fa-alt="حیاط خانهٔ تکنوکرات‌ها"></figure>',
       '<div class="about-contact-copy">',
       '<p class="dbr-label" data-en="CONTACT US" data-fa="تماس با ما">CONTACT US</p>',
-      '<h2 data-en="House of Technocrats" data-fa="خانه تکنوکرات‌ها" data-en-lines="House of|Technocrats" data-fa-lines="خانه|تکنوکرات‌ها"><span>House of</span><span>Technocrats</span></h2>',
+      '<h1 data-en="House of Technocrats" data-fa="خانه تکنوکرات‌ها" data-en-lines="House of|Technocrats" data-fa-lines="خانه|تکنوکرات‌ها"><span>House of</span><span>Technocrats</span></h1>',
       '<dl><div><dt data-en="' + escapeHtml(address[0]) + '" data-fa="نشانی خانه">' + escapeHtml(address[0]) + '</dt><dd class="contact-address-text" data-en="' + escapeHtml(address[1]) + '" data-fa="' + escapeHtml(faAddress) + '">' + escapeHtml(address[1]) + '</dd></div><div><dt data-en="' + escapeHtml(phone[0]) + '" data-fa="واتس‌اپ">' + escapeHtml(phone[0]) + '</dt><dd class="contact-phone-number" dir="ltr" data-en="' + escapeHtml(phone[1]) + '" data-fa="' + escapeHtml(faPhone) + '">' + escapeHtml(phone[1]) + '</dd></div></dl>',
       '</div></section>'
     ].join("");
