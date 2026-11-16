@@ -1,4 +1,5 @@
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
@@ -6,6 +7,13 @@ import { chromium } from "playwright";
 const root = process.cwd();
 const output = path.join(root, "dist");
 const origin = "https://houseoftechnocrats.ir";
+const sharedAssetPaths = {};
+for (const name of ["site.js", "site.css"]) {
+  const contents = await readFile(path.join(root, name));
+  const hash = createHash("sha256").update(contents).digest("hex").slice(0, 16);
+  const extension = path.extname(name);
+  sharedAssetPaths[name] = `${path.basename(name, extension)}.${hash}${extension}`;
+}
 const excluded = new Set([".git", ".github", ".agents", ".codex", ".aws", "node_modules", "dist", "scripts", "package.json", "package-lock.json"]);
 const existingPages = (await readdir(root, { withFileTypes: true }))
   .filter((entry) => entry.isFile() && entry.name.endsWith(".html"))
@@ -18,6 +26,9 @@ await mkdir(output, { recursive: true });
 for (const entry of await readdir(root, { withFileTypes: true })) {
   if (excluded.has(entry.name) || entry.name.startsWith(".")) continue;
   await cp(path.join(root, entry.name), path.join(output, entry.name), { recursive: true });
+}
+for (const [name, assetPath] of Object.entries(sharedAssetPaths)) {
+  await cp(path.join(root, name), path.join(output, assetPath));
 }
 
 const browser = await chromium.launch({
@@ -84,8 +95,14 @@ const publicPeople = profileRoutes.map((route) => route.slice(0, -"-profile.html
 
 async function prepareHtml(html, route) {
   await staticPage.setContent(html, { waitUntil: "domcontentloaded" });
-  await staticPage.evaluate(({ route, origin, categoryRoutes, patternRoutes, publicPeople }) => {
+  await staticPage.evaluate(({ route, origin, categoryRoutes, patternRoutes, publicPeople, sharedAssetPaths }) => {
     const head = document.head;
+    for (const element of head.querySelectorAll("script[src], link[rel=stylesheet][href]")) {
+      const attribute = element.tagName === "SCRIPT" ? "src" : "href";
+      const name = element.getAttribute(attribute).split("?")[0];
+      if (!Object.hasOwn(sharedAssetPaths, name)) continue;
+      element.setAttribute(attribute, sharedAssetPaths[name]);
+    }
     const main = document.querySelector("main");
     if (!main) throw new Error(`${route} has no main landmark`);
     if (!main.id) main.id = "main-content";
@@ -237,7 +254,7 @@ async function prepareHtml(html, route) {
       routeScript.dataset.seoRoutes = "true";
       head.append(routeScript);
     }
-  }, { route, origin, categoryRoutes, patternRoutes, publicPeople });
+  }, { route, origin, categoryRoutes, patternRoutes, publicPeople, sharedAssetPaths });
   return staticPage.content();
 }
 
