@@ -45,6 +45,8 @@
     { type: "Content", title: "Continuity Podcast - Alireza Bozorgmehri", href: "podcast-alireza-bozorgmehri.html", detail: "Podcast / Alireza Bozorgmehri" },
     { type: "Content", title: "Continuity Podcast - Ali Akhavan", href: "podcast-ali-akhavan.html", detail: "Podcast / Ali Akhavan" },
     { type: "Content", title: "Continuity Podcast - Ramyar Ghanbari", href: "podcast-ramyar-ghanbari.html", detail: "Podcast / Ramyar Ghanbari" },
+    { type: "Content", title: "Continuity Podcast - Introduction with Shervin Jafarzadeh", href: "podcast-shervin-jafarzadeh-introduction.html", detail: "Podcast / Shervin Jafarzadeh" },
+    { type: "Content", title: "Continuity Podcast - Episode 01 with Shervin Jafarzadeh", href: "podcast-shervin-jafarzadeh-episode-01.html", detail: "Podcast / Shervin Jafarzadeh" },
     { type: "Content", title: "Continuity Videocast - Episode 01", href: "videocast-continuity-dialogue.html", detail: "Videocast / Farhad Inalouei" },
     { type: "Content", title: "Continuity Videocast - Episode 15", href: "videocast-hesam-maghsoudloo.html", detail: "Videocast / Hesam Maghsoudloo" },
     { type: "Content", title: "Continuity Videocast - Episode 12", href: "videocast-continuity-episode-02.html", detail: "Videocast / Meysam Rajabi" },
@@ -131,6 +133,8 @@
       ["Continuity Podcast - Alireza Bozorgmehri", "Podcast / Alireza Bozorgmehri", "podcast-alireza-bozorgmehri.html", "Governance"],
       ["Continuity Podcast - Ali Akhavan", "Podcast / Ali Akhavan", "podcast-ali-akhavan.html", "Startup continuity"],
       ["Continuity Podcast - Ramyar Ghanbari", "Podcast / Ramyar Ghanbari", "podcast-ramyar-ghanbari.html", "Market continuity"],
+      ["Continuity Podcast - Introduction with Shervin Jafarzadeh", "Podcast / Shervin Jafarzadeh", "podcast-shervin-jafarzadeh-introduction.html", "Business continuity"],
+      ["Continuity Podcast - Episode 01 with Shervin Jafarzadeh", "Podcast / Shervin Jafarzadeh", "podcast-shervin-jafarzadeh-episode-01.html", "Business continuity"],
       ["Continuity Videocast - Episode 01", "Videocast / Farhad Inalouei", "videocast-continuity-dialogue.html", "Continuity dialogue"],
       ["Continuity Videocast - Episode 12", "Videocast / Meysam Rajabi", "videocast-continuity-episode-02.html", "Continuity practice"],
       ["The Valley of Failure as a Continuity Lab", "Article / Sadegh Faramarzi", "article-pain-point-continuity-lab.html", "Startup continuity"],
@@ -199,6 +203,56 @@
     }
   ];
 
+  var shervinPodcastIntroduction = {
+    title: "Continuity Podcast - Introduction with Shervin Jafarzadeh",
+    titleLines: ["Continuity Podcast -", "Introduction"],
+    faTitle: "پادکست کانتینیویتی - مقدمه با شروین جعفرزاده",
+    faTitleLines: ["پادکست کانتینیویتی -", "مقدمه"],
+    description: "Shervin Jafarzadeh introduces the Continuity Podcast series.",
+    faDescription: "شروین جعفرزاده در این قسمت مجموعهٔ پادکست کانتینیویتی را معرفی می‌کند.",
+    href: "podcast-shervin-jafarzadeh-introduction.html",
+    type: "Podcast",
+    faType: "پادکست",
+    topic: "Business continuity",
+    faTopic: "تداوم کسب‌وکار",
+    industry: "Technology",
+    faIndustry: "فناوری",
+    author: "Shervin Jafarzadeh",
+    faAuthor: "شروین جعفرزاده",
+    image: "Assets/shervin-jafarzadeh-podcast-cover.png",
+    originalCover: true,
+    authorImage: "Assets/shervin-jafarzadeh.png",
+    alt: "Cover for Introduction with Shervin Jafarzadeh",
+    faAlt: "کاور مقدمه با شروین جعفرزاده",
+    audioSrc: "Assets/podcast-shervin-jafarzadeh-introduction.m4a",
+    tags: [["Podcast", "پادکست"], ["Continuity", "تداوم"]]
+  };
+
+  var shervinPodcastEpisodeOne = {
+    title: "Continuity Podcast - Episode 01 with Shervin Jafarzadeh",
+    titleLines: ["Continuity Podcast -", "Episode 01"],
+    faTitle: "پادکست کانتینیویتی - اپیزود ۱ با شروین جعفرزاده",
+    faTitleLines: ["پادکست کانتینیویتی -", "اپیزود ۱"],
+    description: "Listen to the first episode of the Continuity Podcast with Shervin Jafarzadeh.",
+    faDescription: "اولین اپیزود پادکست کانتینیویتی با روایت شروین جعفرزاده.",
+    href: "podcast-shervin-jafarzadeh-episode-01.html",
+    type: "Podcast",
+    faType: "پادکست",
+    topic: "Business continuity",
+    faTopic: "تداوم کسب‌وکار",
+    industry: "Technology",
+    faIndustry: "فناوری",
+    author: "Shervin Jafarzadeh",
+    faAuthor: "شروین جعفرزاده",
+    image: "Assets/shervin-jafarzadeh-podcast-cover.png",
+    originalCover: true,
+    authorImage: "Assets/shervin-jafarzadeh.png",
+    alt: "Cover for Episode 01 with Shervin Jafarzadeh",
+    faAlt: "کاور اپیزود ۱ با شروین جعفرزاده",
+    audioSrc: "Assets/podcast-shervin-jafarzadeh-episode-01.m4a",
+    tags: [["Podcast", "پادکست"], ["Continuity", "تداوم"]]
+  };
+
   var insightItems = [
     {
       title: "Continuity Podcast - Farhad Inalouei",
@@ -218,10 +272,11 @@
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-podcast-v3.png",
+      image: "Assets/farhad-inalouei-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/farhad-inaloui.jpg",
-      alt: "Dark podcast microphone cover image",
-      faAlt: "تصویر کاور پادکست با میکروفون تیره",
+      alt: "AliaCast episode 1 podcast cover featuring Farhad Inalouei",
+      faAlt: "کاور قسمت اول پادکست آلیاکست با فرهاد اینالویی",
       audioSrc: "Assets/podcast-farhad-inaloui-135747.mp3",
       accessed: "Accessed",
       faAccessed: "در دسترس",
@@ -245,10 +300,11 @@
       faAuthor: "علیرضا بزرگمهری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/alireza-bozorgmehri-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/alireza-bozorgmehri.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Alireza Bozorgmehri",
+      faAlt: "کاور ویدئوکست آلیاکست با علیرضا بزرگمهری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Podcast", "پادکست"], ["Architecture", "معماری"]]
@@ -271,10 +327,11 @@
       faAuthor: "علی اخوان",
       date: "May 2026",
       faDate: "اردیبهشت ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/ali-akhavan-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/ali-akhavan.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast episode 2 videocast cover featuring Ali Akhavan",
+      faAlt: "کاور قسمت دوم ویدئوکست آلیاکست با علی اخوان",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Business continuity", "تداوم کسب‌وکار"], ["Banking", "بانکداری"], ["Interview", "مصاحبه"]]
@@ -297,10 +354,11 @@
       faAuthor: "محمد فرجود",
       date: "May 2026",
       faDate: "اردیبهشت ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/mohammad-farjood-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/mohammad-farjood.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast episode 3 videocast cover featuring Mohammad Farjood",
+      faAlt: "کاور قسمت سوم ویدئوکست آلیاکست با محمد فرجود",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Digital banking", "بانکداری دیجیتال"], ["Technology investment", "سرمایه‌گذاری فناوری"], ["Interview", "مصاحبه"]]
@@ -323,10 +381,11 @@
       faAuthor: "رامیار قنبری",
       date: "May 2026",
       faDate: "اردیبهشت ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/ramyar-ghanbari-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/ramyar-ghanbari.png",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast episode 4 videocast cover featuring Ramyar Ghanbari",
+      faAlt: "کاور قسمت چهارم ویدئوکست آلیاکست با رامیار قنبری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Payments", "پرداخت"], ["Market continuity", "تداوم بازار"], ["Interview", "مصاحبه"]]
@@ -375,10 +434,11 @@
       faAuthor: "صادق فرامرزی",
       date: "June 2026",
       faDate: "خرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/sadegh-faramarzi-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadegh-faramarzi.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Sadegh Faramarzi",
+      faAlt: "کاور ویدئوکست آلیاکست با صادق فرامرزی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["BCM", "مدیریت تداوم"], ["Consulting", "مشاوره"], ["Interview", "مصاحبه"]]
@@ -401,10 +461,11 @@
       faAuthor: "مصطفی ثابتی",
       date: "May 2026",
       faDate: "اردیبهشت ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/mostafa-sabeti-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/mostafa-sabeti.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Mostafa Sabeti",
+      faAlt: "کاور ویدئوکست آلیاکست با مصطفی ثابتی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Adaptive continuity", "تداوم تطبیقی"], ["Digital transformation", "تحول دیجیتال"], ["Interview", "مصاحبه"]]
@@ -427,10 +488,11 @@
       faAuthor: "امیرحسین شبیری",
       date: "June 2026",
       faDate: "تیر ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/amirhossein-shabiri-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/amirhossein-shabiri.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Amirhossein Shabiri",
+      faAlt: "کاور ویدئوکست آلیاکست با امیرحسین شبیری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Digital banking", "بانکداری دیجیتال"], ["Information technology", "فناوری اطلاعات"], ["Interview", "مصاحبه"]]
@@ -453,10 +515,11 @@
       faAuthor: "صدرا بابایی",
       date: "July 2026",
       faDate: "تیر ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/sadra-babaei-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadra-babaei.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Sadra Babaei",
+      faAlt: "کاور ویدئوکست آلیاکست با صدرا بابایی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Continuity planning", "برنامه تداوم"], ["Smart operations", "عملیات هوشمند"], ["Interview", "مصاحبه"]]
@@ -505,10 +568,11 @@
       faAuthor: "علیرضا قنادان",
       date: "July 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/alireza-ghanadan-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/alireza-ghanadan.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Alireza Ghanadan",
+      faAlt: "کاور ویدئوکست آلیاکست با علیرضا قنادان",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["FinTech", "فین‌تک"], ["Lending", "اعتباردهی"], ["Interview", "مصاحبه"]]
@@ -557,10 +621,11 @@
       faAuthor: "نیما امیرشکاری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/nima-amirshekari-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/nima-amirshekari.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Nima Amirshekari",
+      faAlt: "کاور ویدئوکست آلیاکست با نیما امیرشکاری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Digital economy", "اقتصاد دیجیتال"], ["Financial technology", "فناوری مالی"], ["Interview", "مصاحبه"]]
@@ -583,10 +648,11 @@
       faAuthor: "حسام مقصودلو",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/hesam-maghsoodloo-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/hesam-maghsoodloo.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Hesam Maghsoudloo",
+      faAlt: "کاور مقاله با پرترهٔ حسام مقصودلو",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Financial continuity", "تداوم مالی"], ["Service continuity", "تداوم خدمت"], ["Banking", "بانکداری"]]
@@ -609,10 +675,11 @@
       faAuthor: "رضا فرهادی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/reza-farhadi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/reza-farhadi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Reza Farhadi",
+      faAlt: "کاور مقاله با پرترهٔ رضا فرهادی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Controlled shutdown", "توقف کنترل‌شده"], ["Financial trust", "اعتماد مالی"], ["Crisis communication", "ارتباطات بحران"]]
@@ -635,10 +702,11 @@
       faAuthor: "حسام مقصودلو",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/hesam-maghsoodloo-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/hesam-maghsoodloo.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Hesam Maghsoudloo",
+      faAlt: "کاور مقاله با پرترهٔ حسام مقصودلو",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Risk readiness", "آمادگی ریسک"], ["Banking continuity", "تداوم خدمات بانکی"], ["Governance", "راهبری"]]
@@ -661,10 +729,11 @@
       faAuthor: "حسام مقصودلو",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/hesam-maghsoodloo-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/hesam-maghsoodloo.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Hesam Maghsoudloo",
+      faAlt: "کاور مقاله با پرترهٔ حسام مقصودلو",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Digital continuity", "تداوم دیجیتال"], ["Customer journey", "سفر مشتری"], ["Demand", "تقاضا"]]
@@ -687,10 +756,11 @@
       faAuthor: "رضا فرهادی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/reza-farhadi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/reza-farhadi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Reza Farhadi",
+      faAlt: "کاور مقاله با پرترهٔ رضا فرهادی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Customer identity", "هویت مشتری"], ["Digital continuity", "تداوم دیجیتال"], ["Youth banking", "بانکداری نوجوان"]]
@@ -713,10 +783,11 @@
       faAuthor: "رضا فرهادی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/reza-farhadi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/reza-farhadi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Reza Farhadi",
+      faAlt: "کاور مقاله با پرترهٔ رضا فرهادی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Decision-making", "تصمیم‌گیری"], ["Uncertainty", "عدم قطعیت"], ["Continuity", "تداوم"]]
@@ -739,10 +810,11 @@
       faAuthor: "صادق فرامرزی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadegh-faramarzi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadegh-faramarzi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadegh Faramarzi",
+      faAlt: "کاور مقاله با پرترهٔ صادق فرامرزی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Digital transformation", "تحول دیجیتال"], ["AI", "هوش مصنوعی"], ["Business model", "مدل کسب‌وکار"]]
@@ -765,10 +837,11 @@
       faAuthor: "صادق فرامرزی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadegh-faramarzi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadegh-faramarzi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadegh Faramarzi",
+      faAlt: "کاور مقاله با پرترهٔ صادق فرامرزی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Startup continuity", "تداوم استارتاپ"], ["Business model", "مدل کسب‌وکار"], ["Learning", "یادگیری"]]
@@ -791,10 +864,11 @@
       faAuthor: "صادق فرامرزی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadegh-faramarzi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadegh-faramarzi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadegh Faramarzi",
+      faAlt: "کاور مقاله با پرترهٔ صادق فرامرزی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["BCM", "مدیریت تداوم"], ["Human continuity", "تداوم انسانی"], ["Knowledge transfer", "انتقال دانش"]]
@@ -817,10 +891,11 @@
       faAuthor: "صدرا بابایی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadra-babaei-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadra-babaei.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadra Babaei",
+      faAlt: "کاور مقاله با پرترهٔ صدرا بابایی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Continuity planning", "برنامه تداوم"], ["Capability assessment", "سنجش قابلیت"], ["Crisis exercises", "مانور بحران"]]
@@ -843,10 +918,11 @@
       faAuthor: "صدرا بابایی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadra-babaei-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadra-babaei.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadra Babaei",
+      faAlt: "کاور مقاله با پرترهٔ صدرا بابایی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Crisis command", "فرماندهی بحران"], ["Minimum service", "حداقل خدمت"], ["Communication", "ارتباطات"]]
@@ -869,10 +945,11 @@
       faAuthor: "صدرا بابایی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/sadra-babaei-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/sadra-babaei.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Sadra Babaei",
+      faAlt: "کاور مقاله با پرترهٔ صدرا بابایی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["FinTech", "فین‌تک"], ["Banking continuity", "تداوم بانکی"], ["Pilot", "پایلوت"]]
@@ -895,10 +972,11 @@
       faAuthor: "علی اخوان",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/ali-akhavan-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/ali-akhavan.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Ali Akhavan",
+      faAlt: "کاور مقاله با پرترهٔ علی اخوان",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Human continuity", "تداوم انسانی"], ["Succession", "جانشین‌پروری"], ["Authority", "اختیار"]]
@@ -921,10 +999,11 @@
       faAuthor: "علی اخوان",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/ali-akhavan-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/ali-akhavan.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Ali Akhavan",
+      faAlt: "کاور مقاله با پرترهٔ علی اخوان",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Third-party continuity", "تداوم شریک"], ["Banking", "بانکداری"], ["Service chain", "زنجیره خدمت"]]
@@ -947,10 +1026,11 @@
       faAuthor: "علی اخوان",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/ali-akhavan-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/ali-akhavan.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Ali Akhavan",
+      faAlt: "کاور مقاله با پرترهٔ علی اخوان",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Startup continuity", "تداوم استارتاپ"], ["Runway", "ران‌وی"], ["Funding risk", "ریسک سرمایه"]]
@@ -973,10 +1053,11 @@
       faAuthor: "علیرضا بزرگمهری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/alireza-bozorgmehri-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/alireza-bozorgmehri.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Alireza Bozorgmehri",
+      faAlt: "کاور مقاله با پرترهٔ علیرضا بزرگمهری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["BCM", "مدیریت تداوم"], ["Governance", "حاکمیت"], ["Service management", "مدیریت خدمات"]]
@@ -999,10 +1080,11 @@
       faAuthor: "علیرضا بزرگمهری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/alireza-bozorgmehri-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/alireza-bozorgmehri.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Alireza Bozorgmehri",
+      faAlt: "کاور مقاله با پرترهٔ علیرضا بزرگمهری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["ITSM", "ITSM"], ["Service map", "نقشه سرویس"], ["SLA", "SLA"]]
@@ -1025,10 +1107,11 @@
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/farhad-inaloui-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/farhad-inaloui.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Farhad Inalouei",
+      faAlt: "کاور مقاله با پرترهٔ فرهاد اینالویی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Service granularity", "ریزدانگی سرویس"], ["Digital banking", "بانکداری دیجیتال"], ["Resilience", "تاب‌آوری"]]
@@ -1051,10 +1134,11 @@
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/farhad-inaloui-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/farhad-inaloui.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Farhad Inalouei",
+      faAlt: "کاور مقاله با پرترهٔ فرهاد اینالویی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Service catalog", "کاتالوگ خدمات"], ["Service ownership", "مالکیت سرویس"], ["Recovery", "بازیابی"]]
@@ -1077,10 +1161,11 @@
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/farhad-inaloui-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/farhad-inaloui.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Farhad Inalouei",
+      faAlt: "کاور مقاله با پرترهٔ فرهاد اینالویی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Ecosystem", "اکوسیستم"], ["Governance", "حاکمیت"], ["Regulation", "تنظیم‌گری"]]
@@ -1103,10 +1188,11 @@
       faAuthor: "محمد فرجود",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mohammad-farjood-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mohammad-farjood.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mohammad Farjood",
+      faAlt: "کاور مقاله با پرترهٔ محمد فرجود",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Portfolio", "پرتفوی"], ["Financial restructuring", "اصلاح ساختار"], ["Resilience", "تاب‌آوری"]]
@@ -1129,10 +1215,11 @@
       faAuthor: "محمد فرجود",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mohammad-farjood-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mohammad-farjood.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mohammad Farjood",
+      faAlt: "کاور مقاله با پرترهٔ محمد فرجود",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Adaptive growth", "رشد انطباقی"], ["Data", "داده"], ["Regulation", "تنظیم‌گری"]]
@@ -1155,10 +1242,11 @@
       faAuthor: "مصطفی ثابتی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mostafa-sabeti-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mostafa-sabeti.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mostafa Sabeti",
+      faAlt: "کاور مقاله با پرترهٔ مصطفی ثابتی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Human continuity", "تداوم انسانی"], ["Knowledge transfer", "انتقال دانش"], ["Crisis skill", "مهارت بحران"]]
@@ -1181,10 +1269,11 @@
       faAuthor: "مصطفی ثابتی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mostafa-sabeti-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mostafa-sabeti.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mostafa Sabeti",
+      faAlt: "کاور مقاله با پرترهٔ مصطفی ثابتی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Global learning", "یادگیری جهانی"], ["Architecture", "معماری"], ["Technology", "فناوری"]]
@@ -1207,10 +1296,11 @@
       faAuthor: "میثم رجبی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/meysam-rajabi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/meysam-rajabi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Meysam Rajabi",
+      faAlt: "کاور مقاله با پرترهٔ میثم رجبی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Strategy", "استراتژی"], ["Focus", "تمرکز"], ["Portfolio", "پرتفوی"]]
@@ -1233,10 +1323,11 @@
       faAuthor: "میثم رجبی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/meysam-rajabi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/meysam-rajabi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Meysam Rajabi",
+      faAlt: "کاور مقاله با پرترهٔ میثم رجبی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Cash", "نقدینگی"], ["Core team", "تیم هسته"], ["Market cycle", "چرخه بازار"]]
@@ -1259,10 +1350,11 @@
       faAuthor: "نیما امیرشکاری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/nima-amirshekari-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/nima-amirshekari.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Nima Amirshekari",
+      faAlt: "کاور مقاله با پرترهٔ نیما امیرشکاری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Transition", "انتقال"], ["Migration", "مهاجرت"], ["Access control", "کنترل دسترسی"]]
@@ -1285,10 +1377,11 @@
       faAuthor: "نیما امیرشکاری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/nima-amirshekari-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/nima-amirshekari.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Nima Amirshekari",
+      faAlt: "کاور مقاله با پرترهٔ نیما امیرشکاری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["RTO", "RTO"], ["RPO", "RPO"], ["Recovery", "بازیابی"]]
@@ -1311,10 +1404,11 @@
       faAuthor: "محمد فرجود",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mohammad-farjood-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mohammad-farjood.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mohammad Farjood",
+      faAlt: "کاور مقاله با پرترهٔ محمد فرجود",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Trust", "اعتماد"], ["Banking", "بانکداری"], ["Incident communication", "ارتباط بحران"]]
@@ -1337,10 +1431,11 @@
       faAuthor: "مصطفی ثابتی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/mostafa-sabeti-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/mostafa-sabeti.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Mostafa Sabeti",
+      faAlt: "کاور مقاله با پرترهٔ مصطفی ثابتی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Survival", "بقا"], ["Growth gap", "شکاف رشد"], ["Digital continuity", "تداوم دیجیتال"]]
@@ -1363,10 +1458,11 @@
       faAuthor: "میثم رجبی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/meysam-rajabi-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/meysam-rajabi.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Meysam Rajabi",
+      faAlt: "کاور مقاله با پرترهٔ میثم رجبی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Market regime", "رژیم بازار"], ["Strategy", "استراتژی"], ["Cash survival", "بقای نقدینگی"]]
@@ -1389,10 +1485,11 @@
       faAuthor: "نیما امیرشکاری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-article-v3.png",
+      image: "Assets/nima-amirshekari-article-cover.png",
+      originalCover: true,
       authorImage: "Assets/nima-amirshekari.jpg",
-      alt: "Dark article desk cover image with notebook and pen",
-      faAlt: "تصویر کاور مقاله با دفتر و قلم روی میز تیره",
+      alt: "Article cover featuring Nima Amirshekari",
+      faAlt: "کاور مقاله با پرترهٔ نیما امیرشکاری",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Article", "مقاله"], ["Backup site", "سایت پشتیبان"], ["Real-load test", "آزمون بار واقعی"], ["Infrastructure", "زیرساخت"]]
@@ -1415,10 +1512,11 @@
       faAuthor: "علیرضا بزرگمهری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-podcast-v3.png",
+      image: "Assets/alireza-bozorgmehri-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/alireza-bozorgmehri.jpg",
-      alt: "Dark podcast microphone cover image",
-      faAlt: "تصویر کاور پادکست با میکروفون تیره",
+      alt: "AliaCast podcast cover featuring Alireza Bozorgmehri",
+      faAlt: "کاور پادکست آلیاکست با علیرضا بزرگمهری",
       audioSrc: "Assets/podcast-alireza-bozorgmehri-135764.mp3",
       accessed: "Accessed",
       faAccessed: "در دسترس",
@@ -1442,10 +1540,11 @@
       faAuthor: "علی اخوان",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-podcast-v3.png",
+      image: "Assets/ali-akhavan-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/ali-akhavan.jpg",
-      alt: "Dark podcast microphone cover image",
-      faAlt: "تصویر کاور پادکست با میکروفون تیره",
+      alt: "AliaCast episode 2 podcast cover featuring Ali Akhavan",
+      faAlt: "کاور قسمت دوم پادکست آلیاکست با علی اخوان",
       audioSrc: "Assets/podcast-ali-akhavan-135765.mp3",
       accessed: "Accessed",
       faAccessed: "در دسترس",
@@ -1469,15 +1568,18 @@
       faAuthor: "رامیار قنبری",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-podcast-v3.png",
+      image: "Assets/ramyar-ghanbari-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/ramyar-ghanbari.png",
-      alt: "Dark podcast microphone cover image",
-      faAlt: "تصویر کاور پادکست با میکروفون تیره",
+      alt: "AliaCast episode 4 podcast cover featuring Ramyar Ghanbari",
+      faAlt: "کاور قسمت چهارم پادکست آلیاکست با رامیار قنبری",
       audioSrc: "Assets/podcast-ramyar-ghanbari-135766.mp3",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Podcast", "پادکست"], ["Market continuity", "تداوم بازار"], ["Signals", "نشانه‌ها"], ["Resilience", "تاب‌آوری"]]
     },
+    shervinPodcastIntroduction,
+    shervinPodcastEpisodeOne,
     {
       title: "Continuity Videocast - Episode 01",
       titleLines: ["Continuity Videocast -", "Episode 01"],
@@ -1496,10 +1598,11 @@
       faAuthor: "فرهاد اینالویی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/farhad-inalouei-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/farhad-inaloui.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast episode 1 videocast cover featuring Farhad Inalouei",
+      faAlt: "کاور قسمت اول ویدئوکست آلیاکست با فرهاد اینالویی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Interview", "مصاحبه"], ["Continuity", "تداوم"], ["Banking", "بانکداری"]]
@@ -1522,10 +1625,11 @@
       faAuthor: "حسام مقصودلو",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/hesam-maghsoodloo-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/hesam-maghsoodloo.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Hesam Maghsoudloo",
+      faAlt: "کاور ویدئوکست آلیاکست با حسام مقصودلو",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Financial continuity", "تداوم مالی"], ["Service continuity", "تداوم خدمت"], ["Banking", "بانکداری"]]
@@ -1548,15 +1652,29 @@
       faAuthor: "میثم رجبی",
       date: "August 2026",
       faDate: "مرداد ۱۴۰۵",
-      image: "Assets/content-cover-videocast-v3.png",
+      image: "Assets/meysam-rajabi-aliacast-cover.png",
+      originalCover: true,
       authorImage: "Assets/meysam-rajabi.jpg",
-      alt: "Dark videocast camera cover image",
-      faAlt: "تصویر کاور ویدیوکست با دوربین تیره",
+      alt: "AliaCast videocast cover featuring Meysam Rajabi",
+      faAlt: "کاور ویدئوکست آلیاکست با میثم رجبی",
       accessed: "Accessed",
       faAccessed: "در دسترس",
       tags: [["Videocast", "ویدیوکست"], ["Continuity", "تداوم"], ["Service resilience", "تاب‌آوری خدمت"], ["Banking", "بانکداری"]]
     }
   ];
+
+  var shervinJafarzadehSummary = {
+    id: "shervin-jafarzadeh",
+    name: "Shervin Jafarzadeh",
+    faName: "شروین جعفرزاده",
+    role: "Technocratic Thinker",
+    faRole: "متفکر تکنوکرات",
+    title: "IT Management, Information Security and Business Continuity Specialist",
+    faTitle: "متخصص مدیریت فناوری اطلاعات، امنیت اطلاعات و تداوم کسب‌وکار",
+    subject: "Information security, service recovery and operational resilience",
+    faSubject: "امنیت اطلاعات، بازیابی خدمت و تاب‌آوری عملیاتی",
+    image: "Assets/shervin-jafarzadeh.png"
+  };
 
   var peopleProfiles = [
     {
@@ -2387,7 +2505,8 @@
       faSubject: "راهبری هلدینگ، کسب‌وکارهای دیجیتال و تداوم",
       image: "Assets/bahareh-sharifioun.jpg",
       imageClass: "person-photo-bahareh-sharifioun"
-    }
+    },
+    shervinJafarzadehSummary
   ];
 
   var alirezaProfile = {
@@ -3713,6 +3832,112 @@
     sources: []
   };
 
+  var shervinJafarzadehProfile = Object.assign({}, shervinJafarzadehSummary, {
+    role: "Technocratic Thinker · Deep Blue Radar knowledge contributor and narrator",
+    faRole: "متفکر تکنوکرات · همکار دانشی و راوی دیپ‌بلو رادار",
+    profileLayout: "monograph",
+    profileNumber: "18",
+    faProfileNumber: "۱۸",
+    publicationStatus: "draft_noindex",
+    robots: "noindex,follow",
+    seoTitle: "Shervin Jafarzadeh | IT, Information Security & Business Continuity | House of Technocrats",
+    faSeoTitle: "شروین جعفرزاده | مدیریت فناوری، امنیت اطلاعات و تداوم کسب‌وکار | خانه تکنوکرات‌ها",
+    metaDescription: "The professional journey of Shervin Jafarzadeh, connecting IT operations, information security, service recovery and organizational resilience.",
+    faMetaDescription: "روایت حرفه‌ای شروین جعفرزاده؛ از مدیریت زیرساخت فناوری و امنیت اطلاعات تا پیوند مدیریت سرویس، آمادگی بازیابی و تاب‌آوری سازمانی.",
+    positioning: "That progression frames continuity not simply as a technical concern, but as a question of dependable services, clear decision ownership and organizational readiness.",
+    faPositioning: "این تجربه، تداوم را از موضوعی صرفاً فنی به مسئله‌ای درباره اعتمادپذیری خدمت، مسئولیت تصمیم و آمادگی سازمان تبدیل می‌کند.",
+    heroTags: [
+      ["IT Management and Infrastructure","مدیریت فناوری اطلاعات و زیرساخت"],
+      ["Information Security and ISMS","امنیت اطلاعات و ISMS"],
+      ["IT Service Management (ITSM / ITIL)","مدیریت خدمات فناوری اطلاعات (ITSM / ITIL)"],
+      ["Business Continuity Management Systems (BCMS)","مدیریت تداوم کسب‌وکار (BCMS)"],
+      ["Service Recovery and Operational Resilience","بازیابی خدمت و تاب‌آوری عملیاتی"]
+    ],
+    quote: "Continuity begins when security, infrastructure and organizational decisions become the ability to restore service.",
+    faQuote: "تداوم از جایی آغاز می‌شود که امنیت، زیرساخت و تصمیم‌های سازمانی به قابلیت بازیابی خدمت تبدیل شوند.",
+    statementIsSynthesis: true,
+    storyTitle: "From protecting systems to restoring dependable services",
+    faStoryTitle: "از حفاظت از سامانه‌ها تا توان بازگرداندن خدمت",
+    story: [
+      ["Across more than two decades, Shervin Jafarzadeh's professional path has expanded from infrastructure management and day-to-day IT operations into information security, service management and organizational resilience. These areas share a common responsibility: keeping the systems on which organizational commitments depend usable and trustworthy. A failure in such an environment is seldom only a broken device. It may interrupt workflows, access to information and the delivery of essential services at the same time.","مسیر حرفه‌ای شروین جعفرزاده در حوزه فناوری اطلاعات، در طول بیش از دو دهه از مدیریت زیرساخت و عملیات روزمره فناوری به امنیت اطلاعات، مدیریت خدمات و تاب‌آوری سازمانی گسترش یافته است. نقطه مشترک این تجربه‌ها، مسئولیت در قبال سامانه‌هایی است که در ظاهر مجموعه‌ای از تجهیزات، شبکه‌ها و نرم‌افزارها هستند، اما در عمل بخشی از توان سازمان برای انجام تعهداتش را شکل می‌دهند. اختلال در چنین محیطی صرفاً خرابی یک قطعه نیست؛ ممکن است جریان کار، دسترسی به اطلاعات و امکان ارائه خدمت را هم‌زمان متوقف کند."],
+      ["His documented IT management experience includes work at MAPNA Special Projects Construction & Development Co. (MD3), a setting where technology must support operational needs across a larger organization. The challenge is not solved by installing redundant equipment alone. Teams also need to understand service dependencies, responsibilities, access requirements and the duration of disruption a business function can tolerate.","تجربه مدیریت فناوری اطلاعات در سازمان‌های بزرگ، از جمله فعالیت حرفه‌ای ثبت‌شده او در شرکت احداث و توسعه پروژه‌های ویژه مپنا (MD3)، این مسئله را در مقیاسی سازمانی قرار داده است. در چنین محیط‌هایی، فناوری باید در کنار الزامات اجرایی، هماهنگی واحدهای مختلف و محدودیت‌های عملیاتی مدیریت شود. برای حفظ سرویس، تنها داشتن تجهیزات جایگزین کافی نیست. وابستگی‌های میان سامانه‌ها، مسئولیت تیم‌ها، سطح دسترسی و زمان قابل‌تحمل توقف نیز باید شناخته شوند."],
+      ["His work with Information Security Management Systems (ISMS) added a governance perspective. Security becomes a continuing discipline of identifying assets, assessing risk, selecting controls and testing whether they are effective. Auditing information security across organizations further exposes a recurring gap: an enterprise may possess policies and technical protections yet still lack a clear answer to which service must be restored first, who decides and what constitutes an acceptable recovery.","در ادامه این مسیر، تمرکز بر استقرار و ارزیابی نظام مدیریت امنیت اطلاعات (ISMS) دامنه مسئله را تغییر داد. امنیت دیگر صرفاً مجموعه‌ای از ابزارهای پیشگیری نبود؛ به فرایندی برای شناسایی دارایی‌ها، ارزیابی ریسک، تعیین کنترل و سنجش اثربخشی آن‌ها تبدیل شد. تجربه ممیزی امنیت اطلاعات در سازمان‌ها و صنایع مختلف نیز امکان مشاهده یک مسئله تکرارشونده را فراهم می‌کند: ممکن است سازمان سیاست‌ها و کنترل‌های فراوانی داشته باشد، اما هنوز نداند هنگام وقوع یک اختلال جدی کدام خدمت باید ابتدا بازگردد و چه کسی مسئول تصمیم است."],
+      ["Work involving Security Operations Centers (SOC) brought the dynamics of incident detection and response into focus. Monitoring and detection are only the start. An alert must lead to diagnosis, containment and a controlled return to operations. Without defined cooperation between security analysts, infrastructure teams, service owners and management, detecting an incident quickly does not guarantee that a usable service will return quickly.","ورود به حوزه راه‌اندازی و توسعه مراکز عملیات امنیت (SOC) لایه دیگری به این تجربه افزود. پایش و کشف رویداد، به‌تنهایی پایان مسیر پاسخ نیست. هشدار باید به تشخیص، تشخیص به اقدام و اقدام به مهار و بازیابی متصل شود. اگر این زنجیره میان تیم امنیت، زیرساخت، صاحبان سرویس و مدیریت سازمان روشن نباشد، حتی کشف سریع حادثه نیز ممکن است به بازگشت سریع خدمت منجر نشود."],
+      ["IT Service Management (ITSM) connects this chain with everyday operational accountability. Incidents, changes, problems and service levels are not abstract technical categories; they provide a framework for making service delivery measurable and assigning responsibility. A recovery succeeds when a business-critical service works to an acceptable standard, not simply when a server or application is powered back on. This is where security, operations and management decisions converge.","مدیریت خدمات فناوری اطلاعات (ITSM) نیز همین موضوع را از زاویه عملیاتی تکمیل می‌کند. رخداد، تغییر، مسئله و سطح خدمت، اصطلاحاتی جدا از کسب‌وکار نیستند؛ شیوه‌هایی برای تبدیل فعالیت فنی به یک مسئولیت قابل‌اندازه‌گیری‌اند. در این منطق، نتیجه موفق زمانی حاصل می‌شود که خدمت موردنیاز سازمان، نه فقط یک سرور یا نرم‌افزار، در سطح قابل‌قبول و قابل‌اعتماد در دسترس باشد. بنابراین، حفظ تداوم نیازمند ارتباط پیوسته میان امنیت، عملیات و مدیریت است."],
+      ["Business Continuity Management Systems (BCMS) extend that logic. Organizations need to identify critical activities, understand the consequences of interruption, map dependencies on people and infrastructure, and define recovery priorities. A written plan does not demonstrate readiness by itself. Scenario exercises, dependency reviews and cross-team rehearsal reveal the distance between documented procedures and what the organization can actually perform under pressure.","این پیوند در حوزه مدیریت تداوم کسب‌وکار (BCMS) روشن‌تر می‌شود. سازمان باید بداند کدام کارکردها حیاتی هستند، چه مدت می‌توانند متوقف بمانند، به چه زیرساخت‌ها و افرادی وابسته‌اند و در چه ترتیبی باید بازیابی شوند. تهیه برنامه، نقطه پایان آمادگی نیست؛ آزمون سناریو، مرور وابستگی‌ها و تمرین هماهنگی تیم‌ها هستند که امکان تشخیص شکاف میان برنامه روی کاغذ و توان عملیاتی واقعی را فراهم می‌کنند."],
+      ["Recovery also needs to account for the integrity of the result. Restarting a service without establishing the health of its data, the cleanliness of its operating environment and the correct sequence of dependencies may introduce further risk. People present another potential single point of failure: even with backup infrastructure, recovery can stall when essential knowledge, privileges or decision-making authority remain concentrated in a few individuals.","در نگاه حرفه‌ای جعفرزاده، موضوع بازیابی نیز از روشن‌شدن دوباره تجهیزات فراتر می‌رود. بازگرداندن یک سرویس بدون اطمینان از سلامت داده، امنیت محیط و درستی ترتیب وابستگی‌ها، ممکن است سازمان را به اختلال دیگری وارد کند. از سوی دیگر، وابستگی دانش و اختیار به افراد کلیدی می‌تواند حتی با وجود زیرساخت پشتیبان، روند بازگشت را کند یا متوقف کند. این دو وجه، یعنی سلامت فنی و آمادگی انسانی، باید هم‌زمان طراحی شوند."],
+      ["His work exploring continuity architecture and the Deep Blue Radar pattern framework connects these operational questions to a broader body of practice. Service distribution, diverse infrastructure paths, recovery orchestration and decision governance are most useful when examined in context: which failure they address, what conditions they require and whether their impact can be tested. A resilience pattern is not a universal recipe; its value depends on how it changes the organization's ability to keep essential services operating.","پیوند تجربه اجرایی با تحلیل الگوهای تداوم، مرحله بعدی این مسیر حرفه‌ای است. جعفرزاده در فعالیت دانشی خود درباره معماری تداوم و واکاوی الگوهای Deep Blue Radar، مفاهیمی مانند توزیع اجزای خدمت، تنوع مسیرها، ارکستراسیون بازیابی و حکمرانی تصمیم را از زاویه قابلیت اجرا بررسی می‌کند. در این چارچوب، الگوها دستورالعمل‌های عمومی و بی‌زمینه نیستند؛ باید روشن شود هر الگو کدام ریسک را کاهش می‌دهد، به چه پیش‌شرط‌هایی نیاز دارد و چگونه می‌توان اثر آن را بر خدمت سنجید."],
+      ["The thread running through this professional journey is that resilience cannot be reduced to backups or additional infrastructure. It emerges when an organization knows which services matter, detects threats before their effects spread, allocates decision rights clearly and restores clean, trustworthy services in the right order. The integration of security, service management and managerial accountability is central to that perspective.","حاصل این مسیر، نگاهی است که تداوم را به داشتن نسخه پشتیبان یا افزایش تجهیزات تقلیل نمی‌دهد. قابلیت تداوم زمانی ساخته می‌شود که سازمان بتواند خدمات مهم را بشناسد، خطر را پیش از گسترش تشخیص دهد، مرز تصمیم و اجرا را روشن کند و در زمان اختلال، خدمتی سالم و قابل‌اعتماد را بر اساس اولویت واقعی بازگرداند. پیوند میان امنیت، مدیریت سرویس و پاسخ‌گویی مدیریتی، مرکز این روایت حرفه‌ای است."]
+    ],
+    intersections: [
+      {
+        title: "Information security as a condition for trustworthy recovery",
+        faTitle: "امنیت اطلاعات، پیش‌شرط بازیابی قابل‌اعتماد",
+        body: "A service that has been restarted after an incident is not necessarily safe to use. Data integrity, a clean recovery environment and functioning safeguards must be established. Jafarzadeh's ISMS, auditing and SOC background offers a basis for connecting prevention and incident detection with secure recovery. Information security and business continuity meet in the obligation to return a service that users and organizations can trust.",
+        faBody: "وقتی سامانه‌ای پس از حادثه دوباره فعال می‌شود، بازگشت ظاهری سرویس به‌تنهایی کافی نیست. داده‌ها باید سالم باشند، محیط بازیابی آلوده نباشد و کنترل‌های ضروری همچنان کار کنند. تجربه جعفرزاده در ISMS، ممیزی و عملیات امنیت، پیوند میان پیشگیری، کشف حادثه و بازیابی ایمن را برجسته می‌کند. امنیت و تداوم در این نقطه دو پروژه مستقل نیستند؛ هر دو باید از حفظ اعتمادپذیری خدمت پشتیبانی کنند.",
+        domains: [
+          ["Immutable cyber-recovery and air-gapped resilience","بازیابی سایبری تغییرناپذیر و تاب‌آوری ایزوله"],
+          ["Zero-trust continuity architecture","معماری تداوم با اعتماد صفر"]
+        ]
+      },
+      {
+        title: "Restoring services rather than merely restarting systems",
+        faTitle: "بازگرداندن خدمت، نه فقط راه‌اندازی مجدد تجهیزات",
+        body: "Recovery sequencing must reflect business priorities and real service dependencies. An application may be running while its data, connectivity or upstream services remain unavailable. IT management and ITSM experience make service mapping, ownership and outcome-based recovery measures essential parts of readiness.",
+        faBody: "در یک حادثه بزرگ، بازیابی باید بر اساس اولویت کسب‌وکار و وابستگی‌های واقعی سرویس انجام شود. ممکن است یک سامانه به‌تنهایی فعال باشد اما به دلیل نبود داده، شبکه یا سرویس وابسته، هنوز برای مشتری قابل‌استفاده نباشد. تجربه مدیریت فناوری و ITSM، اهمیت نگاشت خدمات حیاتی، تعریف مسئولیت و سنجش کیفیت خروجی بازیابی را نشان می‌دهد.",
+        domains: [
+          ["Impact-tolerance and critical-service mapping","تحمل اختلال و نگاشت خدمات حیاتی"],
+          ["Service-owner accountability model","مدل پاسخ‌گویی مالک خدمت"]
+        ]
+      },
+      {
+        title: "Resilient architecture and limiting the spread of failure",
+        faTitle: "معماری تاب‌آور و مهار اثر خرابی",
+        body: "A failure of a network path, site, provider or critical component should not automatically take down an entire service. Distribution and diversity can reduce concentration risk, but they also increase monitoring, coordination and recovery complexity. Combining infrastructure experience with a security and operations perspective provides a way to evaluate that trade-off.",
+        faBody: "وقتی یک مسیر ارتباطی، سایت، تأمین‌کننده یا جزء کلیدی از کار می‌افتد، معماری باید تا جای ممکن از سرایت اختلال جلوگیری کند. توزیع اجزای خدمت و تنوع مسیرها به‌تنهایی راه‌حل کامل نیستند؛ پیچیدگی تازه‌ای در پایش، هماهنگی و بازیابی ایجاد می‌کنند. پیوند دانش زیرساخت و عملیات امنیت، امکان بررسی این موازنه میان افزونگی، کنترل‌پذیری و توان ادامه خدمت را فراهم می‌کند.",
+        domains: [
+          ["Modular survivability architecture","معماری بقای ماژولار"],
+          ["Path and infrastructure diversity","تنوع مسیر و زیرساخت"]
+        ]
+      },
+      {
+        title: "Decision governance and workforce readiness",
+        faTitle: "حکمرانی تصمیم و آمادگی نیروی انسانی",
+        body: "Technology and plans are insufficient when no one knows who may authorize a response. Leadership must set service priorities and risk appetite, while specialist teams need clear authority to execute and recover. Management-system and audit experience foreground role clarity, evidence of preparedness and practical exercises, particularly where crucial knowledge is concentrated in a few people.",
+        faBody: "داشتن برنامه و فناوری بدون تعیین صاحب تصمیم، می‌تواند در بحران به انتظار و تداخل مسئولیت تبدیل شود. مدیریت باید درباره اولویت خدمات و میزان ریسک قابل‌پذیرش تصمیم بگیرد و تیم‌های تخصصی برای اجرای واکنش و بازیابی اختیار روشن داشته باشند. تجربه کار در نظام‌های مدیریتی و ممیزی، توجه به نقش‌ها، شواهد آمادگی و تمرین‌های عملی را به بخشی از تاب‌آوری تبدیل می‌کند؛ به‌ویژه زمانی که دانش کلیدی در اختیار تعداد محدودی از افراد است.",
+        domains: [
+          ["Service-owner accountability model","مدل پاسخ‌گویی مالک خدمت"],
+          ["Severe-but-plausible scenario testing","آزمون سناریوهای شدید اما محتمل"]
+        ]
+      }
+    ],
+    experienceTitle: "Selected areas of professional experience",
+    faExperienceTitle: "حوزه‌های منتخب تجربهٔ حرفه‌ای",
+    experience: [
+      ["MAPNA Special Projects Construction & Development Co. (MD3)","شرکت احداث و توسعه پروژه‌های ویژه مپنا (MD3)","IT management","مدیریت فناوری اطلاعات","Infrastructure and operations","زیرساخت و عملیات","Managed IT infrastructure and operations in support of organizational needs.","مدیریت زیرساخت و عملیات فناوری برای پشتیبانی از نیازهای سازمان."],
+      ["Information Security Management Systems (ISMS)","نظام‌های مدیریت امنیت اطلاعات (ISMS)","Implementation and auditing","استقرار و ممیزی","Information security","امنیت اطلاعات","Connected asset identification and risk assessment with controls and their evaluation.","پیوند شناسایی دارایی و ارزیابی ریسک با تعیین و سنجش کنترل‌ها."],
+      ["Security Operations Centers (SOC)","مراکز عملیات امنیت (SOC)","Security operations","عملیات امنیت","Incident response","پاسخ به رخداد","Worked on detection and response with an emphasis on coordination between security, operations and service owners.","فعالیت در کشف و پاسخ به رخداد با تمرکز بر هماهنگی میان امنیت، عملیات و صاحبان سرویس."],
+      ["IT Service and Business Continuity Management","مدیریت خدمات فناوری اطلاعات و تداوم کسب‌وکار","ITSM and BCMS practice","فعالیت در حوزهٔ ITSM و BCMS","Service recovery","بازیابی خدمت","Connected service ownership, recovery priorities and readiness exercises.","پیوند مالکیت خدمت، اولویت‌های بازیابی و تمرین‌های آمادگی."]
+    ],
+    themes: [
+      ["IT Management and Infrastructure","مدیریت فناوری اطلاعات و زیرساخت"],
+      ["Information Security and ISMS","امنیت اطلاعات و ISMS"],
+      ["Information Security Auditing","ممیزی سیستم‌های مدیریت امنیت اطلاعات"],
+      ["Security Operations Centers (SOC)","مراکز عملیات امنیت (SOC)"],
+      ["IT Service Management (ITSM / ITIL)","مدیریت خدمات فناوری اطلاعات (ITSM / ITIL)"],
+      ["Technology Risk Management","مدیریت ریسک فناوری"],
+      ["Business Continuity Management Systems (BCMS)","مدیریت تداوم کسب‌وکار (BCMS)"],
+      ["Service Recovery and Operational Resilience","بازیابی خدمت و تاب‌آوری عملیاتی"]
+    ],
+    relatedDomains: [
+      ["Continuity architecture and failure containment","معماری تداوم و مهار اختلال","Distributed services, alternative paths and limiting cascading failures.","طراحی و ارزیابی توزیع سرویس، مسیرهای جایگزین و محدودسازی دامنه خرابی."],
+      ["Cyber recovery and data trustworthiness","بازیابی سایبری و اعتمادپذیری داده","Restoring clean, secure and usable services after a security incident.","اطمینان از بازگشت خدمتی سالم، امن و قابل‌استفاده پس از رویداد امنیتی."],
+      ["Critical-service and dependency mapping","نقشه‌برداری خدمات حیاتی و وابستگی‌ها","Prioritizing recovery according to real business impacts.","اولویت‌بندی بازیابی بر مبنای اثر واقعی اختلال بر کسب‌وکار."],
+      ["Continuity governance and accountability","حکمرانی و پاسخ‌گویی تداوم","Clarifying the decision boundaries of leadership, service owners and response teams.","روشن‌کردن مرز اختیار مدیریت، مالک سرویس و تیم‌های اجرایی."],
+      ["Scenario readiness and testing","آمادگی و آزمون سناریو","Turning continuity and recovery plans into rehearsed, assessable capabilities.","تبدیل برنامه‌های تداوم و بازیابی به ظرفیت تمرین‌شده و قابل‌ارزیابی."]
+    ]
+  });
+
   function selectedPersonProfile() {
     var id = document.body.getAttribute("data-profile-id") || new URLSearchParams(window.location.search).get("person") || peopleProfiles[0].id;
     if (id === alirezaProfile.id) return alirezaProfile;
@@ -3725,6 +3950,7 @@
     if (id === ramyarGhanbariProfile.id) return ramyarGhanbariProfile;
     if (id === amirhosseinShobeiriProfile.id) return amirhosseinShobeiriProfile;
     if (id === baharehSharifiounProfile.id) return baharehSharifiounProfile;
+    if (id === shervinJafarzadehProfile.id) return shervinJafarzadehProfile;
     return peopleProfiles.find(function (person) { return person.id === id; }) || peopleProfiles[0];
   }
 
@@ -4115,6 +4341,81 @@
           ]
       }
   ];
+
+  function podcastPage(item) {
+    return {
+      nav: "insights",
+      label: "Podcast / " + item.author,
+      faLabel: "پادکست / " + item.faAuthor,
+      title: item.title,
+      faTitle: item.faTitle,
+      lede: item.description,
+      faLede: item.faDescription,
+      special: "media",
+      mediaHeading: "Podcast player",
+      faMediaHeading: "پلیر پادکست",
+      mediaDescription: "",
+      faMediaDescription: "",
+      audioSrc: item.audioSrc,
+      mediaLabel: "Play episode",
+      sections: [],
+      faq: []
+    };
+  }
+
+  function registerGuestPodcasts() {
+    var guests = [
+      { id: "hesam-maghsoodloo", cover: "hesam-maghsoodloo-aliacast-cover.png" },
+      { id: "meysam-rajabi", cover: "meysam-rajabi-aliacast-cover.png" },
+      { id: "sadra-babaei", cover: "sadra-babaei-aliacast-cover.png" },
+      { id: "amirhossein-shobeiri", cover: "amirhossein-shabiri-aliacast-cover.png" },
+      { id: "mostafa-sabeti", cover: "mostafa-sabeti-aliacast-cover.png" },
+      { id: "nima-amirshakari", cover: "nima-amirshekari-aliacast-cover.png" },
+      { id: "sadegh-faramarzi", cover: "sadegh-faramarzi-aliacast-cover.png" },
+      { id: "mahmoudreza-farhadi" },
+      { id: "mohammad-farjood", cover: "mohammad-farjood-aliacast-cover.png" },
+      { id: "bahareh-sharifioun", cover: "bahareh-sharifioun-aliacast-cover.png" },
+      { id: "ayat-hosseini", cover: "ayat-hosseini-aliacast-cover.png" }
+    ];
+    guests.forEach(function (guest) {
+      var person = peopleProfiles.find(function (profile) { return profile.id === guest.id; });
+      var videocast = insightItems.find(function (item) {
+        return item.type === "Videocast" && item.faAuthor === person.faName;
+      });
+      var name = videocast ? videocast.author : person.name;
+      var route = "podcast-" + person.id;
+      var item = {
+        title: "Continuity Podcast - " + name,
+        faTitle: "پادکست کانتینیویتی - " + person.faName,
+        titleLines: ["Continuity Podcast -", name],
+        faTitleLines: ["پادکست کانتینیویتی -", person.faName],
+        description: "Listen to the Continuity Podcast with " + name + ".",
+        faDescription: "پادکست کانتینیویتی با " + person.faName + " را بشنوید.",
+        href: route + ".html",
+        audioSrc: "Assets/" + route + ".mp3",
+        type: "Podcast",
+        faType: "پادکست",
+        topic: "Business continuity",
+        faTopic: "تداوم کسب‌وکار",
+        industry: videocast ? videocast.industry : "Financial services",
+        faIndustry: videocast ? videocast.faIndustry : "خدمات مالی",
+        author: name,
+        faAuthor: person.faName,
+        authorImage: person.image,
+        image: "Assets/" + (guest.cover || "content-cover-podcast-v3.png"),
+        originalCover: Boolean(guest.cover),
+        alt: guest.cover ? "Podcast cover featuring " + name : "Continuity Podcast cover",
+        faAlt: guest.cover ? "کاور پادکست با تصویر " + person.faName : "کاور پادکست کانتینیویتی",
+        tags: [["Podcast", "پادکست"], ["Continuity", "تداوم"]]
+      };
+      var page = podcastPage(item);
+      insightItems.push(item);
+      pageData[route] = page;
+      searchIndex.push({ type: "Content", title: item.title, href: item.href, detail: page.label, keywords: item.faTitle + " " + person.name });
+      literalTranslations[item.title] = item.faTitle;
+      literalTranslations[page.label] = page.faLabel;
+    });
+  }
 
   var pageData = {
     continuity: {
@@ -6438,6 +6739,8 @@
       sections: [],
       faq: []
     },
+    shervinPodcastIntroduction: podcastPage(shervinPodcastIntroduction),
+    shervinPodcastEpisodeOne: podcastPage(shervinPodcastEpisodeOne),
     ramyarGhanbariPodcast: {
       nav: "insights",
       label: "Podcast / Ramyar Ghanbari",
@@ -6859,6 +7162,9 @@
     "Continuity Podcast - Alireza Bozorgmehri": "پادکست کانتینیویتی - علیرضا بزرگمهری",
     "Continuity Podcast - Ali Akhavan": "پادکست کانتینیویتی - علی اخوان",
     "Continuity Podcast - Ramyar Ghanbari": "پادکست کانتینیویتی - رامیار قنبری",
+    "Continuity Podcast - Introduction with Shervin Jafarzadeh": "پادکست کانتینیویتی - مقدمه با شروین جعفرزاده",
+    "Continuity Podcast - Episode 01 with Shervin Jafarzadeh": "پادکست کانتینیویتی - اپیزود ۱ با شروین جعفرزاده",
+    "Podcast / Shervin Jafarzadeh": "پادکست / شروین جعفرزاده",
     "Continuity Videocast - Episode 01": "ویدیوکست کانتینیویتی - اپیزود ۰۱",
     "Continuity Videocast - Episode 02": "ویدیوکست کانتینیویتی - اپیزود ۰۲",
     "Continuity Videocast - Episode 03": "ویدیوکست کانتینیویتی - اپیزود ۰۳",
@@ -8316,6 +8622,8 @@
     var authorAlt = item.authorImage ? "Portrait of " + item.author : item.alt;
     var faAuthorAlt = item.authorImage ? "پرترهٔ " + item.faAuthor : item.faAlt;
     var order = typeof index === "number" ? index : 0;
+    var topicAndDate = [item.topic, item.date].filter(Boolean).join(" / ");
+    var faTopicAndDate = [item.faTopic, item.faDate].filter(Boolean).join(" / ");
     var searchText = [
       item.title, item.faTitle, item.description, item.faDescription,
       item.type, item.faType, item.topic, item.faTopic,
@@ -8324,8 +8632,8 @@
     ].join(" ");
     return [
       '<a class="person-card people-gallery-card insight-card glass-card" href="' + escapeHtml(item.href) + '" data-search="' + escapeHtml(searchText.toLowerCase()) + '" data-type="' + escapeHtml(item.type) + '" data-subject="' + escapeHtml(item.topic) + '" data-industry="' + escapeHtml(item.industry) + '" data-person="' + escapeHtml(item.author) + '" data-order="' + escapeHtml(String(order)) + '" data-chamfer="tr" data-cut="24" data-radius="10" data-fillet="8">',
-      '<figure class="insight-card-image"><img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.alt) + '" data-fa-alt="' + escapeHtml(item.faAlt) + '"></figure>',
-      '<div class="insight-card-copy person-copy"><div class="person-name-row insight-title-row">' + insightTitleMarkup(item) + '<span class="person-role-tag insight-type-tag" data-en="' + escapeHtml(item.type) + '" data-fa="' + escapeHtml(item.faType) + '">' + escapeHtml(item.type) + '</span></div><div class="insight-author-row"><span class="insight-author-avatar"><img src="' + escapeHtml(authorImage) + '" alt="' + escapeHtml(authorAlt) + '" data-fa-alt="' + escapeHtml(faAuthorAlt) + '"></span><span data-en="' + escapeHtml(item.author) + '" data-fa="' + escapeHtml(item.faAuthor) + '">' + escapeHtml(item.author) + '</span></div><div class="insight-card-tags">' + item.tags.map(insightTagMarkup).join("") + '</div><div class="person-card-meta insight-card-footer"><span data-en="' + escapeHtml(item.topic + " / " + item.date) + '" data-fa="' + escapeHtml(item.faTopic + " / " + item.faDate) + '">' + escapeHtml(item.topic + " / " + item.date) + '</span><span class="person-card-arrow" aria-hidden="true">' + icon("arrow") + '</span></div></div>',
+      '<figure class="insight-card-image' + (item.originalCover ? ' insight-card-image-original' : '') + '"><img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.alt) + '" data-fa-alt="' + escapeHtml(item.faAlt) + '"></figure>',
+      '<div class="insight-card-copy person-copy"><div class="person-name-row insight-title-row">' + insightTitleMarkup(item) + '<span class="person-role-tag insight-type-tag" data-en="' + escapeHtml(item.type) + '" data-fa="' + escapeHtml(item.faType) + '">' + escapeHtml(item.type) + '</span></div><div class="insight-author-row"><span class="insight-author-avatar"><img src="' + escapeHtml(authorImage) + '" alt="' + escapeHtml(authorAlt) + '" data-fa-alt="' + escapeHtml(faAuthorAlt) + '"></span><span data-en="' + escapeHtml(item.author) + '" data-fa="' + escapeHtml(item.faAuthor) + '">' + escapeHtml(item.author) + '</span></div><div class="insight-card-tags">' + item.tags.map(insightTagMarkup).join("") + '</div><div class="person-card-meta insight-card-footer"><span data-en="' + escapeHtml(topicAndDate) + '" data-fa="' + escapeHtml(faTopicAndDate) + '">' + escapeHtml(topicAndDate) + '</span><span class="person-card-arrow" aria-hidden="true">' + icon("arrow") + '</span></div></div>',
       '</a>'
     ].join("");
   }
@@ -8913,21 +9221,6 @@
     var statementContent = person.statementIsSynthesis
       ? '<div class="profile-statement-quote">' + statementOpenMark + statementText + statementCloseMark + '</div>'
       : statementOpenMark + statementText + statementCloseMark;
-    var sourceMarkup = (person.sources || []).map(function (source) {
-      var label = '<span data-en="' + escapeHtml(source.label) + '" data-fa="' + escapeHtml(source.faLabel) + '">' + escapeHtml(source.label) + '</span>';
-      var item = source.href ? '<a href="' + escapeHtml(source.href) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>' : label;
-      return '<p class="profile-source-item">' + item + '</p>';
-    }).join("");
-    var editorialMarkup = person.editorialStatus ? [
-      '<section class="profile-section-block profile-editorial-status" data-chamfer="" data-radius="12">',
-      '<div class="profile-section-heading"><p class="dbr-label" data-en="SOURCES AND EDITORIAL STATUS" data-fa="منابع و وضعیت تحریریه">SOURCES AND EDITORIAL STATUS</p><h2 data-en="Sources and editorial status" data-fa="منابع و وضعیت تحریریه">Sources and editorial status</h2></div>',
-      '<article class="profile-story-body">',
-      '<p class="profile-editorial-notice" data-en="' + escapeHtml(person.editorialStatus.label) + '" data-fa="' + escapeHtml(person.editorialStatus.faLabel) + '">' + escapeHtml(person.editorialStatus.label) + '</p>',
-      '<p data-en="' + escapeHtml(person.editorialStatus.note) + '" data-fa="' + escapeHtml(person.editorialStatus.faNote) + '">' + escapeHtml(person.editorialStatus.note) + '</p>',
-      sourceMarkup,
-      '</article></section>'
-    ].join("") : "";
-
     return [
       '<section class="profile-feature-hero profile-monograph-hero" data-chamfer="br" data-cut="48" data-radius="12" data-fillet="10">',
       '<div class="profile-monograph-main">',
@@ -8959,7 +9252,6 @@
       '<div class="profile-section-heading profile-domain-heading"><div><p class="dbr-label" data-en="RELATED DBR DOMAINS" data-fa="حوزه‌های DBR مرتبط">RELATED DBR DOMAINS</p><h2 data-en="Where the profile connects to the Radar" data-fa="جایی که پروفایل به رادار وصل می‌شود">Where the profile connects to the Radar</h2></div><div class="profile-carousel-controls" aria-label="Related DBR domains carousel controls"><button class="profile-carousel-button profile-carousel-button-prev" type="button" data-profile-carousel="prev" aria-label="Previous domains" data-fa-aria-label="حوزه‌های قبلی">' + icon("arrow") + '</button><button class="profile-carousel-button profile-carousel-button-next" type="button" data-profile-carousel="next" aria-label="Next domains" data-fa-aria-label="حوزه‌های بعدی">' + icon("arrow") + '</button></div></div>',
       '<div class="profile-domain-carousel"><div class="profile-domain-grid" tabindex="0" aria-label="Related DBR domains" data-fa-aria-label="حوزه‌های DBR مرتبط">' + domainMarkup + '</div></div>',
       '</section>',
-      editorialMarkup,
       profileRelatedInsightsMarkup(person)
     ].join("");
   }
@@ -9234,10 +9526,14 @@
     }
   }
 
+  function defaultLanguage() {
+    return document.body.getAttribute("data-default-language") === "en" ||
+      document.body.classList.contains("profile-public") ? "en" : "fa";
+  }
+
   function currentLanguage() {
     var language = new URLSearchParams(window.location.search).get("lang");
-    if (language === "en" || language === "fa") return language;
-    return document.body.classList.contains("profile-public") ? "en" : "fa";
+    return language === "en" || language === "fa" ? language : defaultLanguage();
   }
 
   function translateLiteralText(lang) {
@@ -9480,7 +9776,7 @@
     var next = currentLanguage() === "fa" ? "en" : "fa";
     var url = new URL(window.location.href);
     if (next === "en") url.searchParams.set("lang", "en");
-    else if (document.body.classList.contains("profile-public")) url.searchParams.set("lang", "fa");
+    else if (defaultLanguage() === "en") url.searchParams.set("lang", "fa");
     else url.searchParams.delete("lang");
     window.location.href = url.toString();
   }
@@ -9488,7 +9784,7 @@
   function renderSuggestions(container, query) {
     var term = query.trim();
     var matches = term ? searchIndex.filter(function (item) {
-      return searchMatches(item.type + " " + item.title + " " + item.detail, term);
+      return searchMatches([item.type, item.title, item.detail, item.keywords].join(" "), term);
     }) : searchIndex.slice(0, 8);
     var groups = {};
     matches.forEach(function (item) {
@@ -10254,7 +10550,7 @@
     function update() {
       var term = input.value.trim();
       var matches = searchIndex.filter(function (item) {
-        return !term || searchMatches(item.type + " " + item.title + " " + item.detail, term);
+        return !term || searchMatches([item.type, item.title, item.detail, item.keywords].join(" "), term);
       });
       title.textContent = input.value || "all";
       results.innerHTML = matches.map(function (item) {
@@ -10267,6 +10563,8 @@
     input.addEventListener("input", update);
     update();
   }
+
+  registerGuestPodcasts();
 
   document.addEventListener("DOMContentLoaded", function () {
     var page = document.body.getAttribute("data-page") || "home";

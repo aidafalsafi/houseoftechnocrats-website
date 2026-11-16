@@ -5468,8 +5468,15 @@ html[dir="rtl"] .aida-select-option {
 
 .insight-card:hover .insight-card-image img,
 .insight-card:focus-visible .insight-card-image img {
-  filter: grayscale(1) contrast(1.04);
   transform: none !important;
+}
+
+.insight-card-image-original {
+  background: #fff;
+}
+
+.insight-card-image-original img {
+  object-fit: contain;
 }
 
 .insight-card-copy {
@@ -6454,23 +6461,6 @@ html[lang="fa"] .radar-showcase p {
   color: var(--text-2);
   font-size: 15px;
   line-height: 1.82;
-}
-
-.profile-editorial-notice {
-  color: var(--text-1) !important;
-  font-weight: var(--fw-bold);
-}
-
-.profile-source-item {
-  padding-block-start: 12px;
-  border-block-start: 1px solid var(--line-card);
-}
-
-.profile-source-item a {
-  color: var(--text-1);
-  text-decoration: underline;
-  text-decoration-color: var(--line-card);
-  text-underline-offset: 3px;
 }
 
 .profile-story-themes {
