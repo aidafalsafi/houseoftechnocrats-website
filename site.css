@@ -5491,6 +5491,14 @@ html[dir="rtl"] .aida-select-option {
   align-items: flex-start;
 }
 
+.insight-type-tag {
+  min-block-size: 28px;
+  padding: 4px 10px;
+  background: var(--dbr-shelf);
+  font-size: 11px;
+  line-height: 1.2;
+}
+
 .insight-card h3 {
   min-width: 0;
   margin: 0;
@@ -7132,7 +7140,20 @@ html[lang="fa"] .content-item > .content-action svg {
 }
 
 .audio-toggle .dbr-button-content {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 17px auto 17px;
+}
+
+.audio-toggle .dbr-button-content > span {
+  grid-area: 1 / 2;
+}
+
+.audio-toggle .dbr-button-content > svg {
+  grid-area: 1 / 1;
+}
+
+html[lang="fa"] .audio-toggle .dbr-button-content > svg {
+  grid-column: 3;
 }
 
 .audio-waveform-control {
